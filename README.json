@@ -18,10 +18,10 @@
                         "archived": false,
                         "id": 1161163182,
                         "language": "Rust",
-                        "last_commit": "2026-08-22T20:26:54Z",
+                        "last_commit": "2026-08-23T19:22:11Z",
                         "owner": "tinyhumansai",
                         "repo": "openhuman",
-                        "stars": 36503
+                        "stars": 36686
                       }
                     },
                     {
@@ -36,7 +36,7 @@
                         "last_commit": "2026-08-19T09:17:33Z",
                         "owner": "sipeed",
                         "repo": "picoclaw",
-                        "stars": 29905
+                        "stars": 29910
                       }
                     },
                     {
@@ -51,7 +51,7 @@
                         "last_commit": "2026-08-22T07:11:18Z",
                         "owner": "jnMetaCode",
                         "repo": "agency-agents-zh",
-                        "stars": 19751
+                        "stars": 19825
                       }
                     },
                     {
@@ -66,7 +66,7 @@
                         "last_commit": "2026-08-22T09:32:08Z",
                         "owner": "browser-use",
                         "repo": "browser-harness",
-                        "stars": 17015
+                        "stars": 17059
                       }
                     },
                     {
@@ -81,7 +81,7 @@
                         "last_commit": "2026-08-21T06:21:33Z",
                         "owner": "lsdefine",
                         "repo": "GenericAgent",
-                        "stars": 13952
+                        "stars": 13972
                       }
                     },
                     {
@@ -93,10 +93,10 @@
                         "archived": false,
                         "id": 1207639951,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-22T16:20:00Z",
+                        "last_commit": "2026-08-23T12:01:55Z",
                         "owner": "EKKOLearnAI",
                         "repo": "hermes-studio",
-                        "stars": 10520
+                        "stars": 10537
                       }
                     },
                     {
@@ -111,7 +111,7 @@
                         "last_commit": "2026-08-20T23:36:44Z",
                         "owner": "EvoMap",
                         "repo": "evolver",
-                        "stars": 8986
+                        "stars": 8990
                       }
                     },
                     {
@@ -126,7 +126,7 @@
                         "last_commit": "2026-07-24T23:35:08Z",
                         "owner": "revfactory",
                         "repo": "harness",
-                        "stars": 8815
+                        "stars": 8823
                       }
                     },
                     {
@@ -141,7 +141,7 @@
                         "last_commit": "2026-08-21T22:43:51Z",
                         "owner": "GetBindu",
                         "repo": "Bindu",
-                        "stars": 8678
+                        "stars": 8690
                       }
                     },
                     {
@@ -153,10 +153,10 @@
                         "archived": false,
                         "id": 1150626239,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-21T07:22:42Z",
+                        "last_commit": "2026-08-23T10:01:50Z",
                         "owner": "ValueCell-ai",
                         "repo": "ClawX",
-                        "stars": 7596
+                        "stars": 7599
                       }
                     }
                   ],
@@ -175,10 +175,10 @@
                         "archived": false,
                         "id": 1129940957,
                         "language": "Python",
-                        "last_commit": "2026-08-22T19:53:50Z",
+                        "last_commit": "2026-08-23T19:01:10Z",
                         "owner": "headroomlabs-ai",
                         "repo": "headroom",
-                        "stars": 67188
+                        "stars": 67280
                       }
                     },
                     {
@@ -190,10 +190,10 @@
                         "archived": false,
                         "id": 1185590488,
                         "language": "Python",
-                        "last_commit": "2026-08-22T03:28:37Z",
+                        "last_commit": "2026-08-23T20:29:51Z",
                         "owner": "rohitg00",
                         "repo": "ai-engineering-from-scratch",
-                        "stars": 47646
+                        "stars": 47872
                       }
                     },
                     {
@@ -208,7 +208,7 @@
                         "last_commit": "2026-08-20T05:26:10Z",
                         "owner": "Imbad0202",
                         "repo": "academic-research-skills",
-                        "stars": 43338
+                        "stars": 43440
                       }
                     },
                     {
@@ -223,7 +223,7 @@
                         "last_commit": "2026-08-21T09:06:37Z",
                         "owner": "wanshuiyin",
                         "repo": "Auto-claude-code-research-in-sleep",
-                        "stars": 15011
+                        "stars": 15045
                       }
                     },
                     {
@@ -235,10 +235,10 @@
                         "archived": false,
                         "id": 1216173720,
                         "language": "HTML",
-                        "last_commit": "2026-08-08T14:22:28Z",
+                        "last_commit": "2026-08-23T13:29:25Z",
                         "owner": "tw93",
                         "repo": "Kami",
-                        "stars": 10854
+                        "stars": 10872
                       }
                     },
                     {
@@ -253,7 +253,7 @@
                         "last_commit": "2026-08-17T10:06:14Z",
                         "owner": "Narcooo",
                         "repo": "inkos",
-                        "stars": 9223
+                        "stars": 9236
                       }
                     }
                   ],
@@ -275,7 +275,7 @@
                         "last_commit": "2026-06-10T16:14:44Z",
                         "owner": "nidhinjs",
                         "repo": "prompt-master",
-                        "stars": 11613
+                        "stars": 11658
                       }
                     },
                     {
@@ -290,7 +290,7 @@
                         "last_commit": "2026-08-22T09:18:12Z",
                         "owner": "openclaw",
                         "repo": "clawhub",
-                        "stars": 9331
+                        "stars": 9343
                       }
                     }
                   ],
@@ -312,7 +312,7 @@
                         "last_commit": "2026-08-18T14:26:31Z",
                         "owner": "tobi",
                         "repo": "qmd",
-                        "stars": 29093
+                        "stars": 29128
                       }
                     },
                     {
@@ -327,7 +327,7 @@
                         "last_commit": "2026-08-21T07:45:55Z",
                         "owner": "nashsu",
                         "repo": "llm_wiki",
-                        "stars": 16660
+                        "stars": 16694
                       }
                     },
                     {
@@ -342,7 +342,7 @@
                         "last_commit": "2026-08-20T21:13:44Z",
                         "owner": "AgriciDaniel",
                         "repo": "claude-seo",
-                        "stars": 14809
+                        "stars": 14867
                       }
                     },
                     {
@@ -354,10 +354,10 @@
                         "archived": false,
                         "id": 1160693255,
                         "language": "Python",
-                        "last_commit": "2026-08-22T06:27:32Z",
+                        "last_commit": "2026-08-23T06:27:27Z",
                         "owner": "zubair-trabzada",
                         "repo": "geo-seo-claude",
-                        "stars": 9427
+                        "stars": 9439
                       }
                     },
                     {
@@ -394,7 +394,7 @@
                         "last_commit": "2026-08-21T10:56:48Z",
                         "owner": "mattpocock",
                         "repo": "skills",
-                        "stars": 231858
+                        "stars": 233742
                       }
                     },
                     {
@@ -406,10 +406,25 @@
                         "archived": false,
                         "id": 1216785679,
                         "language": "Go",
-                        "last_commit": "2026-08-22T21:34:27Z",
+                        "last_commit": "2026-08-23T21:33:55Z",
                         "owner": "esengine",
                         "repo": "DeepSeek-Reasonix",
-                        "stars": 35038
+                        "stars": 35078
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "mukul975/Anthropic-Cybersecurity-Skills",
+                      "description": "Anthropic-Cybersecurity-Skills 是一个面向 AI 编程助手的标准化网络安全能力注入库，旨在解决大语言模型在代码生成时安全意识薄弱与防御规则缺失的痛点。该项目的核心优势首先在于其高度结构化的知识体系，内置七百五十余项技能精准映射至 MITRE ATT&CK、NIST CSF 2.0 等五大权威框架，使 AI 能够自动遵循业界严苛标准，远超传统仅做基础语法检查的代码补全工具。其次，项目严格遵循 agentskills.io 开放标准构建，实现了跨平台无缝兼容，无论是 Claude Code、Cursor 还是 Copilot 等二十余种主流环境均可直接调用，彻底打破了以往安全规则与开发工作流割裂的壁垒。此外，其覆盖的二十六个细分领域配合 Apache 2.0 协议，为企业提供了即插即用且可商用的底层支撑。从技术架构来看，该项目本质上是一套为 AI 代理设计的“决策导航图”。它并非直接提供现成代码片段，而是将复杂的安全规范拆解为结构化的提示词逻辑链，类似于在自动驾驶系统中部署了一套实时交通规则解析器；当开发者编写业务代码时，这些技能会以标准接口向 AI 发送隐式指令，引导模型在内存中动态比对当前编码行为与五大框架中的威胁建模或防御策略。通过这种规则前置的逻辑拦截机制，AI 能在生成代码的瞬间自动完成安全上下文校验，从而将传统的被动漏洞扫描转变为主动免疫。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 1166506614,
+                        "language": "Python",
+                        "last_commit": "2026-08-23T16:22:47Z",
+                        "owner": "mukul975",
+                        "repo": "Anthropic-Cybersecurity-Skills",
+                        "stars": 30821
                       }
                     },
                     {
@@ -424,22 +439,7 @@
                         "last_commit": "2026-08-19T15:08:23Z",
                         "owner": "Gitlawb",
                         "repo": "openclaude",
-                        "stars": 30802
-                      }
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "mukul975/Anthropic-Cybersecurity-Skills",
-                      "description": "Anthropic-Cybersecurity-Skills 是一个面向 AI 编程助手的标准化网络安全能力注入库，旨在解决大语言模型在代码生成时安全意识薄弱与防御规则缺失的痛点。该项目的核心优势首先在于其高度结构化的知识体系，内置七百五十余项技能精准映射至 MITRE ATT&CK、NIST CSF 2.0 等五大权威框架，使 AI 能够自动遵循业界严苛标准，远超传统仅做基础语法检查的代码补全工具。其次，项目严格遵循 agentskills.io 开放标准构建，实现了跨平台无缝兼容，无论是 Claude Code、Cursor 还是 Copilot 等二十余种主流环境均可直接调用，彻底打破了以往安全规则与开发工作流割裂的壁垒。此外，其覆盖的二十六个细分领域配合 Apache 2.0 协议，为企业提供了即插即用且可商用的底层支撑。从技术架构来看，该项目本质上是一套为 AI 代理设计的“决策导航图”。它并非直接提供现成代码片段，而是将复杂的安全规范拆解为结构化的提示词逻辑链，类似于在自动驾驶系统中部署了一套实时交通规则解析器；当开发者编写业务代码时，这些技能会以标准接口向 AI 发送隐式指令，引导模型在内存中动态比对当前编码行为与五大框架中的威胁建模或防御策略。通过这种规则前置的逻辑拦截机制，AI 能在生成代码的瞬间自动完成安全上下文校验，从而将传统的被动漏洞扫描转变为主动免疫。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "id": 1166506614,
-                        "language": "Python",
-                        "last_commit": "2026-08-20T15:57:02Z",
-                        "owner": "mukul975",
-                        "repo": "Anthropic-Cybersecurity-Skills",
-                        "stars": 30654
+                        "stars": 30811
                       }
                     },
                     {
@@ -451,10 +451,10 @@
                         "archived": false,
                         "id": 1125856365,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-22T19:49:25Z",
+                        "last_commit": "2026-08-23T21:55:18Z",
                         "owner": "can1357",
                         "repo": "oh-my-pi",
-                        "stars": 26510
+                        "stars": 26777
                       }
                     },
                     {
@@ -466,10 +466,10 @@
                         "archived": false,
                         "id": 1135492298,
                         "language": "Rust",
-                        "last_commit": "2026-08-22T18:58:52Z",
+                        "last_commit": "2026-08-23T07:41:42Z",
                         "owner": "jlcodes99",
                         "repo": "cockpit-tools",
-                        "stars": 16316
+                        "stars": 16378
                       }
                     },
                     {
@@ -484,7 +484,7 @@
                         "last_commit": "2026-08-21T02:13:13Z",
                         "owner": "mindfold-ai",
                         "repo": "Trellis",
-                        "stars": 14152
+                        "stars": 14168
                       }
                     },
                     {
@@ -499,7 +499,7 @@
                         "last_commit": "2026-08-21T10:31:08Z",
                         "owner": "walkinglabs",
                         "repo": "learn-harness-engineering",
-                        "stars": 13705
+                        "stars": 13877
                       }
                     },
                     {
@@ -514,7 +514,7 @@
                         "last_commit": "2026-08-17T08:46:30Z",
                         "owner": "sirmalloc",
                         "repo": "ccstatusline",
-                        "stars": 12523
+                        "stars": 12528
                       }
                     },
                     {
@@ -526,10 +526,10 @@
                         "archived": false,
                         "id": 1099328966,
                         "language": "JavaScript",
-                        "last_commit": "2026-08-22T14:02:09Z",
+                        "last_commit": "2026-08-23T01:50:53Z",
                         "owner": "Piebald-AI",
                         "repo": "claude-code-system-prompts",
-                        "stars": 12426
+                        "stars": 12434
                       }
                     },
                     {
@@ -544,7 +544,7 @@
                         "last_commit": "2026-08-07T20:19:18Z",
                         "owner": "Jeffallan",
                         "repo": "claude-skills",
-                        "stars": 11116
+                        "stars": 11127
                       }
                     },
                     {
@@ -559,7 +559,7 @@
                         "last_commit": "2026-08-18T23:12:08Z",
                         "owner": "yizhiyanhua-ai",
                         "repo": "fireworks-tech-graph",
-                        "stars": 10770
+                        "stars": 10791
                       }
                     },
                     {
@@ -586,10 +586,10 @@
                         "archived": false,
                         "id": 1156994049,
                         "language": "Go",
-                        "last_commit": "2026-08-22T21:51:08Z",
+                        "last_commit": "2026-08-23T21:56:31Z",
                         "owner": "Untrivial-ai",
                         "repo": "agent-orchestrator",
-                        "stars": 9852
+                        "stars": 9899
                       }
                     },
                     {
@@ -601,10 +601,25 @@
                         "archived": false,
                         "id": 1105657641,
                         "language": "HTML",
-                        "last_commit": "2026-08-22T08:07:21Z",
+                        "last_commit": "2026-08-23T16:41:42Z",
                         "owner": "ykdojo",
                         "repo": "claude-code-tips",
-                        "stars": 9848
+                        "stars": 9864
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "getagentseal/codeburn",
+                      "description": "CodeBurn 是一款面向 AI 辅助编程场景的开源成本监控工具，它精准击中了开发者使用 Claude Code、Codex 或 Cursor 等 AI 编码工具时面临的「黑箱计费」痛点。该项目通过直观的终端仪表盘，实时解析 API 调用的 token 消耗分布，让原本难以追溯的 AI 编程成本变得透明可控。 其核心优势首先体现在多维度成本可视化上，与单纯显示总消耗量的工具不同，CodeBurn 能按文件类型、代码块甚至修改行为分类统计 token 流向，就像为 AI 消耗安装了一个「财务显微镜」。其次是轻量级架构设计，仅需在开发环境插入中间件即可捕获数据流，避免了重型的代理服务器部署，这种设计显著降低了技术团队的接入门槛。最独特的是其交互式诊断能力，当系统检测到异常高耗操作（如重复生成大段无效代码）时，会主动标记可疑片段并给出优化建议，这种主动式洞察远超传统被动日志工具的价值。 技术实现上，CodeBurn 采用了类似网络抓包分析的思路。它通过监听开发者 IDE 与 AI 服务端的通信流量，自动拆解 API 请求/响应中的 token 元数据——这个过程好比快递站的智能称重系统：当开发者「寄出」一个代码补全请求（包裹）时，工具会记录该请求的「重量」（输入 token 数），待收到 AI「退回」的补全结果（包裹）时，再测量实际消耗的总「运费」（输出 token 数+服务费）。所有数据经去敏处理后，通过异步管道输送到终端的可视化引擎，最终形成可交互的树状热力图。这种架构既保障了原始数据保真度，又通过内存数据库实现了分析过程的低延迟。 该项目特别适合频繁使用 AI 编程的团队进行成本审计，其设计理念折射出一个行业共识：当 AI 辅助开发逐渐成为标配时，精细化的资源管理将成为工程实践的新课题。通过将晦涩的 token 计量转化为可视的决策依据，CodeBurn 在提升开发效率与降低云成本之间建立了可量化的平衡点。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 1209889782,
+                        "language": "TypeScript",
+                        "last_commit": "2026-08-23T18:15:58Z",
+                        "owner": "getagentseal",
+                        "repo": "codeburn",
+                        "stars": 9613
                       }
                     },
                     {
@@ -619,21 +634,6 @@
                         "last_commit": "2026-07-18T02:33:21Z",
                         "owner": "frankbria",
                         "repo": "ralph-claude-code",
-                        "stars": 9604
-                      }
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "getagentseal/codeburn",
-                      "description": "CodeBurn 是一款面向 AI 辅助编程场景的开源成本监控工具，它精准击中了开发者使用 Claude Code、Codex 或 Cursor 等 AI 编码工具时面临的「黑箱计费」痛点。该项目通过直观的终端仪表盘，实时解析 API 调用的 token 消耗分布，让原本难以追溯的 AI 编程成本变得透明可控。 其核心优势首先体现在多维度成本可视化上，与单纯显示总消耗量的工具不同，CodeBurn 能按文件类型、代码块甚至修改行为分类统计 token 流向，就像为 AI 消耗安装了一个「财务显微镜」。其次是轻量级架构设计，仅需在开发环境插入中间件即可捕获数据流，避免了重型的代理服务器部署，这种设计显著降低了技术团队的接入门槛。最独特的是其交互式诊断能力，当系统检测到异常高耗操作（如重复生成大段无效代码）时，会主动标记可疑片段并给出优化建议，这种主动式洞察远超传统被动日志工具的价值。 技术实现上，CodeBurn 采用了类似网络抓包分析的思路。它通过监听开发者 IDE 与 AI 服务端的通信流量，自动拆解 API 请求/响应中的 token 元数据——这个过程好比快递站的智能称重系统：当开发者「寄出」一个代码补全请求（包裹）时，工具会记录该请求的「重量」（输入 token 数），待收到 AI「退回」的补全结果（包裹）时，再测量实际消耗的总「运费」（输出 token 数+服务费）。所有数据经去敏处理后，通过异步管道输送到终端的可视化引擎，最终形成可交互的树状热力图。这种架构既保障了原始数据保真度，又通过内存数据库实现了分析过程的低延迟。 该项目特别适合频繁使用 AI 编程的团队进行成本审计，其设计理念折射出一个行业共识：当 AI 辅助开发逐渐成为标配时，精细化的资源管理将成为工程实践的新课题。通过将晦涩的 token 计量转化为可视的决策依据，CodeBurn 在提升开发效率与降低云成本之间建立了可量化的平衡点。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "id": 1209889782,
-                        "language": "TypeScript",
-                        "last_commit": "2026-08-22T20:08:51Z",
-                        "owner": "getagentseal",
-                        "repo": "codeburn",
                         "stars": 9604
                       }
                     },
@@ -664,7 +664,7 @@
                         "last_commit": "2026-08-20T05:09:53Z",
                         "owner": "smtg-ai",
                         "repo": "claude-squad",
-                        "stars": 8353
+                        "stars": 8358
                       }
                     }
                   ],
@@ -701,10 +701,10 @@
                     "archived": false,
                     "id": 971999086,
                     "language": "JavaScript",
-                    "last_commit": "2026-08-15T22:36:19Z",
+                    "last_commit": "2026-08-23T03:57:27Z",
                     "owner": "maillab",
                     "repo": "cloud-mail",
-                    "stars": 13608
+                    "stars": 13633
                   }
                 },
                 {
@@ -719,7 +719,7 @@
                     "last_commit": "2026-08-21T11:10:27Z",
                     "owner": "Nekogram",
                     "repo": "Nekogram",
-                    "stars": 3816
+                    "stars": 3819
                   }
                 }
               ],
@@ -749,10 +749,10 @@
                 "archived": false,
                 "id": 1177402105,
                 "language": "TypeScript",
-                "last_commit": "2026-08-22T18:43:36Z",
+                "last_commit": "2026-08-23T21:54:26Z",
                 "owner": "heygen-com",
                 "repo": "hyperframes",
-                "stars": 42109
+                "stars": 42298
               }
             },
             {
@@ -764,7 +764,7 @@
                 "archived": false,
                 "id": 54221232,
                 "language": "C++",
-                "last_commit": "2026-08-22T05:17:59Z",
+                "last_commit": "2026-08-23T19:49:58Z",
                 "owner": "opentoonz",
                 "repo": "opentoonz",
                 "stars": 7565
@@ -795,7 +795,7 @@
                 "last_commit": "2026-03-02T16:07:10Z",
                 "owner": "NVIDIA",
                 "repo": "personaplex",
-                "stars": 10386
+                "stars": 10388
               }
             },
             {
@@ -838,7 +838,7 @@
                 "last_commit": "2026-08-15T22:55:12Z",
                 "owner": "pranshuparmar",
                 "repo": "witr",
-                "stars": 21645
+                "stars": 21664
               }
             },
             {
@@ -850,10 +850,10 @@
                 "archived": false,
                 "id": 83252983,
                 "language": "Go",
-                "last_commit": "2026-08-22T00:23:30Z",
+                "last_commit": "2026-08-23T10:24:59Z",
                 "owner": "go-task",
                 "repo": "task",
-                "stars": 16023
+                "stars": 16030
               }
             }
           ],
@@ -881,7 +881,7 @@
                 "last_commit": "2025-03-31T17:05:09Z",
                 "owner": "mouredev",
                 "repo": "hello-sql",
-                "stars": 10071
+                "stars": 10079
               }
             },
             {
@@ -896,7 +896,7 @@
                 "last_commit": "2026-08-17T08:16:46Z",
                 "owner": "PostgresApp",
                 "repo": "PostgresApp",
-                "stars": 7769
+                "stars": 7771
               }
             }
           ],
@@ -939,7 +939,7 @@
                 "last_commit": "2026-08-12T16:29:06Z",
                 "owner": "apache",
                 "repo": "caldera",
-                "stars": 7210
+                "stars": 7211
               }
             }
           ],
@@ -967,7 +967,7 @@
                 "last_commit": "2026-08-22T17:31:53Z",
                 "owner": "HKUDS",
                 "repo": "Vibe-Trading",
-                "stars": 31472
+                "stars": 31557
               }
             },
             {
@@ -982,7 +982,7 @@
                 "last_commit": "2026-08-21T15:35:43Z",
                 "owner": "OpenByteInc",
                 "repo": "QuantDinger",
-                "stars": 10944
+                "stars": 11007
               }
             },
             {
@@ -997,7 +997,7 @@
                 "last_commit": "2026-08-20T17:04:30Z",
                 "owner": "lballabio",
                 "repo": "QuantLib",
-                "stars": 7534
+                "stars": 7539
               }
             },
             {
@@ -1012,7 +1012,7 @@
                 "last_commit": "2026-06-28T21:50:24Z",
                 "owner": "achannarasappa",
                 "repo": "ticker",
-                "stars": 6216
+                "stars": 6217
               }
             }
           ],
@@ -1025,7 +1025,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T21:59:06.327Z",
+    "last_updated": "2026-08-23T21:58:47.960Z",
     "original_repository": "wuwenjie1992/StarryDivineSky",
     "original_repository_id": 288187811,
     "original_repository_sha": "6e30f1bda2a09a1e62d6287776050bd6fc4d29d7",
