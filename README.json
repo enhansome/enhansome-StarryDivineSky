@@ -18,10 +18,10 @@
                         "archived": false,
                         "id": 1161163182,
                         "language": "Rust",
-                        "last_commit": "2026-08-23T19:22:11Z",
+                        "last_commit": "2026-08-24T12:30:29Z",
                         "owner": "tinyhumansai",
                         "repo": "openhuman",
-                        "stars": 36686
+                        "stars": 37058
                       }
                     },
                     {
@@ -36,7 +36,7 @@
                         "last_commit": "2026-08-19T09:17:33Z",
                         "owner": "sipeed",
                         "repo": "picoclaw",
-                        "stars": 29910
+                        "stars": 29911
                       }
                     },
                     {
@@ -48,10 +48,10 @@
                         "archived": false,
                         "id": 1174369519,
                         "language": "Shell",
-                        "last_commit": "2026-08-22T07:11:18Z",
+                        "last_commit": "2026-08-24T14:09:20Z",
                         "owner": "jnMetaCode",
                         "repo": "agency-agents-zh",
-                        "stars": 19825
+                        "stars": 19862
                       }
                     },
                     {
@@ -66,7 +66,7 @@
                         "last_commit": "2026-08-22T09:32:08Z",
                         "owner": "browser-use",
                         "repo": "browser-harness",
-                        "stars": 17059
+                        "stars": 17095
                       }
                     },
                     {
@@ -78,10 +78,10 @@
                         "archived": false,
                         "id": 1135791677,
                         "language": "Python",
-                        "last_commit": "2026-08-21T06:21:33Z",
+                        "last_commit": "2026-08-24T05:09:38Z",
                         "owner": "lsdefine",
                         "repo": "GenericAgent",
-                        "stars": 13972
+                        "stars": 14013
                       }
                     },
                     {
@@ -93,10 +93,10 @@
                         "archived": false,
                         "id": 1207639951,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-23T12:01:55Z",
+                        "last_commit": "2026-08-24T13:52:43Z",
                         "owner": "EKKOLearnAI",
                         "repo": "hermes-studio",
-                        "stars": 10537
+                        "stars": 10559
                       }
                     },
                     {
@@ -111,7 +111,7 @@
                         "last_commit": "2026-08-20T23:36:44Z",
                         "owner": "EvoMap",
                         "repo": "evolver",
-                        "stars": 8990
+                        "stars": 8995
                       }
                     },
                     {
@@ -126,7 +126,7 @@
                         "last_commit": "2026-07-24T23:35:08Z",
                         "owner": "revfactory",
                         "repo": "harness",
-                        "stars": 8823
+                        "stars": 8828
                       }
                     },
                     {
@@ -138,10 +138,10 @@
                         "archived": false,
                         "id": 949646929,
                         "language": "Python",
-                        "last_commit": "2026-08-21T22:43:51Z",
+                        "last_commit": "2026-08-24T09:32:02Z",
                         "owner": "GetBindu",
                         "repo": "Bindu",
-                        "stars": 8690
+                        "stars": 8732
                       }
                     },
                     {
@@ -153,10 +153,10 @@
                         "archived": false,
                         "id": 1150626239,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-23T10:01:50Z",
+                        "last_commit": "2026-08-24T13:13:21Z",
                         "owner": "ValueCell-ai",
                         "repo": "ClawX",
-                        "stars": 7599
+                        "stars": 7598
                       }
                     }
                   ],
@@ -175,10 +175,10 @@
                         "archived": false,
                         "id": 1129940957,
                         "language": "Python",
-                        "last_commit": "2026-08-23T19:01:10Z",
+                        "last_commit": "2026-08-24T11:04:33Z",
                         "owner": "headroomlabs-ai",
                         "repo": "headroom",
-                        "stars": 67280
+                        "stars": 67364
                       }
                     },
                     {
@@ -193,7 +193,7 @@
                         "last_commit": "2026-08-23T20:29:51Z",
                         "owner": "rohitg00",
                         "repo": "ai-engineering-from-scratch",
-                        "stars": 47872
+                        "stars": 48097
                       }
                     },
                     {
@@ -205,10 +205,10 @@
                         "archived": false,
                         "id": 1167300963,
                         "language": "Python",
-                        "last_commit": "2026-08-20T05:26:10Z",
+                        "last_commit": "2026-08-24T10:04:28Z",
                         "owner": "Imbad0202",
                         "repo": "academic-research-skills",
-                        "stars": 43440
+                        "stars": 43544
                       }
                     },
                     {
@@ -220,10 +220,10 @@
                         "archived": false,
                         "id": 1177608268,
                         "language": "Python",
-                        "last_commit": "2026-08-21T09:06:37Z",
+                        "last_commit": "2026-08-24T04:19:41Z",
                         "owner": "wanshuiyin",
                         "repo": "Auto-claude-code-research-in-sleep",
-                        "stars": 15045
+                        "stars": 15085
                       }
                     },
                     {
@@ -238,7 +238,7 @@
                         "last_commit": "2026-08-23T13:29:25Z",
                         "owner": "tw93",
                         "repo": "Kami",
-                        "stars": 10872
+                        "stars": 10894
                       }
                     },
                     {
@@ -253,7 +253,7 @@
                         "last_commit": "2026-08-17T10:06:14Z",
                         "owner": "Narcooo",
                         "repo": "inkos",
-                        "stars": 9236
+                        "stars": 9246
                       }
                     }
                   ],
@@ -272,10 +272,10 @@
                         "archived": false,
                         "id": 1179046874,
                         "language": null,
-                        "last_commit": "2026-06-10T16:14:44Z",
+                        "last_commit": "2026-08-24T07:30:40Z",
                         "owner": "nidhinjs",
                         "repo": "prompt-master",
-                        "stars": 11658
+                        "stars": 11695
                       }
                     },
                     {
@@ -287,10 +287,10 @@
                         "archived": false,
                         "id": 1127248221,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-22T09:18:12Z",
+                        "last_commit": "2026-08-24T07:27:19Z",
                         "owner": "openclaw",
                         "repo": "clawhub",
-                        "stars": 9343
+                        "stars": 9345
                       }
                     }
                   ],
@@ -312,7 +312,7 @@
                         "last_commit": "2026-08-18T14:26:31Z",
                         "owner": "tobi",
                         "repo": "qmd",
-                        "stars": 29128
+                        "stars": 29150
                       }
                     },
                     {
@@ -327,7 +327,7 @@
                         "last_commit": "2026-08-21T07:45:55Z",
                         "owner": "nashsu",
                         "repo": "llm_wiki",
-                        "stars": 16694
+                        "stars": 16733
                       }
                     },
                     {
@@ -342,7 +342,7 @@
                         "last_commit": "2026-08-20T21:13:44Z",
                         "owner": "AgriciDaniel",
                         "repo": "claude-seo",
-                        "stars": 14867
+                        "stars": 14933
                       }
                     },
                     {
@@ -354,10 +354,10 @@
                         "archived": false,
                         "id": 1160693255,
                         "language": "Python",
-                        "last_commit": "2026-08-23T06:27:27Z",
+                        "last_commit": "2026-08-24T06:28:58Z",
                         "owner": "zubair-trabzada",
                         "repo": "geo-seo-claude",
-                        "stars": 9439
+                        "stars": 9445
                       }
                     },
                     {
@@ -372,13 +372,57 @@
                         "last_commit": "2026-06-05T09:52:19Z",
                         "owner": "airweave-ai",
                         "repo": "airweave",
-                        "stars": 6560
+                        "stars": 6563
                       }
                     }
                   ],
                   "description": null,
                   "node_type": "group",
                   "title": "智能搜索_RAG"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "elder-plinius/OBLITERATUS",
+                      "description": "OBLITERATUS 是最先进的开源工具集，旨在理解和消除大型语言模型中的拒绝行为。每次运行都会使模型变得更加智能。该工具集实现了“消除内部表示”的技术，这是一种能够识别并移除导致拒绝行为的内部表示的技术，而无需重新训练或调整模型参数。其结果是，模型能够在响应所有提示时避免人为的阻碍，同时保留其核心语言处理能力。但是，OBLITERATUS 不仅仅是一个工具——它是一个分布式研究实验平台。每次你使用带有遥测功能的工具来破坏某个模型时，你的操作都会为不断增长的众包数据集贡献匿名测试数据，而这些数据将用于支持下一代破坏性研究的发展。你可以在不同的架构之间进行对比测试；可以获取特定硬件的性能数据；还可以进行大规模的算法比较，这是任何单一实验室都无法实现的。你不仅仅是在使用工具——你实际上是在共同创造科学成果。该工具包提供了一整套完整的处理流程：从探测模型的隐藏状态以确定拒绝的方向，到采用多种提取策略（如主成分分析、均值差异法、稀疏自编码器分解以及白化 SVD），再到实际的干预措施——在推理过程中抵消或引导模型远离那些方向。每一个步骤都是可观测的。你可以可视化拒绝行为在不同层中的表现，衡量其与通用能力的关联程度，并在做出任何修改之前，量化合规性与连贯性之间的权衡。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 1171949255,
+                        "language": "Python",
+                        "last_commit": "2026-08-24T01:49:59Z",
+                        "owner": "elder-plinius",
+                        "repo": "OBLITERATUS",
+                        "stars": 8004
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "模型微调_对齐及相关数据"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "antirez/ds4",
+                      "description": "是一款专为 DeepSeek 4 Flash 与 PRO 模型打造的本地化推理引擎，旨在彻底解决开发者在个人设备上运行大语言模型时面临的硬件生态割裂、环境配置繁琐以及消费级算力调度低效的核心痛点。该项目的突出优势在于其跨平台原生架构设计，不仅底层全面打通了苹果 Metal、英伟达 CUDA 与 AMD ROCm 三大计算协议，更通过动态显存分片技术打破了传统框架对高端显卡的依赖。相较于同类推理工具，它摒弃了繁琐的算子重写与依赖编译流程，转而采用统一的高层抽象接口，使得同一套代码能在不同算力生态中自动匹配最优执行路径，显著降低了本地部署的技术门槛。同时，针对 DeepSeek 4 系列特有的混合专家架构，引擎内置了智能路由合并机制，能够动态裁剪冗余计算分支，从而在普通显卡上实现接近商业云服务的吞吐表现。从技术原理来看，该引擎的运作逻辑犹如一位经验丰富的交响乐团指挥。它将庞大的模型参数拆解为独立的数据模块，并根据当前硬件的实际负载状态，实时调整这些模块在内存与显存之间的搬运节奏。当检测到某类计算指令出现拥堵时，系统会像分流河道般将任务重新分配至闲置的核心；而在处理长上下文生成时，它又会预先规划好数据缓存的阶梯结构，避免频繁的全盘读写。这种基于硬件感知的前置调度策略，配合底层编译器的即时优化，使得模型推理不再是机械的参数堆砌，而是形成了一套高度协同的流水线作业，让非专业用户也能在本地流畅驾驭前沿大模型。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 1231148626,
+                        "language": "C",
+                        "last_commit": "2026-08-23T13:41:58Z",
+                        "owner": "antirez",
+                        "repo": "ds4",
+                        "stars": 21704
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "模型推理部署_解码量化_UI客户端"
                 },
                 {
                   "children": [
@@ -394,7 +438,7 @@
                         "last_commit": "2026-08-21T10:56:48Z",
                         "owner": "mattpocock",
                         "repo": "skills",
-                        "stars": 233742
+                        "stars": 234912
                       }
                     },
                     {
@@ -406,10 +450,10 @@
                         "archived": false,
                         "id": 1216785679,
                         "language": "Go",
-                        "last_commit": "2026-08-23T21:33:55Z",
+                        "last_commit": "2026-08-24T13:10:11Z",
                         "owner": "esengine",
                         "repo": "DeepSeek-Reasonix",
-                        "stars": 35078
+                        "stars": 35110
                       }
                     },
                     {
@@ -421,10 +465,10 @@
                         "archived": false,
                         "id": 1166506614,
                         "language": "Python",
-                        "last_commit": "2026-08-23T16:22:47Z",
+                        "last_commit": "2026-08-24T11:12:27Z",
                         "owner": "mukul975",
                         "repo": "Anthropic-Cybersecurity-Skills",
-                        "stars": 30821
+                        "stars": 30922
                       }
                     },
                     {
@@ -436,7 +480,7 @@
                         "archived": false,
                         "id": 1197990888,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-19T15:08:23Z",
+                        "last_commit": "2026-08-24T02:23:29Z",
                         "owner": "Gitlawb",
                         "repo": "openclaude",
                         "stars": 30811
@@ -451,10 +495,10 @@
                         "archived": false,
                         "id": 1125856365,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-23T21:55:18Z",
+                        "last_commit": "2026-08-24T14:11:13Z",
                         "owner": "can1357",
                         "repo": "oh-my-pi",
-                        "stars": 26777
+                        "stars": 27050
                       }
                     },
                     {
@@ -469,7 +513,7 @@
                         "last_commit": "2026-08-23T07:41:42Z",
                         "owner": "jlcodes99",
                         "repo": "cockpit-tools",
-                        "stars": 16378
+                        "stars": 16426
                       }
                     },
                     {
@@ -484,7 +528,7 @@
                         "last_commit": "2026-08-21T02:13:13Z",
                         "owner": "mindfold-ai",
                         "repo": "Trellis",
-                        "stars": 14168
+                        "stars": 14189
                       }
                     },
                     {
@@ -499,7 +543,7 @@
                         "last_commit": "2026-08-21T10:31:08Z",
                         "owner": "walkinglabs",
                         "repo": "learn-harness-engineering",
-                        "stars": 13877
+                        "stars": 13984
                       }
                     },
                     {
@@ -511,10 +555,10 @@
                         "archived": false,
                         "id": 1034425196,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-17T08:46:30Z",
+                        "last_commit": "2026-08-24T08:45:06Z",
                         "owner": "sirmalloc",
                         "repo": "ccstatusline",
-                        "stars": 12528
+                        "stars": 12543
                       }
                     },
                     {
@@ -529,7 +573,7 @@
                         "last_commit": "2026-08-23T01:50:53Z",
                         "owner": "Piebald-AI",
                         "repo": "claude-code-system-prompts",
-                        "stars": 12434
+                        "stars": 12440
                       }
                     },
                     {
@@ -544,7 +588,7 @@
                         "last_commit": "2026-08-07T20:19:18Z",
                         "owner": "Jeffallan",
                         "repo": "claude-skills",
-                        "stars": 11127
+                        "stars": 11147
                       }
                     },
                     {
@@ -559,7 +603,7 @@
                         "last_commit": "2026-08-18T23:12:08Z",
                         "owner": "yizhiyanhua-ai",
                         "repo": "fireworks-tech-graph",
-                        "stars": 10791
+                        "stars": 10830
                       }
                     },
                     {
@@ -574,7 +618,7 @@
                         "last_commit": "2026-08-22T10:29:38Z",
                         "owner": "Kuberwastaken",
                         "repo": "claurst",
-                        "stars": 10264
+                        "stars": 10265
                       }
                     },
                     {
@@ -586,10 +630,10 @@
                         "archived": false,
                         "id": 1156994049,
                         "language": "Go",
-                        "last_commit": "2026-08-23T21:56:31Z",
+                        "last_commit": "2026-08-24T13:31:52Z",
                         "owner": "Untrivial-ai",
                         "repo": "agent-orchestrator",
-                        "stars": 9899
+                        "stars": 9918
                       }
                     },
                     {
@@ -604,7 +648,7 @@
                         "last_commit": "2026-08-23T16:41:42Z",
                         "owner": "ykdojo",
                         "repo": "claude-code-tips",
-                        "stars": 9864
+                        "stars": 9877
                       }
                     },
                     {
@@ -616,10 +660,10 @@
                         "archived": false,
                         "id": 1209889782,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-23T18:15:58Z",
+                        "last_commit": "2026-08-24T14:14:04Z",
                         "owner": "getagentseal",
                         "repo": "codeburn",
-                        "stars": 9613
+                        "stars": 9619
                       }
                     },
                     {
@@ -634,7 +678,7 @@
                         "last_commit": "2026-07-18T02:33:21Z",
                         "owner": "frankbria",
                         "repo": "ralph-claude-code",
-                        "stars": 9604
+                        "stars": 9607
                       }
                     },
                     {
@@ -649,7 +693,7 @@
                         "last_commit": "2026-07-05T04:52:21Z",
                         "owner": "Maciek-roboblog",
                         "repo": "Claude-Code-Usage-Monitor",
-                        "stars": 8650
+                        "stars": 8654
                       }
                     },
                     {
@@ -664,7 +708,7 @@
                         "last_commit": "2026-08-20T05:09:53Z",
                         "owner": "smtg-ai",
                         "repo": "claude-squad",
-                        "stars": 8358
+                        "stars": 8360
                       }
                     }
                   ],
@@ -694,6 +738,86 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "millionco/react-doctor",
+                  "description": "是一款专为拦截大语言模型生成代码缺陷而打造的 React 质量守门员，它直击当前 AI 编程助手频繁产出违背框架规范、埋藏运行时隐患的致命痛点。该工具在同类检查器中建立显著优势，不仅凭借上下文感知规则引擎精准剥离 AI 在组件拆分与状态管理中的逻辑幻觉，从而突破传统 Lint 仅校验基础语法的瓶颈，更通过零配置开箱即用的集成架构彻底免去繁琐的手动调优负担，同时其内置的自动化修复建议生成模块能够直接输出符合最佳实践的重构方案，大幅压缩人工审查周期。该系统的底层运作逻辑犹如一位严谨的临床医师实施靶向诊断，首先将 AI 生成的源码拆解为结构化的抽象语法树，随后沿着数据流向与组件生命周期轨迹进行深度渗透扫描，一旦捕获到违反 Hooks 依赖或副作用失控的异常路径，便会立即触发拦截机制并输出修复处方。这种从静态解析到动态逻辑推演的闭环设计，从根本上杜绝了劣质代码流入生产环境的风险。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1156960719,
+                    "language": "TypeScript",
+                    "last_commit": "2026-08-24T11:22:31Z",
+                    "owner": "millionco",
+                    "repo": "react-doctor",
+                    "stars": 14604
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "React工具库"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "webadderallorg/Recordly",
+                  "description": "Recordly是一款面向开发者的跨平台自动化演示视频生成工具，它精准切中了非专业用户难以低成本制作高质量产品演示视频的痛点。该项目的核心优势首先体现在其零门槛的交互设计，通过内置的标准化渲染管线彻底取代了传统剪辑软件中繁琐的时间轴对齐与特效叠加步骤；其次，它支持从屏幕录制到字幕生成、动态标注的一键式流水线输出，大幅压缩了内容生产周期；最后，依托完全开源的架构与原生跨平台兼容性，Recordly在保障代码透明可审计的同时，无缝适配Mac、Windows与Linux环境，有效规避了同类闭源工具的平台限制。其底层工作原理可类比为一位隐形的“数字导演”，系统首先通过调用操作系统的图形捕获接口实时记录鼠标轨迹与界面交互，随后借助轻量级多媒体处理框架对原始画面进行自动化抽帧与关键操作高亮标记；在此基础上，内置的规则引擎会自动识别操作序列的逻辑节点，将离散的屏幕片段重组为具有专业节奏感的叙事流。用户仅需输入基础意图或脚本指令，后台算法便能自主完成参数调优与视觉包装，真正实现了从手动剪辑到智能生成的技术范式转移。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1180325220,
+                    "language": "TypeScript",
+                    "last_commit": "2026-08-24T08:20:53Z",
+                    "owner": "webadderallorg",
+                    "repo": "Recordly",
+                    "stars": 22313
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "多工具库支持或纯JS"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "前端开发框架及项目"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "bluewave-labs/Checkmate",
+                  "description": "Checkmate 是一个开源的自托管工具，专为实时追踪和监控服务器硬件状态、运行时间、响应速度以及事故记录而设计，并通过直观的可视化界面呈现数据，解决了运维团队在分散式监控环境中难以快速定位系统异常的核心痛点。与传统的服务器监控工具相比，Checkmate 以轻量化、易部署和高定制化脱颖而出，尤其适合中小型团队或开发者快速搭建低成本的内网监控系统。核心特色 首先，它将多维度监控数据（如 CPU 温度、磁盘 I/O、HTTP 延迟）整合为统一的仪表盘，避免了用户在不同工具间切换的繁琐；其次，其主动告警机制通过智能阈值检测异常，相比被动轮询的旧方案能提前 30% 以上发现潜在故障；最后，项目采用模块化设计，允许通过插件扩展监控项（例如对接 Prometheus 或自定义脚本），这种灵活性远超许多闭源 SaaS 方案的固化功能。技术原理 上，Checkmate 的架构可以类比为一位“全天候体检医生”。后端通过轻量代理（Agent）定期采集主机指标，如同医生用听诊器测量生命体征；数据经时间序列数据库压缩存储后，由分析引擎像诊断算法一样比对历史规律与实时波动，从而区分正常心跳与异常痉挛；前端则像动态病历本，用 D3.js 生成可交互图表，将抽象数据转化为肉眼可判读的趋势曲线。这种“采集-分析-呈现”的闭环，保证了从数据抓取到问题可视化的延迟控制在秒级。该项目以开发者友好性为核心，提供 Docker 一键部署和清晰的 API 文档，使得即使非运维背景的用户也能在 10 分钟内完成基础监控网络的搭建。其开源协议（MIT）和活跃的 Discord 社区进一步降低了协作门槛，预示着它在轻量级监控领域的持续迭代潜力。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 793866369,
+                    "language": "TypeScript",
+                    "last_commit": "2026-08-21T22:14:27Z",
+                    "owner": "bluewave-labs",
+                    "repo": "Checkmate",
+                    "stars": 10746
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "后端项目_其他"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "后端开发框架及项目"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
                   "title": "maillab/cloud-mail",
                   "description": "cloud-mail 是一款基于 Cloudflare 边缘计算生态构建的开源邮箱服务，旨在解决传统自建邮件系统部署复杂、运维成本高且容易遭遇反垃圾邮件拦截的痛点。该项目依托 Serverless 架构实现了零服务器维护成本与全球低延迟访问的完美结合，其核心优势在于彻底摆脱了对固定物理机房的依赖。首先，它通过 Cloudflare Workers 与 R2 对象存储的深度协同，将邮件读写请求无缝调度至离用户最近的边缘节点，大幅降低了传统 SMTP 服务对独占带宽与计算资源的消耗。其次，内置的智能路由与反垃圾过滤机制直接嵌入 HTTP 请求链路中，避免了外部第三方安全组件带来的额外延迟与配置冲突。最后，其标准化的一键部署流程配合环境变量驱动，使非运维背景的用户也能快速拉起私有邮箱环境，这在同类工具普遍要求复杂 Docker 编排或严格域名解析验证的背景下显得尤为轻量且友好。从技术架构来看，该服务的工作原理类似于一个高度自动化的智能物流分拣中心。当外部邮件抵达时，Cloudflare 的全球边缘网络会像区域中转站一样首先完成协议校验与基础路由；随后，处理逻辑被编译为无状态的计算片段，在临时内存中快速完成邮件解析、规则匹配与持久化写入，全程无需唤醒传统数据中心的主机。底层数据则被拆解为多个独立的逻辑抽屉，分别归档邮件元数据、正文流与附件二进制文件，并通过统一的哈希键表实现精准索引。这种按需分配计算资源与分布式存储的设计，不仅确保了高并发场景下的系统韧性，还通过极致的弹性伸缩将运营成本压缩至接近零的水平，从而在保障企业级收发稳定性的同时，为个人开发者提供了现代化、低门槛的邮件基础设施替代方案。",
                   "children": [],
@@ -704,7 +828,7 @@
                     "last_commit": "2026-08-23T03:57:27Z",
                     "owner": "maillab",
                     "repo": "cloud-mail",
-                    "stars": 13633
+                    "stars": 13655
                   }
                 },
                 {
@@ -719,13 +843,35 @@
                     "last_commit": "2026-08-21T11:10:27Z",
                     "owner": "Nekogram",
                     "repo": "Nekogram",
-                    "stars": 3819
+                    "stars": 3822
                   }
                 }
               ],
               "description": null,
               "node_type": "group",
               "title": "信息沟通"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "jarun/googler",
+                  "description": "googler 是一款专为命令行爱好者打造的终端谷歌搜索工具，它完美解决了开发者在纯文本环境中高效获取网络信息的需求。当你在SSH远程服务器、本地终端或脚本中工作时，无需跳出工作流启动浏览器，即可快速完成搜索、筛选结果甚至翻页操作，尤其适合需要保持「心流状态」的技术场景。该项目的核心优势首先体现在其「无干扰设计」上，通过命令行直接返回结构化搜索结果，避免了浏览器页面广告和视觉噪音的干扰；其次是「脚本友好性」，支持管道操作和结果过滤（如限制条目数），能与grep等工具链无缝配合；更独特的是其「隐私保护机制」，默认关闭Cookie和Javascript，且不会劫持搜索请求，相比curl手动构造URL的方式更加安全可靠。从技术实现看，googler 的工作原理如同一位精通多国语言的谈判专家。它通过模拟浏览器Header（User-Agent）与谷歌服务器建立对话，但故意「装傻」不携带能追踪身份的Cookies；当解析返回的HTML时，又像经验丰富的侦探一样，用正则表达式从杂乱标签中精准提取标题、链接和摘要（而非依赖脆弱的API）。这种设计既规避了谷歌反爬机制，又保持了极简的依赖——仅需Python标准库即可运行，使得其兼容性跨越Linux/macOS/Windows三大平台。值得品味的是，作者在README中特意强调「这不是一个Web爬虫」，这暗示了工具对谷歌服务条款的尊重——它通过限制请求频率和结果数量（默认10条/次），在便利性和合规性之间找到了精妙平衡。对于习惯终端操作的用户而言，googler 就像随身携带的瑞士军刀，将笨重的Web搜索体验提炼成一句简洁的，这种化繁为简的哲学正是开源工具的迷人之处。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 40797633,
+                    "language": "Python",
+                    "last_commit": "2021-11-13T08:09:20Z",
+                    "owner": "jarun",
+                    "repo": "googler",
+                    "stars": 6204
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "网络服务_其他"
             }
           ],
           "description": null,
@@ -742,6 +888,50 @@
           "children": [
             {
               "node_type": "item",
+              "title": "freemocap/freemocap",
+              "description": "FreeMoCap是一款面向大众的开源无标记动作捕捉软件系统，它彻底打破了传统动捕技术对昂贵专业设备与封闭实验室的依赖，让独立开发者、教育工作者与普通创作者也能以极低成本获取高精度的三维人体运动数据。该项目在同类工具中展现出显著优势，其一在于极度友好的硬件门槛，仅凭几台市售网络摄像头或消费级深度相机即可搭建采集环境，彻底免除了传统动捕服带来的穿戴束缚与数万元级的资金压力；其二采用高度模块化的开源架构，底层深度绑定Python生态与主流AI姿态估计模型，允许用户自由替换算法后端、自定义多机位同步逻辑或扩展数据导出插件，极大提升了技术迭代与二次开发的自由度；其三内置的三维重建管线经过针对性优化，可在保证实时预览的同时输出符合行业标准的数据格式，实现与Unity、Blender等创作软件的无缝衔接。从技术原理来看，该系统的工作流程宛如一场数字时代的“多视角拼图游戏”：多台相机同步采集视频流后，底层AI模型会像经验丰富的画师般在每一帧画面中精准标定人体关节的二维坐标点；随后系统借助空间几何学的三角测量法，将这些分散的二维锚点像经纬线一样交叉投射回真实三维空间，最终缝合出连续且平滑的骨骼运动轨迹。这种将前沿计算机视觉与经典光学原理巧妙融合的设计，不仅大幅压缩了技术学习曲线，更让专业级动捕能力真正走向平民化与开源化。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 357362803,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T13:14:39Z",
+                "owner": "freemocap",
+                "repo": "freemocap",
+                "stars": 10049
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "人像_姿势_3D人脸"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "GetStream/Vision-Agents",
+              "description": "GetStream/Vision-Agents 是一个专为开发者设计的开源工具库，旨在简化多模态AI代理（结合视觉与语音能力）的构建流程，尤其解决了传统方案中模型集成复杂、响应延迟高两大核心痛点。通过标准化接口与边缘计算优化，开发者可快速接入任意视频流或AI模型，轻松实现如实时视频分析、交互式语音助手等场景，而无需从零搭建基础设施。其核心亮点在于三项差异化设计：首先，模型无关性允许自由切换不同AI供应商（如OpenAI、Anthropic等），避免厂商锁定；其次，边缘网络加速利用Stream全球分布式节点，将视频处理延迟压缩至毫秒级，相比传统中心化架构提升3-5倍响应速度；最后，声明式编程接口通过高层抽象（如\"describe_what_you_see\"这样的语义化方法）隐藏底层复杂度，使得添加新功能如同编写自然语言指令。技术实现上，项目采用\"中间件管道\"架构，类似于工厂流水线：原始视频流进入系统后，先经边缘节点进行智能分帧（类似快递分拣中心按目的地分类包裹），随后不同AI模型像专业化工人一样并行处理分派到的帧数据（如物体检测、语音转文本），最终由协调模块聚合结果并返回。这种设计既通过并行化提升效率，又借助Stream的边缘网络将计算贴近数据源，物理距离的缩短直接降低了传输延迟。相较于直接调用云端API的方案，其优势如同在小区内建立配送站而非依赖远方仓库——响应速度自然更快，尤其适合实时性要求高的场景如安防监控或直播互动。总体而言，Vision-Agents通过技术架构创新与开发者体验优化，在多模态AI领域提供了兼具灵活性与性能的工程解决方案，其开源属性更便于社区共同扩展应用生态。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1036205124,
+                "language": "Python",
+                "last_commit": "2026-08-21T22:20:17Z",
+                "owner": "GetStream",
+                "repo": "Vision-Agents",
+                "stars": 8099
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "多模态大模型"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "heygen-com/hyperframes",
               "description": "HyperFrames是一款面向AI智能体的可编程视频生成框架，旨在解决传统视频创作中脚本编写、镜头调度与后期渲染高度割裂且难以自动化批量的核心痛点。该项目将底层的高保真渲染能力与代码化工作流深度融合，使开发者仅需通过声明式指令或HTML结构即可驱动视频生成，彻底打破了非专业用户与复杂影视制作之间的技术壁垒。在功能亮点上，该框架首先实现了真正的“代码即视频”工作流，相较于依赖繁琐参数调校的同类工具，它直接解析结构化标记语言来定义画面元素与运动轨迹，大幅降低了试错成本；其次，其原生适配智能体调用接口，允许大模型实时生成并注入动态视觉资产，这在多模态Agent协作场景中提供了传统离线渲染方案无法企及的响应速度与交互灵活性；最后，内置的物理级光影模拟与材质解算引擎，确保了输出内容在商业级画质上远超一般开源生成模型，直接满足企业级演示与营销物料的制作标准。从技术架构来看，HyperFrames的运行逻辑可类比为一家高度自动化的数字制片厂：开发者编写的代码如同分镜脚本，负责统筹全局节奏与元素布局；底层视觉大模型则扮演导演与摄影团队的角色，实时理解意图并生成关键帧序列；而专属的渲染管线宛如后期合成车间，通过分层光追算法将静态画面转化为具备真实物理反馈的动态影像。这种“脚本调度—意图解算—物理渲染”的三段式流水线设计，既保留了程序化控制的精确性，又兼顾了AI生成的创造性，为下一代智能体视频应用奠定了坚实的底层基础。",
               "children": [],
@@ -749,10 +939,10 @@
                 "archived": false,
                 "id": 1177402105,
                 "language": "TypeScript",
-                "last_commit": "2026-08-23T21:54:26Z",
+                "last_commit": "2026-08-24T13:58:32Z",
                 "owner": "heygen-com",
                 "repo": "hyperframes",
-                "stars": 42298
+                "stars": 42421
               }
             },
             {
@@ -764,10 +954,10 @@
                 "archived": false,
                 "id": 54221232,
                 "language": "C++",
-                "last_commit": "2026-08-23T19:49:58Z",
+                "last_commit": "2026-08-24T05:54:47Z",
                 "owner": "opentoonz",
                 "repo": "opentoonz",
-                "stars": 7565
+                "stars": 7566
               }
             }
           ],
@@ -795,7 +985,7 @@
                 "last_commit": "2026-03-02T16:07:10Z",
                 "owner": "NVIDIA",
                 "repo": "personaplex",
-                "stars": 10388
+                "stars": 10390
               }
             },
             {
@@ -828,6 +1018,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "uber/RIBs",
+              "description": "Uber的RIBs框架是一套面向Android与iOS的双端移动端架构方案，旨在彻底根治大型移动应用中因模块耦合度高、状态流转混乱以及测试维护成本昂贵而导致的工程退化痛点。该框架之所以显著优于传统MVVM或MVC体系，核心在于其独创的层级化组件设计通过严格隔离路由控制、业务逻辑与视图构建三大职责实现了真正的关注点分离，同时全面拥抱响应式编程范式以不可变数据流确保状态变更的可预测性，加之跨平台统一的架构语义大幅降低了双端团队的沟通摩擦并提供了标准化复用蓝图。从技术实现层面来看，RIBs的工作机制犹如一家分工明确的现代化企业组织架构，其中路由器充当导航总监负责页面跳转与权限分配，交互器扮演核心工程师专注数据处理与业务规则运算，构建器则如同装配主管按需组装各模块零件，三者通过响应式数据流管道进行单向通信，任何状态更新都会像涟漪般精准传导至对应组件，从而在无需全局依赖注入的前提下达成高度解耦。这种树状嵌套结构使得每个功能单元都能独立编译与测试迭代，即便业务规模呈指数级扩张，开发者依然能清晰掌控代码脉络，从根本上保障了移动应用的生命周期与健康度。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 105686726,
+                "language": "Kotlin",
+                "last_commit": "2026-07-15T22:14:43Z",
+                "owner": "uber",
+                "repo": "RIBs",
+                "stars": 7933
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Android应用"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "pranshuparmar/witr",
               "description": "witr是一款专为排查系统运行状态而设计的开源诊断工具，其核心使命是直观解答“某个进程、端口或容器为何正在运行”的疑问。与传统仅展示静态状态的监控命令不同，该工具通过深度追踪系统的调用链与依赖关系，自动生成人类可读的因果溯源图谱，清晰揭示目标实体的启动来源、监督服务（如systemd、Docker、PM2等）、运行上下文及安全警告信息。项目的核心特色在于提供了高度交互式的终端仪表盘（TUI），支持按名称、PID、端口或文件进行多维度混合查询与实时过滤；同时全面兼容Linux、macOS、Windows及FreeBSD等多平台与主流容器运行时，并内置结构化的CLI参数、JSON导出模式及标准化的故障退出码。这种设计不仅将原本分散在多个工具中的状态元数据转化为连贯的叙事性输出，还大幅降低了系统排障门槛，使其能够无缝集成至CI/CD流水线与自动化运维脚本中，真正实现“秒级定位运行成因”的高效诊断体验。",
               "children": [],
@@ -838,7 +1050,7 @@
                 "last_commit": "2026-08-15T22:55:12Z",
                 "owner": "pranshuparmar",
                 "repo": "witr",
-                "stars": 21664
+                "stars": 21676
               }
             },
             {
@@ -850,16 +1062,82 @@
                 "archived": false,
                 "id": 83252983,
                 "language": "Go",
-                "last_commit": "2026-08-23T10:24:59Z",
+                "last_commit": "2026-08-24T00:59:32Z",
                 "owner": "go-task",
                 "repo": "task",
-                "stars": 16030
+                "stars": 16033
               }
             }
           ],
           "description": null,
           "node_type": "group",
           "title": "Go程序设计"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "pydantic/monty",
+              "description": "Pydantic/monty 是一款专为人工智能应用打造的轻量级 Python 解释器，它直击大模型在执行动态代码时面临的沙箱逃逸风险与环境依赖过重痛点。该项目凭借底层重构、架构精简与场景适配三大核心优势，在同类工具中建立起显著的技术壁垒。其 Rust 语言基底不仅彻底消除了传统 CPython 的内存安全漏洞，更通过零成本抽象实现了极高的执行吞吐量；刻意剥离非必需标准库的极简设计，使得解释器体积与启动延迟大幅降低，攻击面被压缩至极限；而面向 AI 工作流的深度定制，则通过严格拦截文件读写与网络通信，为 LLM 的工具调用提供了确定性极强的运行环境。相较于传统沙箱或容器方案，Monty 以“安全优先、按需执行”的理念实现了性能与隔离性的最优平衡。从技术实现来看，其运行机制可类比为一家高度自动化的微型质检车间。当大模型生成代码并提交后，Rust 引擎会像精密仪器般构建抽象语法树并逐行校验，所有指令均在预设的内存围栏内运行；一旦程序试图访问受限资源或触发非法操作，底层的安全拦截机制便会立即将其转化为可控异常，而非导致系统崩溃。这种设计让 AI 应用无需依赖外部虚拟化技术即可在进程内完成代码评估，既保障了毫秒级响应，又从根本上切断了恶意逻辑的横向渗透路径，为智能体（Agent）的安全执行提供了现代化的基础设施支撑。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 646426100,
+                "language": "Rust",
+                "last_commit": "2026-08-24T10:22:58Z",
+                "owner": "pydantic",
+                "repo": "monty",
+                "stars": 8098
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Python程序"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "memstechtips/Winhance",
+              "description": "Winhance是一款专为Windows系统打造的图形化优化与定制工具，旨在解决普通用户在面对繁杂的系统精简、隐私清理与性能调优时缺乏安全可控操作入口的痛点。该项目的核心优势在于其高度整合的操作逻辑与卓越的安全性设计。首先，它摒弃了传统脚本手动执行的繁琐流程，将注册表修改、服务启停及组件卸载等底层操作封装为直观的可视化界面，大幅降低了误操作风险；其次，内置的智能依赖检测机制能够精准识别系统版本与当前状态，避免盲目执行导致的环境冲突，这一点远胜于许多仅依赖通用批处理文件的同类项目；最后，其一键还原功能配合完整的操作日志记录，为用户提供了可靠的容错保障。从技术架构来看，Winhance本质上充当了Windows底层指令与用户界面之间的“翻译官”。它并不直接重写操作系统内核，而是通过调用系统原生的PowerShell脚本、注册表API以及任务计划程序接口，将复杂的配置变更转化为可逆的标准化动作。其工作原理类似于为精密仪器配备了一套带安全锁的调试面板：当用户点击某项优化选项时，工具会先在内存中构建完整的操作蓝图，并自动创建系统还原点作为备份快照；随后按序执行底层指令，过程中实时校验权限与返回值，确保每一步都在受控轨道内运行。这种预演、执行与留痕的闭环设计，既保留了高级定制的自由度，又通过自动化校验机制屏蔽了手动排错的门槛。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 916105685,
+                "language": "C#",
+                "last_commit": "2026-08-22T19:24:27Z",
+                "owner": "memstechtips",
+                "repo": "Winhance",
+                "stars": 12675
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Rust程序设计"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CoplayDev/unity-mcp",
+              "description": "Unity MCP 是一款专为游戏开发环境设计的开源中间件，它精准解决了大型 AI 语言模型无法直接理解与操作 Unity 编辑器底层逻辑的行业痛点。该项目通过标准化的 Model Context Protocol（MCP）协议，在开发者日常使用的 AI 助手与 Unity 引擎之间搭建了一座双向通信的桥梁，使大语言模型能够安全、可控地执行资源管理、场景控制、脚本编写及自动化工作流等核心任务。相较于以往依赖粗糙 API 调用或需要手动配置复杂插件的同类工具，Unity MCP 具备三大显著优势：其一是原生遵循开源 MCP 协议规范，实现了与主流 AI 框架的即插即用；其二是内置了细粒度的权限沙箱机制，确保 AI 在操作项目文件时严格遵循安全边界，避免意外破坏工程结构；其三是提供了高度封装的编辑器接口层，开发者无需深入 C# 底层即可让 AI 直接调用引擎功能，大幅降低了集成与维护成本。 从技术架构来看，该项目的运行逻辑类似于为 AI 配备了一位精通引擎规则的“本地项目秘书”。当大模型发出自然语言指令时，MCP 服务器会首先对请求进行语义解析与权限校验，随后将模糊的意图转化为 Unity 可识别的序列化操作序列。这些指令并不会直接穿透到引擎核心，而是通过标准化的消息总线安全传递至编辑器后台执行。整个过程如同专业翻译官将外语准确转述给本地技术团队，既保留了 AI 的创造性发散能力，又严格遵循了游戏开发的安全规范与资源管理规范。这种前后端解耦的设计不仅大幅降低了 AI 辅助开发的试错门槛，更为未来的智能游戏工作流奠定了可扩展的基础设施标准，是连接生成式人工智能与现代游戏引擎的一次务实且高效的工程实践。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 950564038,
+                "language": "C#",
+                "last_commit": "2026-08-07T18:50:00Z",
+                "owner": "CoplayDev",
+                "repo": "unity-mcp",
+                "stars": 13619
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "游戏"
         }
       ],
       "title": "其他项目"
@@ -881,7 +1159,7 @@
                 "last_commit": "2025-03-31T17:05:09Z",
                 "owner": "mouredev",
                 "repo": "hello-sql",
-                "stars": 10079
+                "stars": 10084
               }
             },
             {
@@ -896,7 +1174,7 @@
                 "last_commit": "2026-08-17T08:16:46Z",
                 "owner": "PostgresApp",
                 "repo": "PostgresApp",
-                "stars": 7771
+                "stars": 7770
               }
             }
           ],
@@ -921,10 +1199,10 @@
                 "archived": false,
                 "id": 5663857,
                 "language": "Java",
-                "last_commit": "2026-08-21T08:31:55Z",
+                "last_commit": "2026-08-24T08:25:15Z",
                 "owner": "dependency-check",
                 "repo": "DependencyCheck",
-                "stars": 7666
+                "stars": 7667
               }
             },
             {
@@ -939,7 +1217,7 @@
                 "last_commit": "2026-08-12T16:29:06Z",
                 "owner": "apache",
                 "repo": "caldera",
-                "stars": 7211
+                "stars": 7210
               }
             }
           ],
@@ -964,10 +1242,10 @@
                 "archived": false,
                 "id": 1198306812,
                 "language": "Python",
-                "last_commit": "2026-08-22T17:31:53Z",
+                "last_commit": "2026-08-24T08:16:29Z",
                 "owner": "HKUDS",
                 "repo": "Vibe-Trading",
-                "stars": 31557
+                "stars": 31626
               }
             },
             {
@@ -979,10 +1257,10 @@
                 "archived": false,
                 "id": 1124295269,
                 "language": "Python",
-                "last_commit": "2026-08-21T15:35:43Z",
+                "last_commit": "2026-08-24T07:38:06Z",
                 "owner": "OpenByteInc",
                 "repo": "QuantDinger",
-                "stars": 11007
+                "stars": 11036
               }
             },
             {
@@ -997,7 +1275,7 @@
                 "last_commit": "2026-08-20T17:04:30Z",
                 "owner": "lballabio",
                 "repo": "QuantLib",
-                "stars": 7539
+                "stars": 7542
               }
             },
             {
@@ -1025,7 +1303,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T21:58:47.960Z",
+    "last_updated": "2026-08-24T14:14:15.170Z",
     "original_repository": "wuwenjie1992/StarryDivineSky",
     "original_repository_id": 288187811,
     "original_repository_sha": "6e30f1bda2a09a1e62d6287776050bd6fc4d29d7",
