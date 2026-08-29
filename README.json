@@ -16,12 +16,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+                        "homepage": "https://tinyhumans.ai/openhuman",
                         "id": 1161163182,
                         "language": "Rust",
+                        "license": "GPL-3.0",
                         "last_commit": "2026-08-27T22:59:17Z",
+                        "open_issues": 325,
                         "owner": "tinyhumansai",
                         "repo": "openhuman",
-                        "stars": 38742
+                        "stars": 38747,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -32,12 +37,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+                        "homepage": "https://picoclaw.io",
                         "id": 1149707767,
                         "language": "Go",
+                        "license": "MIT",
                         "last_commit": "2026-08-27T21:13:30Z",
+                        "open_issues": 32,
                         "owner": "sipeed",
                         "repo": "picoclaw",
-                        "stars": 29913
+                        "stars": 29913,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -48,12 +58,37 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
+                        "homepage": "https://ao.aiolaola.com/experts",
                         "id": 1174369519,
                         "language": "Shell",
+                        "license": "MIT",
                         "last_commit": "2026-08-28T13:12:36Z",
+                        "open_issues": 6,
                         "owner": "jnMetaCode",
                         "repo": "agency-agents-zh",
-                        "stars": 20049
+                        "stars": 20051,
+                        "topics": [
+                          "agency-orchestrator",
+                          "agent-definitions",
+                          "ai-agents",
+                          "ai-roles",
+                          "chinese",
+                          "claude",
+                          "claude-code",
+                          "copilot-agent",
+                          "cursor-rules",
+                          "deepseek",
+                          "hermes-agent",
+                          "llm",
+                          "multi-agent",
+                          "no-code",
+                          "prompt-engineering",
+                          "qwen",
+                          "system-prompt",
+                          "workbuddy",
+                          "workflow"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -64,12 +99,32 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
+                        "homepage": "https://browser-harness.com",
                         "id": 1213049020,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-08-28T20:41:37Z",
+                        "open_issues": 284,
                         "owner": "browser-use",
                         "repo": "browser-harness",
-                        "stars": 17216
+                        "stars": 17217,
+                        "topics": [
+                          "ai-agent",
+                          "browser-agent",
+                          "browser-automation",
+                          "browser-use",
+                          "browser-use-box",
+                          "browser-use-cloud",
+                          "cdp",
+                          "cloud-browser",
+                          "llm",
+                          "persistent-browser",
+                          "playwright",
+                          "telegram-agent",
+                          "vps-agent",
+                          "web-automation"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -80,12 +135,33 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+                        "homepage": "https://github.com/lsdefine/GenericAgent",
                         "id": 1135791677,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-08-28T14:18:19Z",
+                        "open_issues": 158,
                         "owner": "lsdefine",
                         "repo": "GenericAgent",
-                        "stars": 14072
+                        "stars": 14072,
+                        "topics": [
+                          "ai-agent",
+                          "automation",
+                          "autonomous-agent",
+                          "browser-automation",
+                          "claude",
+                          "computer-control",
+                          "desktop-automation",
+                          "gemini",
+                          "lightweight",
+                          "llm-agent",
+                          "memory-system",
+                          "python",
+                          "self-evolving",
+                          "skill-tree",
+                          "task-automation"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -96,12 +172,32 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics ",
+                        "homepage": "https://hermes-studio.ai",
                         "id": 1207639951,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-29T02:56:52Z",
+                        "license": "NOASSERTION",
+                        "last_commit": "2026-08-29T03:54:46Z",
+                        "open_issues": 299,
                         "owner": "EKKOLearnAI",
                         "repo": "hermes-studio",
-                        "stars": 10664
+                        "stars": 10665,
+                        "topics": [
+                          "agent",
+                          "ai-agent",
+                          "chat-ui",
+                          "dashboard",
+                          "hermes",
+                          "hermes-agent",
+                          "hermes-web-ui",
+                          "llm",
+                          "multi-model",
+                          "multi-platform",
+                          "self-hosted",
+                          "typescript",
+                          "vue3",
+                          "web-ui"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -112,12 +208,25 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Bindu: The identity, communication, and payments layer for AI agents.",
+                        "homepage": "https://docs.getbindu.com",
                         "id": 949646929,
                         "language": "Python",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-08-24T09:32:02Z",
+                        "open_issues": 157,
                         "owner": "GetBindu",
                         "repo": "Bindu",
-                        "stars": 9281
+                        "stars": 9281,
+                        "topics": [
+                          "a2a",
+                          "agent-communication",
+                          "agent-orchestration",
+                          "ai-agent",
+                          "autonomous-agents",
+                          "eu-ai-act",
+                          "machine-learning"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -128,12 +237,38 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+                        "homepage": "https://evomap.ai",
                         "id": 1147063571,
                         "language": "JavaScript",
+                        "license": "GPL-3.0",
                         "last_commit": "2026-08-25T17:53:18Z",
+                        "open_issues": 17,
                         "owner": "EvoMap",
                         "repo": "evolver",
-                        "stars": 9015
+                        "stars": 9015,
+                        "topics": [
+                          "a2a",
+                          "agent-evolution",
+                          "agent-framework",
+                          "agent-protocol",
+                          "ai-agent",
+                          "auditable-ai",
+                          "autonomous-agent",
+                          "cli",
+                          "evomap",
+                          "gep",
+                          "llm-agent",
+                          "mcp",
+                          "memory-system",
+                          "nodejs",
+                          "prompt-engineering",
+                          "prompt-governance",
+                          "self-evolution",
+                          "self-evolving",
+                          "skill-library",
+                          "skills"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -144,12 +279,22 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+                        "homepage": "https://revfactory.github.io/harness/",
                         "id": 1193082155,
                         "language": "HTML",
+                        "license": "Apache-2.0",
                         "last_commit": "2026-07-24T23:35:08Z",
+                        "open_issues": 28,
                         "owner": "revfactory",
                         "repo": "harness",
-                        "stars": 8852
+                        "stars": 8852,
+                        "topics": [
+                          "claude-code",
+                          "claude-code-plugin",
+                          "harness",
+                          "harness-engineering"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -160,12 +305,26 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn.",
+                        "homepage": "https://claw-x.com",
                         "id": 1150626239,
                         "language": "TypeScript",
+                        "license": "MIT",
                         "last_commit": "2026-08-29T03:19:55Z",
+                        "open_issues": 40,
                         "owner": "ValueCell-ai",
                         "repo": "ClawX",
-                        "stars": 7598
+                        "stars": 7597,
+                        "topics": [
+                          "agent",
+                          "agentic-ai",
+                          "agents",
+                          "ai",
+                          "clawdbot",
+                          "moltbot",
+                          "openclaw",
+                          "skill"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     }
@@ -183,12 +342,38 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+                        "homepage": "https://docs.headroomlabs.ai/docs",
                         "id": 1129940957,
                         "language": "Python",
-                        "last_commit": "2026-08-28T13:11:43Z",
+                        "license": "Apache-2.0",
+                        "last_commit": "2026-08-29T03:51:00Z",
+                        "open_issues": 571,
                         "owner": "headroomlabs-ai",
                         "repo": "headroom",
-                        "stars": 67933
+                        "stars": 67941,
+                        "topics": [
+                          "agent",
+                          "ai",
+                          "anthropic",
+                          "claude-code",
+                          "compression",
+                          "context-engineering",
+                          "context-window",
+                          "cursor",
+                          "fastapi",
+                          "langchain",
+                          "llm",
+                          "mcp",
+                          "openai",
+                          "prompt-engineering",
+                          "proxy",
+                          "python",
+                          "rag",
+                          "token-optimization",
+                          "tokens",
+                          "typescript"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -199,12 +384,38 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Learn it. Build it. Ship it for others.",
+                        "homepage": "https://aiengineeringfromscratch.com",
                         "id": 1185590488,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-08-23T20:29:51Z",
+                        "open_issues": 98,
                         "owner": "rohitg00",
                         "repo": "ai-engineering-from-scratch",
-                        "stars": 50656
+                        "stars": 50678,
+                        "topics": [
+                          "agents",
+                          "ai",
+                          "ai-agents",
+                          "ai-engineering",
+                          "computer-vision",
+                          "course",
+                          "deep-learning",
+                          "from-scratch",
+                          "generative-ai",
+                          "llm",
+                          "machine-learning",
+                          "mcp",
+                          "nlp",
+                          "python",
+                          "reinforcement-learning",
+                          "rust",
+                          "swarm-intelligence",
+                          "transformers",
+                          "tutorial",
+                          "typescript"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -215,12 +426,26 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+                        "homepage": "https://buymeacoffee.com/crucify020v",
                         "id": 1167300963,
                         "language": "Python",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-08-27T09:55:24Z",
+                        "open_issues": 19,
                         "owner": "Imbad0202",
                         "repo": "academic-research-skills",
-                        "stars": 44098
+                        "stars": 44103,
+                        "topics": [
+                          "academic-pipeline",
+                          "academic-writing",
+                          "ai-research",
+                          "claude",
+                          "claude-code",
+                          "literature-review",
+                          "peer-review",
+                          "prompt-engineering"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -231,12 +456,38 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+                        "homepage": null,
                         "id": 1177608268,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-08-26T09:30:40Z",
+                        "open_issues": 62,
                         "owner": "wanshuiyin",
                         "repo": "Auto-claude-code-research-in-sleep",
-                        "stars": 15398
+                        "stars": 15401,
+                        "topics": [
+                          "ai-research",
+                          "ai-tools",
+                          "aris",
+                          "autonomous-agent",
+                          "claude",
+                          "claude-code",
+                          "claude-code-skills",
+                          "codex",
+                          "deep-learning",
+                          "gpt",
+                          "idea-generation",
+                          "llm",
+                          "machine-learning",
+                          "mcp",
+                          "mcp-server",
+                          "ml-research",
+                          "openai",
+                          "paper-review",
+                          "paper-writing",
+                          "research-automation"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -247,12 +498,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "👩‍🚒 Good content deserves good paper.",
+                        "homepage": "https://kami.tw93.fun",
                         "id": 1216173720,
                         "language": "HTML",
+                        "license": "MIT",
                         "last_commit": "2026-08-25T06:30:44Z",
+                        "open_issues": 1,
                         "owner": "tw93",
                         "repo": "Kami",
-                        "stars": 10967
+                        "stars": 10967,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -263,12 +519,29 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content",
+                        "homepage": null,
                         "id": 1179413000,
                         "language": "TypeScript",
+                        "license": "AGPL-3.0",
                         "last_commit": "2026-08-25T17:24:02Z",
+                        "open_issues": 232,
                         "owner": "Narcooo",
                         "repo": "inkos",
-                        "stars": 9333
+                        "stars": 9333,
+                        "topics": [
+                          "ai",
+                          "ai-agent",
+                          "ai-game",
+                          "ai-writing",
+                          "chinese-novel",
+                          "creative-writing-ai",
+                          "generative-ai",
+                          "novel-ai",
+                          "novel-generation",
+                          "short-drama",
+                          "storyboard"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     }
@@ -286,12 +559,22 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+                        "homepage": null,
                         "id": 1179046874,
                         "language": null,
+                        "license": "MIT",
                         "last_commit": "2026-08-24T07:30:40Z",
+                        "open_issues": 28,
                         "owner": "nidhinjs",
                         "repo": "prompt-master",
-                        "stars": 11900
+                        "stars": 11906,
+                        "topics": [
+                          "claude-ai",
+                          "claude-skills",
+                          "llm",
+                          "prompt-engineering"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -302,12 +585,20 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Skill + Plugin Registry for OpenClaw",
+                        "homepage": "https://clawhub.ai",
                         "id": 1127248221,
                         "language": "TypeScript",
+                        "license": "MIT",
                         "last_commit": "2026-08-29T02:39:01Z",
+                        "open_issues": 50,
                         "owner": "openclaw",
                         "repo": "clawhub",
-                        "stars": 9366
+                        "stars": 9366,
+                        "topics": [
+                          "directory",
+                          "skill"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     }
@@ -325,12 +616,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+                        "homepage": null,
                         "id": 1112365301,
                         "language": "TypeScript",
+                        "license": "MIT",
                         "last_commit": "2026-08-18T14:26:31Z",
+                        "open_issues": 128,
                         "owner": "tobi",
                         "repo": "qmd",
-                        "stars": 29330
+                        "stars": 29331,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -341,12 +637,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+                        "homepage": null,
                         "id": 1204828304,
                         "language": "TypeScript",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-08-25T06:42:02Z",
+                        "open_issues": 229,
                         "owner": "nashsu",
                         "repo": "llm_wiki",
-                        "stars": 16928
+                        "stars": 16933,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -357,12 +658,25 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
+                        "homepage": "https://claude-seo.md",
                         "id": 1152014594,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-08-26T12:16:22Z",
+                        "open_issues": 45,
                         "owner": "AgriciDaniel",
                         "repo": "claude-seo",
-                        "stars": 15713
+                        "stars": 15720,
+                        "topics": [
+                          "ai",
+                          "ai-seo",
+                          "claude-code",
+                          "claude-code-skill",
+                          "marketing-automation",
+                          "open-source",
+                          "seo"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -373,12 +687,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports.  If you want learn how to sell this to real businesses, check out the skool community",
+                        "homepage": "https://www.skool.com/aiworkshop",
                         "id": 1160693255,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-08-28T09:25:39Z",
+                        "open_issues": 24,
                         "owner": "zubair-trabzada",
                         "repo": "geo-seo-claude",
-                        "stars": 9514
+                        "stars": 9514,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -389,12 +708,38 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Open-source context retrieval layer for AI agents",
+                        "homepage": "https://airweave.ai",
                         "id": 907754163,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-06-05T09:52:19Z",
+                        "open_issues": 108,
                         "owner": "airweave-ai",
                         "repo": "airweave",
-                        "stars": 6568
+                        "stars": 6568,
+                        "topics": [
+                          "agent-infrastructure",
+                          "ai",
+                          "ai-agents",
+                          "ai-infrastructure",
+                          "api",
+                          "context-retrieval",
+                          "data-connectors",
+                          "developer-tools",
+                          "enterprise-data",
+                          "information-retrieval",
+                          "integration",
+                          "llm",
+                          "open-source",
+                          "rag",
+                          "retrieval",
+                          "retrieval-augmented-generation",
+                          "sdk",
+                          "search",
+                          "search-api",
+                          "semantic-search"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     }
@@ -412,12 +757,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "OBLITERATE THE CHAINS THAT BIND YOU",
+                        "homepage": "https://huggingface.co/spaces/pliny-the-prompter/",
                         "id": 1171949255,
                         "language": "Python",
-                        "last_commit": "2026-08-29T03:20:46Z",
+                        "license": "AGPL-3.0",
+                        "last_commit": "2026-08-29T03:55:36Z",
+                        "open_issues": 9,
                         "owner": "elder-plinius",
                         "repo": "OBLITERATUS",
-                        "stars": 8092
+                        "stars": 8092,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     }
@@ -435,12 +785,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+                        "homepage": null,
                         "id": 1231148626,
                         "language": "C",
+                        "license": "MIT",
                         "last_commit": "2026-08-28T21:25:07Z",
+                        "open_issues": 547,
                         "owner": "antirez",
                         "repo": "ds4",
-                        "stars": 21894
+                        "stars": 21894,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     }
@@ -458,12 +813,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+                        "homepage": "https://aihero.dev/skills",
                         "id": 1148788086,
                         "language": "Shell",
+                        "license": "MIT",
                         "last_commit": "2026-08-24T14:20:17Z",
+                        "open_issues": 437,
                         "owner": "mattpocock",
                         "repo": "skills",
-                        "stars": 240312
+                        "stars": 240334,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -474,12 +834,36 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+                        "homepage": "http://reasonix.io/",
                         "id": 1216785679,
                         "language": "Go",
-                        "last_commit": "2026-08-29T03:17:59Z",
+                        "license": "MIT",
+                        "last_commit": "2026-08-29T04:33:25Z",
+                        "open_issues": 1624,
                         "owner": "esengine",
                         "repo": "DeepSeek-Reasonix",
-                        "stars": 35237
+                        "stars": 35238,
+                        "topics": [
+                          "agent",
+                          "agent-framework",
+                          "ai-agent",
+                          "ai-coding",
+                          "cli",
+                          "coding-agent",
+                          "deepseek",
+                          "developer-tools",
+                          "dsh",
+                          "dsh-plugin",
+                          "ink",
+                          "llm",
+                          "prompt-caching",
+                          "r1",
+                          "terminal",
+                          "tool-use",
+                          "tui",
+                          "typescript"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -490,12 +874,38 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+                        "homepage": "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/",
                         "id": 1166506614,
                         "language": "Python",
+                        "license": "Apache-2.0",
                         "last_commit": "2026-08-24T11:12:27Z",
+                        "open_issues": 48,
                         "owner": "mukul975",
                         "repo": "Anthropic-Cybersecurity-Skills",
-                        "stars": 31523
+                        "stars": 31528,
+                        "topics": [
+                          "ai-agents",
+                          "claude-code",
+                          "cloud-security",
+                          "cybersecurity",
+                          "devsecops",
+                          "ethical-hacking",
+                          "incident-response",
+                          "infosec",
+                          "llm",
+                          "malware-analysis",
+                          "mcp",
+                          "mitre-attack",
+                          "nist-csf",
+                          "osint",
+                          "penetration-testing",
+                          "red-team",
+                          "security",
+                          "security-automation",
+                          "threat-hunting",
+                          "threat-intelligence"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -506,12 +916,23 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "runs anywhere. uses anything",
+                        "homepage": "https://openclaude.gitlawb.com",
                         "id": 1197990888,
                         "language": "TypeScript",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-08-27T07:59:24Z",
+                        "open_issues": 67,
                         "owner": "Gitlawb",
                         "repo": "openclaude",
-                        "stars": 30868
+                        "stars": 30869,
+                        "topics": [
+                          "ai",
+                          "ai-agent",
+                          "ai-tools",
+                          "cli",
+                          "coding"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -522,12 +943,33 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "⌥ Coding agent with the IDE wired in",
+                        "homepage": "https://omp.sh",
                         "id": 1125856365,
                         "language": "TypeScript",
+                        "license": "MIT",
                         "last_commit": "2026-08-29T02:01:37Z",
+                        "open_issues": 1933,
                         "owner": "can1357",
                         "repo": "oh-my-pi",
-                        "stars": 28161
+                        "stars": 28166,
+                        "topics": [
+                          "ai-agent",
+                          "ai-coding-agent",
+                          "anthropic",
+                          "bun",
+                          "claude",
+                          "cli",
+                          "coding-assistant",
+                          "llm",
+                          "mcp",
+                          "multi-provider",
+                          "openai",
+                          "rust",
+                          "terminal",
+                          "tui",
+                          "typescript"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -538,12 +980,27 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+                        "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
                         "id": 1135492298,
                         "language": "Rust",
+                        "license": null,
                         "last_commit": "2026-08-29T01:48:04Z",
+                        "open_issues": 513,
                         "owner": "jlcodes99",
                         "repo": "cockpit-tools",
-                        "stars": 16701
+                        "stars": 16702,
+                        "topics": [
+                          "account-manager",
+                          "ai",
+                          "antigravity",
+                          "codebuddy",
+                          "codex",
+                          "cursor",
+                          "github-copilot",
+                          "kiro",
+                          "windsurf"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -554,12 +1011,30 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Harness engineering beginner tutorial, from 0 to 1",
+                        "homepage": "https://walkinglabs.github.io/learn-harness-engineering/",
                         "id": 1195243030,
                         "language": "TypeScript",
+                        "license": "MIT",
                         "last_commit": "2026-08-26T01:08:59Z",
+                        "open_issues": 9,
                         "owner": "walkinglabs",
                         "repo": "learn-harness-engineering",
-                        "stars": 14463
+                        "stars": 14464,
+                        "topics": [
+                          "agent",
+                          "agentic",
+                          "agentic-ai",
+                          "ai",
+                          "ai-agent",
+                          "ai-agents",
+                          "dsh",
+                          "dsh-plugin",
+                          "harness",
+                          "harness-engineering",
+                          "harness-framework",
+                          "llm"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -570,12 +1045,23 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "The best agent harness.",
+                        "homepage": "https://docs.trytrellis.app",
                         "id": 1142423471,
                         "language": "TypeScript",
+                        "license": "AGPL-3.0",
                         "last_commit": "2026-08-27T07:31:57Z",
+                        "open_issues": 37,
                         "owner": "mindfold-ai",
                         "repo": "Trellis",
-                        "stars": 14297
+                        "stars": 14298,
+                        "topics": [
+                          "agentic-coding",
+                          "ai-workflow",
+                          "claudecode",
+                          "codex",
+                          "harness"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -586,12 +1072,28 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
+                        "homepage": null,
                         "id": 1034425196,
                         "language": "TypeScript",
+                        "license": "MIT",
                         "last_commit": "2026-08-26T13:26:16Z",
+                        "open_issues": 119,
                         "owner": "sirmalloc",
                         "repo": "ccstatusline",
-                        "stars": 12650
+                        "stars": 12650,
+                        "topics": [
+                          "ai-tools",
+                          "claude-code",
+                          "cli",
+                          "developer-tools",
+                          "git",
+                          "powerline",
+                          "statusbar",
+                          "statusline",
+                          "terminal",
+                          "themeing"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -602,12 +1104,21 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
+                        "homepage": null,
                         "id": 1099328966,
                         "language": "JavaScript",
+                        "license": "MIT",
                         "last_commit": "2026-08-28T18:54:57Z",
+                        "open_issues": 8,
                         "owner": "Piebald-AI",
                         "repo": "claude-code-system-prompts",
-                        "stars": 12488
+                        "stars": 12489,
+                        "topics": [
+                          "claude-code",
+                          "claude-code-system-prompts",
+                          "system-prompts"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -618,12 +1129,23 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+                        "homepage": null,
                         "id": 1080070047,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-08-07T20:19:18Z",
+                        "open_issues": 33,
                         "owner": "Jeffallan",
                         "repo": "claude-skills",
-                        "stars": 11228
+                        "stars": 11229,
+                        "topics": [
+                          "ai-agents",
+                          "claude",
+                          "claude-code",
+                          "claude-marketplace",
+                          "claude-skills"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -634,12 +1156,24 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+                        "homepage": "https://yizhiyanhua-ai.github.io/fireworks-tech-graph/",
                         "id": 1207091162,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-08-25T22:56:41Z",
+                        "open_issues": 0,
                         "owner": "yizhiyanhua-ai",
                         "repo": "fireworks-tech-graph",
-                        "stars": 10969
+                        "stars": 10969,
+                        "topics": [
+                          "agent-workflows",
+                          "ai",
+                          "claude-code",
+                          "developer-tools",
+                          "diagrams",
+                          "svg"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -650,12 +1184,31 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
+                        "homepage": "http://aoagents.dev/",
                         "id": 1156994049,
                         "language": "Go",
+                        "license": "Apache-2.0",
                         "last_commit": "2026-08-29T02:56:34Z",
+                        "open_issues": 840,
                         "owner": "Untrivial-ai",
                         "repo": "agent-orchestrator",
-                        "stars": 10335
+                        "stars": 10346,
+                        "topics": [
+                          "agent-fleet",
+                          "agent-ide",
+                          "agent-orchestration",
+                          "agent-swarm",
+                          "claude-code",
+                          "codex-cli",
+                          "git-worktrees",
+                          "multi-agent",
+                          "orchestration",
+                          "orchestrator",
+                          "parallel-agents",
+                          "parallel-coding",
+                          "skills"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -666,12 +1219,26 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Agentic Coding for Builders who Ship",
+                        "homepage": "https://claurst.kuber.studio/",
                         "id": 1197043989,
                         "language": "Rust",
+                        "license": "GPL-3.0",
                         "last_commit": "2026-08-22T10:29:38Z",
+                        "open_issues": 30,
                         "owner": "Kuberwastaken",
                         "repo": "claurst",
-                        "stars": 10279
+                        "stars": 10279,
+                        "topics": [
+                          "claude",
+                          "claude-code",
+                          "claurst",
+                          "cli",
+                          "codex",
+                          "gemini",
+                          "rust",
+                          "tui"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -682,12 +1249,30 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
+                        "homepage": null,
                         "id": 1105657641,
                         "language": "HTML",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-08-25T17:10:32Z",
+                        "open_issues": 4,
                         "owner": "ykdojo",
                         "repo": "claude-code-tips",
-                        "stars": 9963
+                        "stars": 9963,
+                        "topics": [
+                          "agentic",
+                          "agentic-ai",
+                          "agentic-coding",
+                          "agentic-workflow",
+                          "ai",
+                          "claude",
+                          "claude-ai",
+                          "claude-code",
+                          "cli",
+                          "developer-tools",
+                          "productivity",
+                          "tips-and-tricks"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -698,12 +1283,30 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+                        "homepage": "https://codeburn.app/",
                         "id": 1209889782,
                         "language": "TypeScript",
+                        "license": "MIT",
                         "last_commit": "2026-08-28T22:12:33Z",
+                        "open_issues": 32,
                         "owner": "getagentseal",
                         "repo": "codeburn",
-                        "stars": 9708
+                        "stars": 9708,
+                        "topics": [
+                          "ai-coding",
+                          "claude-code",
+                          "cli",
+                          "codex",
+                          "cost-tracking",
+                          "cursor-ide",
+                          "developer-tools",
+                          "menubar",
+                          "observability",
+                          "terminal-ui",
+                          "token-usage",
+                          "web-dashboard"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -714,12 +1317,27 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+                        "homepage": null,
                         "id": 1045721921,
                         "language": "Shell",
+                        "license": "MIT",
                         "last_commit": "2026-07-18T02:33:21Z",
+                        "open_issues": 35,
                         "owner": "frankbria",
                         "repo": "ralph-claude-code",
-                        "stars": 9611
+                        "stars": 9612,
+                        "topics": [
+                          "ai",
+                          "ai-agent",
+                          "ai-agents",
+                          "ai-development",
+                          "ai-development-tools",
+                          "claude-code",
+                          "claude-code-cli",
+                          "development-tools",
+                          "development-workflow"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -730,12 +1348,27 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Real-time Claude Code usage monitor with predictions and warnings",
+                        "homepage": null,
                         "id": 1004631442,
                         "language": "Python",
+                        "license": "MIT",
                         "last_commit": "2026-07-05T04:52:21Z",
+                        "open_issues": 37,
                         "owner": "Maciek-roboblog",
                         "repo": "Claude-Code-Usage-Monitor",
-                        "stars": 8659
+                        "stars": 8660,
+                        "topics": [
+                          "ai",
+                          "analytics",
+                          "claude",
+                          "claude-code",
+                          "claude-usage",
+                          "limits",
+                          "monitoring",
+                          "terminal",
+                          "usage-tracking"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     },
@@ -746,12 +1379,23 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
+                        "homepage": "https://smtg-ai.github.io/claude-squad/",
                         "id": 945605057,
                         "language": "Go",
+                        "license": "AGPL-3.0",
                         "last_commit": "2026-08-20T05:09:53Z",
+                        "open_issues": 55,
                         "owner": "smtg-ai",
                         "repo": "claude-squad",
-                        "stars": 8387
+                        "stars": 8387,
+                        "topics": [
+                          "claude-code",
+                          "cli",
+                          "codex",
+                          "opencode",
+                          "vibe-coding"
+                        ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
                     }
@@ -787,12 +1431,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Your agent writes bad React. This catches it",
+                    "homepage": "https://react.doctor",
                     "id": 1156960719,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-28T23:16:00Z",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-08-29T04:26:10Z",
+                    "open_issues": 86,
                     "owner": "millionco",
                     "repo": "react-doctor",
-                    "stars": 14647
+                    "stars": 14648,
+                    "topics": [
+                      "agents",
+                      "code-review",
+                      "doctor",
+                      "react",
+                      "skill"
+                    ]
                   },
                   "first_seen": "2026-08-28T05:49:48.006Z"
                 }
@@ -810,12 +1465,26 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
+                    "homepage": "https://recordly.dev",
                     "id": 1180325220,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-28T07:20:06Z",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-08-29T03:57:20Z",
+                    "open_issues": 272,
                     "owner": "webadderallorg",
                     "repo": "Recordly",
-                    "stars": 22727
+                    "stars": 22733,
+                    "topics": [
+                      "electron",
+                      "free",
+                      "linux",
+                      "macos",
+                      "open-source",
+                      "screen-recorder",
+                      "screen-studio",
+                      "windows"
+                    ]
                   },
                   "first_seen": "2026-08-28T05:49:48.006Z"
                 }
@@ -840,12 +1509,38 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :)",
+                    "homepage": "https://checkmate.so/",
                     "id": 793866369,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-29T03:06:28Z",
+                    "license": "AGPL-3.0",
+                    "last_commit": "2026-08-29T03:40:42Z",
+                    "open_issues": 110,
                     "owner": "bluewave-labs",
                     "repo": "Checkmate",
-                    "stars": 10761
+                    "stars": 10761,
+                    "topics": [
+                      "good-first-contribution",
+                      "good-first-issue",
+                      "good-first-project",
+                      "hacktoberfest",
+                      "help-wanted",
+                      "incident",
+                      "infrastructure",
+                      "infrastructure-monitoring",
+                      "mui",
+                      "mui-material",
+                      "server-monitor",
+                      "server-monitoring",
+                      "server-monitoring-tools",
+                      "statuspage",
+                      "uptime",
+                      "uptime-checker",
+                      "uptime-monitor",
+                      "uptime-monitoring",
+                      "uptime-status",
+                      "uptimerobot"
+                    ]
                   },
                   "first_seen": "2026-08-28T05:49:48.006Z"
                 }
@@ -870,12 +1565,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A Cloudflare-based email service  | 基于 Cloudflare 的邮箱服务  | Cloudflare Email 邮箱 Mail",
+                    "homepage": "https://skymail.ink",
                     "id": 971999086,
                     "language": "JavaScript",
+                    "license": "MIT",
                     "last_commit": "2026-08-28T21:00:19Z",
+                    "open_issues": 68,
                     "owner": "maillab",
                     "repo": "cloud-mail",
-                    "stars": 13754
+                    "stars": 13762,
+                    "topics": [
+                      "cloudflare",
+                      "cloudflare-email",
+                      "cloudflare-workers",
+                      "email",
+                      "mail"
+                    ]
                   },
                   "first_seen": "2026-08-28T05:49:48.006Z"
                 },
@@ -886,12 +1592,20 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Open-source third-party Telegram client with not many but useful modifications.",
+                    "homepage": "https://nekogram.app",
                     "id": 689552706,
                     "language": "Java",
+                    "license": "GPL-2.0",
                     "last_commit": "2026-08-21T11:10:27Z",
+                    "open_issues": 32,
                     "owner": "Nekogram",
                     "repo": "Nekogram",
-                    "stars": 3837
+                    "stars": 3837,
+                    "topics": [
+                      "nekogram",
+                      "telegram"
+                    ]
                   },
                   "first_seen": "2026-08-28T05:49:48.006Z"
                 }
@@ -909,12 +1623,29 @@
                   "children": [],
                   "repo_info": {
                     "archived": true,
+                    "description": ":mag: Google from the terminal",
+                    "homepage": null,
                     "id": 40797633,
                     "language": "Python",
+                    "license": "GPL-3.0",
                     "last_commit": "2021-11-13T08:09:20Z",
+                    "open_issues": 3,
                     "owner": "jarun",
                     "repo": "googler",
-                    "stars": 6204
+                    "stars": 6204,
+                    "topics": [
+                      "cli",
+                      "command-line",
+                      "console",
+                      "google",
+                      "google-news",
+                      "google-search",
+                      "google-site-search",
+                      "search",
+                      "standalone",
+                      "terminal",
+                      "web-search"
+                    ]
                   },
                   "first_seen": "2026-08-28T05:49:48.006Z"
                 }
@@ -943,12 +1674,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Free Motion Capture for Everyone 💀✨",
+                "homepage": "http://freemocap.org",
                 "id": 357362803,
                 "language": "TypeScript",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-27T17:30:42Z",
+                "open_issues": 167,
                 "owner": "freemocap",
                 "repo": "freemocap",
-                "stars": 10103
+                "stars": 10104,
+                "topics": []
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -966,12 +1702,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Vision Agents by Stream. Build voice and vision agents quickly with any model or video provider. Uses Stream's edge network for ultra-low latency.",
+                "homepage": "https://visionagents.ai",
                 "id": 1036205124,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T22:41:21Z",
+                "open_issues": 15,
                 "owner": "GetStream",
                 "repo": "Vision-Agents",
-                "stars": 8103
+                "stars": 8103,
+                "topics": [
+                  "agentic-ai",
+                  "agents",
+                  "ai",
+                  "ai-agents",
+                  "realtime",
+                  "stt",
+                  "tts",
+                  "video-agents",
+                  "video-ai",
+                  "vision-ai",
+                  "voice-ai"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -989,12 +1742,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Write HTML. Render video. Built for agents.",
+                "homepage": null,
                 "id": 1177402105,
                 "language": "TypeScript",
-                "last_commit": "2026-08-29T02:56:03Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T04:11:41Z",
+                "open_issues": 245,
                 "owner": "heygen-com",
                 "repo": "hyperframes",
-                "stars": 43001
+                "stars": 43006,
+                "topics": [
+                  "ai",
+                  "animation",
+                  "ffmpeg",
+                  "framework",
+                  "gsap",
+                  "html",
+                  "mcp",
+                  "puppeteer",
+                  "rendering",
+                  "typescript",
+                  "video"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             },
@@ -1005,12 +1775,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "OpenToonz - An open-source full-featured 2D animation creation software",
+                "homepage": "https://opentoonz.github.io/",
                 "id": 54221232,
                 "language": "C++",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-28T17:19:51Z",
+                "open_issues": 230,
                 "owner": "opentoonz",
                 "repo": "opentoonz",
-                "stars": 7653
+                "stars": 7654,
+                "topics": []
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1034,12 +1809,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "PersonaPlex code.",
+                "homepage": null,
                 "id": 1128525239,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-03-02T16:07:10Z",
+                "open_issues": 70,
                 "owner": "NVIDIA",
                 "repo": "personaplex",
-                "stars": 10395
+                "stars": 10396,
+                "topics": []
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             },
@@ -1050,12 +1830,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "On-device Speech AI for Apple Silicon",
+                "homepage": null,
                 "id": 748528018,
                 "language": "Swift",
+                "license": "MIT",
                 "last_commit": "2026-08-13T19:17:27Z",
+                "open_issues": 136,
                 "owner": "argmaxinc",
                 "repo": "argmax-oss-swift",
-                "stars": 6340
+                "stars": 6342,
+                "topics": [
+                  "inference",
+                  "ios",
+                  "macos",
+                  "pyannote",
+                  "qwen3-tts",
+                  "speaker-diarization",
+                  "speakerkit",
+                  "speech-recognition",
+                  "speech-to-text",
+                  "swift",
+                  "text-to-speech",
+                  "transformers",
+                  "ttskit",
+                  "whisper",
+                  "whisperkit"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1079,12 +1880,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Uber's cross-platform mobile architecture framework - Android Repository",
+                "homepage": "https://eng.uber.com/tag/ribs/",
                 "id": 105686726,
                 "language": "Kotlin",
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-15T22:14:43Z",
+                "open_issues": 119,
                 "owner": "uber",
                 "repo": "RIBs",
-                "stars": 7933
+                "stars": 7933,
+                "topics": [
+                  "android",
+                  "architectural-patterns",
+                  "architecture",
+                  "mobile",
+                  "mobile-app",
+                  "mobile-development",
+                  "mvc",
+                  "mvp",
+                  "mvvm",
+                  "viper"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1102,12 +1919,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
+                "homepage": "https://pranshuparmar.github.io/witr/",
                 "id": 1120195677,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-15T22:55:12Z",
+                "open_issues": 11,
                 "owner": "pranshuparmar",
                 "repo": "witr",
-                "stars": 21745
+                "stars": 21747,
+                "topics": [
+                  "cli",
+                  "containers",
+                  "devops",
+                  "docker",
+                  "freebsd",
+                  "go",
+                  "golang",
+                  "incident-response",
+                  "kubernetes",
+                  "linux",
+                  "macos",
+                  "monitoring",
+                  "observability",
+                  "process-management",
+                  "sysadmin",
+                  "systemd",
+                  "terminal",
+                  "troubleshooting",
+                  "tui",
+                  "windows"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             },
@@ -1118,12 +1961,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A fast, cross-platform build tool inspired by Make, designed for modern workflows.",
+                "homepage": "https://taskfile.dev",
                 "id": 83252983,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-29T00:33:04Z",
+                "open_issues": 197,
                 "owner": "go-task",
                 "repo": "task",
-                "stars": 16068
+                "stars": 16068,
+                "topics": [
+                  "build-tool",
+                  "devops",
+                  "go",
+                  "make",
+                  "makefile",
+                  "task",
+                  "task-runner",
+                  "taskfile"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1141,12 +1998,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+                "homepage": null,
                 "id": 646426100,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-08-28T16:08:38Z",
+                "open_issues": 111,
                 "owner": "pydantic",
                 "repo": "monty",
-                "stars": 8121
+                "stars": 8121,
+                "topics": []
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1164,12 +2026,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Application designed to optimize, customize and enhance your Windows experience.",
+                "homepage": null,
                 "id": 916105685,
                 "language": "C#",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-26T04:15:11Z",
+                "open_issues": 68,
                 "owner": "memstechtips",
                 "repo": "Winhance",
-                "stars": 12762
+                "stars": 12764,
+                "topics": [
+                  "autounattend",
+                  "bloatware",
+                  "bloatware-removal",
+                  "cleanup",
+                  "debloat",
+                  "debloater",
+                  "optimization",
+                  "optimize",
+                  "powershell",
+                  "privacy",
+                  "registry-tweaks",
+                  "tweaks",
+                  "windows",
+                  "windows-10",
+                  "windows-10-debloat",
+                  "windows-10-optimization",
+                  "windows-11",
+                  "windows-11-debloat",
+                  "windows-11-optimization",
+                  "winui3"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1187,12 +2075,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
+                "homepage": "https://coplaydev.github.io/unity-mcp/",
                 "id": 950564038,
                 "language": "C#",
+                "license": "MIT",
                 "last_commit": "2026-08-07T18:50:00Z",
+                "open_issues": 97,
                 "owner": "CoplayDev",
                 "repo": "unity-mcp",
-                "stars": 13732
+                "stars": 13732,
+                "topics": [
+                  "ai",
+                  "ai-integration",
+                  "anthropic",
+                  "claude",
+                  "copilot",
+                  "cursor",
+                  "game-development",
+                  "gamedev",
+                  "gemini",
+                  "llm",
+                  "mcp",
+                  "model-context-protocol",
+                  "openai",
+                  "unity",
+                  "unity3d",
+                  "videogames"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1216,12 +2126,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Curso para aprender los fundamentos del lenguaje SQL y bases de datos relacionales desde cero y para principiantes.",
+                "homepage": "https://mouredev.link/sql",
                 "id": 700813968,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2025-03-31T17:05:09Z",
+                "open_issues": 8,
                 "owner": "mouredev",
                 "repo": "hello-sql",
-                "stars": 10125
+                "stars": 10125,
+                "topics": [
+                  "basesdedatos",
+                  "curso",
+                  "database",
+                  "mysql",
+                  "postgresql",
+                  "sql",
+                  "tutorial"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             },
@@ -1232,12 +2155,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The easiest way to get started with PostgreSQL on the Mac",
+                "homepage": "https://postgresapp.com",
                 "id": 3946572,
                 "language": "Makefile",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-28T04:38:18Z",
+                "open_issues": 146,
                 "owner": "PostgresApp",
                 "repo": "PostgresApp",
-                "stars": 7774
+                "stars": 7774,
+                "topics": [
+                  "postgis",
+                  "postgres"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1261,12 +2192,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
+                "homepage": "https://owasp.org/www-project-dependency-check/",
                 "id": 5663857,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T10:20:19Z",
+                "open_issues": 195,
                 "owner": "dependency-check",
                 "repo": "DependencyCheck",
-                "stars": 7674
+                "stars": 7674,
+                "topics": [
+                  "ant-task",
+                  "build-tool",
+                  "gradle-plugin",
+                  "jenkins-plugin",
+                  "maven-plugin",
+                  "security",
+                  "security-audit",
+                  "software-composition-analysis",
+                  "vulnerability-detection"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             },
@@ -1277,12 +2223,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Automated Adversary Emulation Platform",
+                "homepage": "https://caldera.apache.org/",
                 "id": 112409981,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T14:01:16Z",
+                "open_issues": 69,
                 "owner": "apache",
                 "repo": "caldera",
-                "stars": 7220
+                "stars": 7220,
+                "topics": [
+                  "adversary-emulation",
+                  "caldera",
+                  "cybersecurity",
+                  "mitre-attack",
+                  "red-team",
+                  "security-automation",
+                  "security-testing"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1306,12 +2265,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+                "homepage": "https://vibetrading.wiki/",
                 "id": 1198306812,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-28T15:48:29Z",
+                "open_issues": 29,
                 "owner": "HKUDS",
                 "repo": "Vibe-Trading",
-                "stars": 31984
+                "stars": 31987,
+                "topics": [
+                  "ai-agent",
+                  "algorithmic-trading",
+                  "backtesting",
+                  "fintech",
+                  "llm",
+                  "mcp",
+                  "multi-agent",
+                  "python",
+                  "quantitative-finance",
+                  "trading"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             },
@@ -1322,12 +2297,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading",
+                "homepage": "https://ai.quantdinger.com",
                 "id": 1124295269,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T15:35:46Z",
+                "open_issues": 58,
                 "owner": "OpenByteInc",
                 "repo": "QuantDinger",
-                "stars": 11170
+                "stars": 11171,
+                "topics": [
+                  "agent",
+                  "ai",
+                  "alpaca",
+                  "backtesting",
+                  "binance",
+                  "coinbase",
+                  "crypto",
+                  "exchange",
+                  "finance",
+                  "fintech",
+                  "forex",
+                  "mcp-server",
+                  "python",
+                  "quant",
+                  "quantitative-finance",
+                  "saas",
+                  "stocks",
+                  "strategy",
+                  "trade",
+                  "trading-toolkit"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             },
@@ -1338,12 +2339,19 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The QuantLib C++ library",
+                "homepage": "http://quantlib.org",
                 "id": 48185587,
                 "language": "C++",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-28T17:49:30Z",
+                "open_issues": 45,
                 "owner": "lballabio",
                 "repo": "QuantLib",
-                "stars": 7550
+                "stars": 7550,
+                "topics": [
+                  "quantitative-finance"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             },
@@ -1354,12 +2362,35 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal",
+                "homepage": null,
                 "id": 332361864,
                 "language": "Go",
+                "license": "GPL-3.0",
                 "last_commit": "2026-06-28T21:50:24Z",
+                "open_issues": 33,
                 "owner": "achannarasappa",
                 "repo": "ticker",
-                "stars": 6221
+                "stars": 6221,
+                "topics": [
+                  "bitcoin",
+                  "crypto-trading",
+                  "cryptocurrencies",
+                  "derivatives",
+                  "financial-markets",
+                  "golang",
+                  "golang-application",
+                  "stock-market",
+                  "stock-positions",
+                  "stocks",
+                  "stocks-app",
+                  "terminal",
+                  "terminal-app",
+                  "ticker",
+                  "trading",
+                  "trading-software",
+                  "tui"
+                ]
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
             }
@@ -1373,15 +2404,33 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T03:23:09.267Z",
+    "last_updated": "2026-08-29T04:34:27.632Z",
     "original_repository_info": {
       "archived": false,
+      "description": "精选了10K+项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉、前后端开发等内容。Selected more than 10k+ projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc. Let more excellent projects be discovered by people. Continue to update! Welcome to star! ",
+      "homepage": "https://www.wuwenjie.xyz",
       "id": 288187811,
       "language": null,
+      "license": "NOASSERTION",
       "last_commit": "2026-08-16T06:57:56Z",
+      "open_issues": 0,
       "owner": "wuwenjie1992",
       "repo": "StarryDivineSky",
-      "stars": 947
+      "stars": 947,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "biomedicine",
+        "cv",
+        "data-science",
+        "deep-learning",
+        "hacker",
+        "language-model",
+        "large-language-models",
+        "machine-learning",
+        "nlp",
+        "web"
+      ]
     },
     "original_repository_sha": "6e30f1bda2a09a1e62d6287776050bd6fc4d29d7",
     "enhanced_repository": "enhansome/enhansome-StarryDivineSky",
