@@ -11,172 +11,95 @@
                   "children": [
                     {
                       "node_type": "item",
-                      "title": "tinyhumansai/openhuman",
-                      "description": "是一款面向个人开发者与独立创作者的轻量级本地 AI 智能体框架，旨在彻底解决传统大模型应用过度依赖云端、存在数据隐私泄露风险且部署维护门槛过高的核心痛点。该项目的核心竞争力在于其极致的私有化特性、极简的工程集成体验以及突破性的硬件适配效能。与市面上动辄需要复杂集群配置的企业级 AI 套件不同，OpenHuman 摒弃了沉重的微服务架构，转而采用高度聚合的单体运行模式，开发者仅需基础代码即可将大模型能力无缝嵌入自有工作流，不仅彻底规避了数据出境与云端延迟风险，更在消费级显卡上实现了媲美商业闭源模型的响应速度与功能深度。从技术架构层面来看，其运行逻辑宛如一位高效运转的私人管家团队。系统底层采用“中枢指挥加专业模块”的分层设计：中央调度器负责解析用户意图并拆解任务，随后将指令精准分发给记忆存储、工具调用与动作执行等独立组件。这些组件之间通过标准化的数据契约进行通信，如同不同部门的员工各司其职又高效协同；当外部模型或底层库更新时，系统只需替换对应模块即可实现平滑升级，无需重构整体代码。这种高度解耦的流水线设计不仅大幅降低了日常维护成本，更赋予了项目极强的横向扩展能力，使其能够在保持极致轻量的同时持续吸纳前沿算法，真正将个人设备转化为安全、自主且强大的超级智能终端。",
+                      "title": "deepseek-ai/deepseek-harness",
+                      "description": "DeepSeek Harness 是一款以插件化架构为核心的智能体开发与评估框架，旨在解决传统大模型工具链中功能耦合度高、扩展成本昂贵且难以标准化测试的工程痛点。该框架彻底贯彻“万物皆插件”的设计哲学，实现了核心引擎与业务逻辑的完全解耦，使开发者能够像搭积木般无缝接入任意第三方模型或自定义配置；其内置的动态上下文路由机制允许系统根据任务特征自动拼装最优组件链路，大幅降低了复杂场景下的维护门槛；同时，标准化的一键评估流水线不仅统一了性能度量口径，更将原本割裂的调优过程转化为可复现、可对比的数据闭环，从而在工程效率与结果可靠性上显著优于同类静态工具。其底层运行逻辑犹如一座高度自动化的智能装配车间，主程序仅作为负责接收指令与分配资源的调度中枢，而每一段模型推理或外部调用都被封装为独立运转的标准化模块；当请求传入时，系统会依据预设规则对插件进行动态编排与流水线处理，最终将碎片化的计算结果重组为目标输出，这种化整为零再聚零为整的设计既保障了架构的弹性伸缩能力，也彻底免去了硬编码带来的重构负担。",
                       "children": [],
                       "repo_info": {
                         "archived": false,
-                        "description": "OpenHuman is an open source personal AI for Mac, Windows and Linux — local-first memory, agent orchestration, and deep research.",
-                        "homepage": "https://tinyhumans.ai/openhuman",
-                        "id": 1161163182,
-                        "language": "Rust",
-                        "license": "GPL-3.0",
-                        "last_commit": "2026-09-04T16:36:48Z",
-                        "open_issues": 310,
-                        "owner": "tinyhumansai",
-                        "repo": "openhuman",
-                        "stars": 39447,
+                        "description": "DeepSeek Harness: Everything is a Plugin.",
+                        "homepage": "https://deepseek.com/harness",
+                        "id": 1333065091,
+                        "language": "TypeScript",
+                        "license": "MIT",
+                        "last_commit": "2026-09-04T11:34:31Z",
+                        "open_issues": 0,
+                        "owner": "deepseek-ai",
+                        "repo": "deepseek-harness",
+                        "stars": 213978,
                         "topics": [
-                          "agent-orchestration",
                           "ai-agents",
-                          "ai-assistant",
-                          "desktop",
+                          "cordis",
+                          "dsh",
+                          "dsh-plugin"
+                        ]
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "bojieli/ai-agent-book",
+                      "description": "《深入理解 AI Agent：设计原理与工程实践》开源项目是一座将前沿大模型智能体理论转化为可落地代码的工程化知识库，精准击穿了当前开发者在从理论认知迈向实际部署过程中资料割裂、缺乏系统实践指引的痛点。该项目彻底打破了传统技术图书“重概念轻实操”或社区仓库“碎片化拼凑”的固有困境，凭借单一线性叙事构建的知识体系与标准化交付形态，为学习者铺设了一条从底层逻辑到上层应用的平滑过渡路径。其核心优势在于高度一体化的内容编排、严丝合缝的章节配套代码生态以及贯穿始终的工程化思维导向，这不仅有效规避了多源资料整合时的环境冲突风险，更通过标准化的技术栈封装大幅降低了上手门槛，使初学者无需在海量 GitHub 仓库中反复试错即可获得企业级开发规范。在技术架构层面，该项目宛如一座配备自动化流水线的数字工坊，其底层依托现代大语言模型框架充当“中枢神经”，将感知、规划、记忆与工具调用等抽象概念具象化为可插拔的标准化模块；读者在阅读理论时可直接同步运行配套代码，系统便会像经验丰富的工匠一样自动完成依赖环境的预置与逻辑链路的串联。这种“理论阐释伴随即时验证”的交互机制，使得复杂的智能体编排过程如同拼装精密零件般直观可控，从而帮助开发者在安全的沙盒环境中反复推演架构迭代，真正掌握构建自主决策型 AI 系统的全链路工程能力。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+                        "homepage": null,
+                        "id": 1053118194,
+                        "language": "Python",
+                        "license": "Apache-2.0",
+                        "last_commit": "2026-09-06T11:53:50Z",
+                        "open_issues": 16,
+                        "owner": "bojieli",
+                        "repo": "ai-agent-book",
+                        "stars": 44952,
+                        "topics": [
+                          "agent",
+                          "agent-memory",
+                          "ai-agent",
+                          "book",
+                          "coding-agent",
+                          "context-engineering",
+                          "large-language-models",
+                          "llm",
+                          "mcp",
+                          "multi-agent",
+                          "multimodal",
+                          "rag",
+                          "reinforcement-learning"
+                        ]
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "TencentCloud/TencentDB-Agent-Memory",
+                      "description": "TencentDB Agent Memory 是一款面向团队级 AI Agent 的集中式记忆中枢系统，专为解决多智能体协作中信息孤岛化与知识资产无法复用的核心痛点而生。该项目将碎片化的对话、文档与代码自动萃取为四大标准化记忆资产，彻底打破传统工具仅依赖本地缓存或静态配置的单点局限，实现跨框架的知识无缝流转。其核心优势在于原生内置企业级权限管控与动态路由机制，使团队得以将离散经验沉淀为可演进数字资产，同时显著降低长上下文重复生成带来的算力损耗。在技术架构上，系统运行逻辑宛如一座智能运转的“知识图书馆”：底层引擎首先借助向量化算法将杂乱文本转化为机器可读的结构化索引，随后通过元数据编排层对知识进行分级打标与版本溯源，最终以标准化接口供各 Agent 按需调阅，开发者无需涉足复杂的检索算法或图数据库维护，即可依托这套自动编目与精准分发的流水线，轻松实现记忆资产的跨端协同与持续迭代。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+                        "homepage": null,
+                        "id": 1203558071,
+                        "language": "TypeScript",
+                        "license": "NOASSERTION",
+                        "last_commit": "2026-09-03T02:31:45Z",
+                        "open_issues": 787,
+                        "owner": "TencentCloud",
+                        "repo": "TencentDB-Agent-Memory",
+                        "stars": 26011,
+                        "topics": [
+                          "agent",
+                          "ai-agent",
+                          "embedding",
                           "llm",
                           "local-first",
-                          "mcp",
-                          "personal-ai",
-                          "privacy",
-                          "rust",
-                          "second-brain",
-                          "tauri"
+                          "long-term-memory",
+                          "memory",
+                          "openclaw-plugin",
+                          "vector-search"
                         ]
                       },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "sipeed/picoclaw",
-                      "description": "PicoClaw是由矽速科技（Sipeed）发起的完全基于Go语言从零独立开发的超轻量级个人AI助手框架，专为资源受限环境与边缘计算设备打造。该项目采用AI自举开发模式，核心内存占用不足10MB且能在十美元级别的硬件上实现毫秒级极速启动，广泛兼容x86、ARM、RISC-V及Android等跨平台架构。项目内置30余种主流大语言模型接口与十余种社交聊天渠道接入能力，原生集成MCP协议扩展、视觉处理管线、智能模型路由、定时任务调度及模块化技能插件系统，并提供WebUI与CLI双模启动方案，旨在以极低的硬件成本与极高的运行效率为用户构建开箱即用的本地化AI代理生态。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
-                        "homepage": "https://picoclaw.io",
-                        "id": 1149707767,
-                        "language": "Go",
-                        "license": "MIT",
-                        "last_commit": "2026-09-03T17:15:19Z",
-                        "open_issues": 46,
-                        "owner": "sipeed",
-                        "repo": "picoclaw",
-                        "stars": 29938,
-                        "topics": []
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "jnMetaCode/agency-agents-zh",
-                      "description": "一个开源的 AI 智能体角色库，旨在解决企业在多场景下快速部署专业化 AI 代理的难题。传统 AI 工具往往需要反复调试提示词或定制开发，而该项目通过预置 211 个细分领域的专家角色，覆盖工程、设计、营销、金融等 18 个部门，实现“开箱即用”的智能化支持，尤其针对中国市场适配了 46 个本土化智能体（如小红书文案生成、抖音运营助手等），显著降低了企业使用 AI 的门槛。项目的核心特色在于其高度模块化、场景深度适配及生态兼容性。首先，每个智能体均经过垂直领域优化，例如金融分析师角色内置了财报解析逻辑，比通用聊天机器人更精准；其次，支持 16 种主流工具链（如 Hermes Agent、Claude Code、飞书/钉钉插件），用户无需修改代码即可嵌入现有工作流；最后，针对中国市场的独特需求（如微信生态的复杂交互），项目提供了原创的本地化解决方案，这是许多国际同类项目难以覆盖的。其技术原理类似于“乐高式组装”——通过标准化智能体的输入输出接口，将不同功能的 AI 模块像积木一样拼接。例如，当用户调用“电商客服”角色时，系统会自动组合自然语言理解、工单处理逻辑和话术库，最终生成符合场景的回复。这种架构使得非技术用户也能通过简单配置调用复杂能力，而开发者则可基于底层框架（如 LangChain 的扩展）二次开发。项目通过动态加载技术实现轻量化运行，避免了一般多智能体系统常见的资源冗余问题。整体而言，该项目以“预制专业化+本土化”为核心竞争力，既提供了国际前沿技术的实用化落地方案，又填补了中文市场高质量 AI 智能体资源的空白，尤其适合中小企业快速实现业务流程智能化。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
-                        "homepage": "https://ao.aiolaola.com/experts",
-                        "id": 1174369519,
-                        "language": "Shell",
-                        "license": "MIT",
-                        "last_commit": "2026-08-28T13:12:36Z",
-                        "open_issues": 8,
-                        "owner": "jnMetaCode",
-                        "repo": "agency-agents-zh",
-                        "stars": 20317,
-                        "topics": [
-                          "agency-orchestrator",
-                          "agent-definitions",
-                          "ai-agents",
-                          "ai-roles",
-                          "chinese",
-                          "claude",
-                          "claude-code",
-                          "copilot-agent",
-                          "cursor-rules",
-                          "deepseek",
-                          "hermes-agent",
-                          "llm",
-                          "multi-agent",
-                          "no-code",
-                          "prompt-engineering",
-                          "qwen",
-                          "system-prompt",
-                          "workbuddy",
-                          "workflow"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "browser-use/browser-harness",
-                      "description": "Browser Harness是一款专为大型语言模型打造的浏览器自动化智能体框架，旨在彻底解决AI在真实网页环境中因动态布局、验证码拦截或反爬机制而频繁执行失败的核心痛点。该项目通过内置的自愈机制与多模态感知能力，显著超越了传统依赖固定路径定位的脚本化工具。其核心优势在于能够实时追踪页面元素的动态变化，彻底摒弃了传统方案中“改一处动全身”的脆弱性；同时结合视觉渲染解析与DOM结构的双重校验，使模型在复杂交互场景下的决策准确率实现质的飞跃；此外，项目提供开箱即用的沙盒隔离环境，确保AI的自主操作不会对宿主系统或目标网站造成不可逆的数据污染。从技术架构来看，该框架的运行逻辑宛如一位配备导航仪与备用路线的资深驾驶员。当大语言模型作为“大脑”发出高层指令后，浏览器底层会像车载传感器一样实时采集页面状态、DOM树节点与视觉信息，并将这些多模态数据打包成结构化上下文反馈给模型进行推理。一旦操作因网络波动或元素失效而受阻，自愈模块便会迅速启动，如同系统自动切换至备用导航方案，重新扫描当前环境并生成修正指令，直至任务闭环。这种将认知决策与环境感知深度耦合的设计，不仅大幅降低了人工干预成本，更为AI自主完成端到端网页操作提供了稳定且可复用的工程化范式。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
-                        "homepage": "https://browser-harness.com",
-                        "id": 1213049020,
-                        "language": "Python",
-                        "license": "MIT",
-                        "last_commit": "2026-09-05T23:21:18Z",
-                        "open_issues": 326,
-                        "owner": "browser-use",
-                        "repo": "browser-harness",
-                        "stars": 17388,
-                        "topics": [
-                          "ai-agent",
-                          "browser-agent",
-                          "browser-automation",
-                          "browser-use",
-                          "browser-use-box",
-                          "browser-use-cloud",
-                          "cdp",
-                          "cloud-browser",
-                          "llm",
-                          "persistent-browser",
-                          "playwright",
-                          "telegram-agent",
-                          "vps-agent",
-                          "web-automation"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "lsdefine/GenericAgent",
-                      "description": "GenericAgent是一款面向自动化决策与系统操控的自进化智能体框架，旨在解决传统大模型代理在复杂任务中过度依赖人工提示、资源消耗高昂且能力固化等痛点。该项目的核心优势在于其动态生长的技能树机制。与传统智能体需要预置大量规则或依赖外部知识库不同，GenericAgent仅需三千余行代码的种子指令即可自主迭代出应对未知场景的技能模块，使其在跨域任务中的适应速度远超AutoGPT等静态架构。同时，项目实现了高达六倍的Token消耗缩减，这得益于其内置的上下文压缩与意图过滤机制，让它在长期运行中保持极低的算力成本，有效克服了同类工具“越用越贵”的瓶颈。此外，它具备从底层到应用层的完整系统控制力，能够无缝衔接终端命令、文件操作与API调用，避免了多数代理在环境交互时的权限割裂问题。从技术架构来看，其运行逻辑宛如一棵不断分叉生长的“数字植物”。智能体在初始阶段仅携带基础认知模块，每当遭遇陌生任务时，便会通过试错反馈将成功路径固化为独立技能节点，并自动修剪低效分支以节省算力。这种机制类似于人类学习新技能时的刻意练习，系统会在后台默默记录操作轨迹，利用轻量级记忆库进行模式归纳，而非盲目堆砌历史对话。当任务复杂度上升时，它会优先调用已验证的高阶技能组合，仅对未知环节进行探索式推理，从而在保证执行精准度的同时，将无效计算压缩至最低限度。整体而言，GenericAgent通过自举式成长与动态资源调度，为复杂自动化场景提供了一条兼顾效能与可扩展性的新路径。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
-                        "homepage": "https://github.com/lsdefine/GenericAgent",
-                        "id": 1135791677,
-                        "language": "Python",
-                        "license": "MIT",
-                        "last_commit": "2026-09-03T06:37:00Z",
-                        "open_issues": 163,
-                        "owner": "lsdefine",
-                        "repo": "GenericAgent",
-                        "stars": 14122,
-                        "topics": [
-                          "ai-agent",
-                          "automation",
-                          "autonomous-agent",
-                          "browser-automation",
-                          "claude",
-                          "computer-control",
-                          "desktop-automation",
-                          "gemini",
-                          "lightweight",
-                          "llm-agent",
-                          "memory-system",
-                          "python",
-                          "self-evolving",
-                          "skill-tree",
-                          "task-automation"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
+                      "first_seen": "2026-09-06T23:12:31.646Z"
                     },
                     {
                       "node_type": "item",
@@ -190,11 +113,11 @@
                         "id": 1207639951,
                         "language": "TypeScript",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-09-05T22:51:59Z",
-                        "open_issues": 355,
+                        "last_commit": "2026-09-06T13:02:18Z",
+                        "open_issues": 356,
                         "owner": "EKKOLearnAI",
                         "repo": "hermes-studio",
-                        "stars": 10870,
+                        "stars": 10892,
                         "topics": [
                           "agent",
                           "ai-agent",
@@ -226,11 +149,11 @@
                         "id": 949646929,
                         "language": "Python",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-09-01T11:35:27Z",
+                        "last_commit": "2026-09-06T14:24:36Z",
                         "open_issues": 157,
                         "owner": "GetBindu",
                         "repo": "Bindu",
-                        "stars": 9764,
+                        "stars": 9769,
                         "topics": [
                           "a2a",
                           "agent-communication",
@@ -255,11 +178,11 @@
                         "id": 1147063571,
                         "language": "JavaScript",
                         "license": "GPL-3.0",
-                        "last_commit": "2026-09-04T16:25:06Z",
+                        "last_commit": "2026-09-06T13:45:21Z",
                         "open_issues": 19,
                         "owner": "EvoMap",
                         "repo": "evolver",
-                        "stars": 9091,
+                        "stars": 9094,
                         "topics": [
                           "a2a",
                           "agent-evolution",
@@ -301,7 +224,7 @@
                         "open_issues": 28,
                         "owner": "revfactory",
                         "repo": "harness",
-                        "stars": 8905,
+                        "stars": 8913,
                         "topics": [
                           "claude-code",
                           "claude-code-plugin",
@@ -323,11 +246,11 @@
                         "id": 1150626239,
                         "language": "TypeScript",
                         "license": "MIT",
-                        "last_commit": "2026-09-05T15:09:11Z",
-                        "open_issues": 41,
+                        "last_commit": "2026-09-06T16:46:25Z",
+                        "open_issues": 43,
                         "owner": "ValueCell-ai",
                         "repo": "ClawX",
-                        "stars": 7609,
+                        "stars": 7613,
                         "topics": [
                           "agent",
                           "agentic-ai",
@@ -340,6 +263,48 @@
                         ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "HKUDS/OpenSpace",
+                      "description": "OpenSpace（HKUDS 出品）是面向 AI 智能体（Claude Code、Codex、Cursor、OpenClaw 等）的技能管理层（Skill Management Layer），以 MCP/CLI/Python API 形式接入。核心做四件事：检索（为任务匹配正确技能）、评估（用真实运行结果判断技能质量）、进化（按 FIX/DERIVED/CAPTURED 模式基于证据迭代技能，带版本线与审计）、共享（本地优先 + 云端技能包社区，支持私有化部署）。v2 在 v1 自进化基础上强化了质量信号与受控演进，实测可在同底座模型下显著降低 token 消耗（约 46%）并提升任务收益（GDPVal 基准 4.2×）。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "\"OpenSpace: The Skill Management Layer for AI Agents\" -- https://open-space.cloud/",
+                        "homepage": null,
+                        "id": 1190363679,
+                        "language": "Python",
+                        "license": "MIT",
+                        "last_commit": "2026-08-12T15:21:07Z",
+                        "open_issues": 53,
+                        "owner": "HKUDS",
+                        "repo": "OpenSpace",
+                        "stars": 7527,
+                        "topics": []
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "tvytlx/ai-agent-deep-dive",
+                      "description": "tvytlx/ai-agent-deep-dive 是一个针对 AI Agent（人工智能代理）技术栈的深度源码解析项目，它通过系统化的代码剖析和架构拆解，解决了开发者学习 AI Agent 时面临的“黑箱”难题——即现有框架往往封装过度，导致内部机制难以理解，限制了二次开发与定制化能力。该项目的核心亮点在于：首先，它采用逐层递进的解析方式，从最简单的 Agent 原型开始，逐步引入任务规划、工具调用、记忆机制等模块，让学习者能够跟随代码演进理解设计思路，而非直接面对复杂系统。其次，项目特别注重可复现性，每个关键步骤都配有最小实现案例和依赖说明，避免了学术论文中常见的“理论可行，实践跑不通”问题。最后，它对主流框架（如 LangChain、AutoGPT）的底层逻辑进行了对比分析，揭示不同设计范式的优劣，帮助开发者根据场景选型而非盲目追随技术潮流。从技术原理上看，该项目巧妙运用了“搭积木”式的教学逻辑：将 AI Agent 的工作流程类比为工厂流水线，原始输入（如用户指令）像原材料一样先后经过“计划车间”（分解子任务）、“工具车间”（调用 API/函数）、“质检车间”（结果验证）等环节，而项目的代码注释则相当于在每个工位旁放置了操作手册。例如，在讲解“记忆机制”时，作者通过对比“短期记忆”（当前会话的上下文）和“长期记忆”（向量数据库检索）的代码差异，直观展示了如何平衡响应速度与知识广度。这种具象化的解读使得抽象概念（如链式推理、反射机制）变得可触摸、可调试。整体而言，该项目既是一份“逆向工程”式的技术报告，也是一套渐进式学习路径设计。它填补了 AI Agent 领域“知其然不知其所以然”的空白，尤其适合希望从源码层面掌握自主迭代能力的中高级开发者。其内容组织方式也暗示了一种更普适的开源学习范式——通过解剖成熟项目来建立认知框架，而非仅停留在 API 调用层面。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "AI Agent 源码深度研究报告",
+                        "homepage": null,
+                        "id": 1197160875,
+                        "language": "Python",
+                        "license": null,
+                        "last_commit": "2026-04-12T15:01:19Z",
+                        "open_issues": 2,
+                        "owner": "tvytlx",
+                        "repo": "ai-agent-deep-dive",
+                        "stars": 5828,
+                        "topics": []
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
                     }
                   ],
                   "description": null,
@@ -348,120 +313,6 @@
                 },
                 {
                   "children": [
-                    {
-                      "node_type": "item",
-                      "title": "chopratejas/headroom",
-                      "description": "headroom 是一款专为大语言模型上下文窗口优化设计的智能压缩中间件，它精准解决了用户在处理海量工具输出、系统日志、本地文件及检索增强生成片段时面临的令牌消耗过高与上下文溢出痛点。该项目的核心优势在于其极致的数据压缩能力与灵活的集成架构。首先，它能在不损失关键语义的前提下将输入数据缩减百分之六十至九十五，大幅降低推理成本并延长有效对话长度，这比传统仅做机械截断或粗略摘要的上下文管理工具更具信息保留度。其次，项目原生提供代码库、独立代理服务器及模型上下文协议三种部署形态，开发者可根据现有业务架构无缝嵌入，彻底避免了以往方案中必须重构底层代码的沉重迁移成本。最后，其针对非结构化数据的自适应过滤机制能够智能识别冗余内容并保留核心逻辑链条，在复杂工具调用场景中展现出远超通用文本压缩库的稳定性。从技术实现来看，headroom 的运行逻辑宛如一位经验丰富的图书管理员，面对堆积如山的原始资料时并不会粗暴撕页，而是通过多层预处理网络精准剔除重复描述与无效格式，同时用更精炼的语言重构事实。具体而言，数据在进入大模型前会先流经一个轻量级管道，该管道利用启发式规则与语义相似度计算识别可合并片段，随后将压缩后的紧凑表示安全传递给下游模块。这种“先筛选、后重构”的架构不仅保障了答案的一致性，还使得系统能在有限算力下高效吞吐庞杂的业务数据流。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-                        "homepage": "https://docs.headroomlabs.ai/docs",
-                        "id": 1129940957,
-                        "language": "Python",
-                        "license": "Apache-2.0",
-                        "last_commit": "2026-09-05T04:50:34Z",
-                        "open_issues": 631,
-                        "owner": "headroomlabs-ai",
-                        "repo": "headroom",
-                        "stars": 69036,
-                        "topics": [
-                          "agent",
-                          "ai",
-                          "anthropic",
-                          "claude-code",
-                          "compression",
-                          "context-engineering",
-                          "context-window",
-                          "cursor",
-                          "fastapi",
-                          "langchain",
-                          "llm",
-                          "mcp",
-                          "openai",
-                          "prompt-engineering",
-                          "proxy",
-                          "python",
-                          "rag",
-                          "token-optimization",
-                          "tokens",
-                          "typescript"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "rohitg00/ai-engineering-from-scratch",
-                      "description": "《AI Engineering From Scratch》是一个聚焦于从零构建与部署人工智能系统的开源实践项目，旨在解决开发者难以跨越“理论认知”到“工程落地”鸿沟的痛点。该项目以“学习、构建、交付”为核心脉络，彻底摒弃了过度依赖黑盒API的捷径做法。其首要亮点在于强调底层逻辑的手动实现，通过逐层拆解模型架构掌握算法本质，极大降低了同类工具常见的技术债务与调试盲区。其次，项目完整覆盖数据清洗至模型压缩的全链路工作流，弥补了多数教程仅停留在演示阶段的断层，使团队能直接复用工程规范进行生产部署。此外，代码库采用模块化设计与严格的环境隔离策略，确保了跨硬件环境的可复现性，避免了环境冲突导致的开发阻塞。在技术架构层面，项目并未将复杂的张量运算与梯度传播包装成不可见的魔法，而是将其转化为清晰的管道式数据流；这如同学习组装精密仪器，开发者只需沿信号输入、变换到输出的路径逐一排查，便能直观理解各模块如何协同运作，即使缺乏深厚数学背景也能通过逻辑推演掌握核心机制。整体而言，该项目以务实的工程哲学重构了AI开发的学习曲线，为追求技术掌控力与交付效率的团队提供了极具参考价值的实战范本。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Learn it. Build it. Ship it for others.",
-                        "homepage": "https://aiengineeringfromscratch.com",
-                        "id": 1185590488,
-                        "language": "Python",
-                        "license": "MIT",
-                        "last_commit": "2026-08-30T09:25:48Z",
-                        "open_issues": 103,
-                        "owner": "rohitg00",
-                        "repo": "ai-engineering-from-scratch",
-                        "stars": 52480,
-                        "topics": [
-                          "agents",
-                          "ai",
-                          "ai-agents",
-                          "ai-engineering",
-                          "computer-vision",
-                          "course",
-                          "deep-learning",
-                          "from-scratch",
-                          "generative-ai",
-                          "llm",
-                          "machine-learning",
-                          "mcp",
-                          "nlp",
-                          "python",
-                          "reinforcement-learning",
-                          "rust",
-                          "swarm-intelligence",
-                          "transformers",
-                          "tutorial",
-                          "typescript"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "Imbad0202/academic-research-skills",
-                      "description": "《Academic Research Skills》是一款专为学术写作场景设计的AI辅助工作流框架，旨在解决研究者从文献调研到论文定稿过程中信息碎片化、流程割裂与反复修改耗时等核心痛点。该项目的核心优势在于其高度结构化的五阶段协作机制，将传统的“研究、撰写、审阅、修订、定稿”环节无缝串联，使大语言模型从孤立的问答工具进化为具备上下文记忆的协同作者；相较于市面上仅侧重单点润色或模板生成的写作插件，它通过内置的学术规范校验与逻辑一致性追踪算法，有效规避了常见幻觉风险并维持全文论点连贯；同时，其模块化架构允许研究者按需激活特定阶段的自动化策略，在保留人类最终决策权的前提下大幅削减重复性劳动。从技术实现来看，该工具采用管道式协同架构，类似于现代精密制造中的标准化装配线：系统首先将模糊的研究意图拆解为独立任务单元，随后各阶段模块像齿轮般依次咬合运转，前一环节的结构化输出自动转化为下一环节的输入基准；在此过程中，内置的审查引擎如同质检员，会对文本进行逻辑自洽性验证与事实溯源，确保每一步产出均符合学术严谨性要求；当检测到关键论证薄弱或引用链断裂时，系统会自动触发迭代修订循环，直至内容达到发布标准。这种将复杂科研流程降维为可追踪、可干预线性操作的设计，使非技术背景的研究者也能通过自然语言指令高效驾驭AI协作网络，真正实现从灵感迸发到成果落地的无缝衔接。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-                        "homepage": "https://buymeacoffee.com/crucify020v",
-                        "id": 1167300963,
-                        "language": "Python",
-                        "license": "NOASSERTION",
-                        "last_commit": "2026-09-05T23:12:43Z",
-                        "open_issues": 19,
-                        "owner": "Imbad0202",
-                        "repo": "academic-research-skills",
-                        "stars": 46420,
-                        "topics": [
-                          "academic-pipeline",
-                          "academic-writing",
-                          "ai-research",
-                          "claude",
-                          "claude-code",
-                          "literature-review",
-                          "peer-review",
-                          "prompt-engineering"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
                     {
                       "node_type": "item",
                       "title": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -474,11 +325,11 @@
                         "id": 1177608268,
                         "language": "Python",
                         "license": "MIT",
-                        "last_commit": "2026-09-03T08:56:26Z",
+                        "last_commit": "2026-09-06T17:32:49Z",
                         "open_issues": 66,
                         "owner": "wanshuiyin",
                         "repo": "Auto-claude-code-research-in-sleep",
-                        "stars": 15754,
+                        "stars": 15797,
                         "topics": [
                           "ai-research",
                           "ai-tools",
@@ -516,11 +367,11 @@
                         "id": 1216173720,
                         "language": "HTML",
                         "license": "MIT",
-                        "last_commit": "2026-09-03T04:55:19Z",
+                        "last_commit": "2026-09-06T02:40:10Z",
                         "open_issues": 0,
                         "owner": "tw93",
                         "repo": "Kami",
-                        "stars": 11217,
+                        "stars": 11224,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -541,7 +392,7 @@
                         "open_issues": 232,
                         "owner": "Narcooo",
                         "repo": "inkos",
-                        "stars": 9525,
+                        "stars": 9584,
                         "topics": [
                           "ai",
                           "ai-agent",
@@ -557,6 +408,48 @@
                         ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "mahseema/awesome-ai-tools",
+                      "description": "mahseema/awesome-ai-tools 是一个精心整理的 AI 工具精选列表，旨在解决开发者和研究人员在快速发展的 AI 领域中难以高效获取优质工具的痛点。随着人工智能技术的爆发式增长，各类工具层出不穷，但质量参差不齐，筛选成本极高。该项目通过系统性分类和持续更新，为用户提供一站式的高质量 AI 工具索引，大幅降低信息筛选的难度，帮助用户快速定位适合自身需求的解决方案。项目的核心特色体现在三个方面：首先，它的分类极为细致，涵盖了从机器学习框架到自然语言处理、计算机视觉乃至伦理 AI 等细分领域，确保用户能精准匹配需求场景；其次，每个工具均附带简洁的功能描述和链接，避免了同类列表常见的冗余信息，提升了可读性和实用性；最后，作为开源项目，它通过社区协作持续更新，相比静态列表更能紧跟技术趋势，例如及时纳入 ChatGPT 插件或 Stable Diffusion 生态工具。这些特点使其在众多 AI 资源聚合项目中脱颖而出。从技术架构来看，项目的运作逻辑类似于一个“动态过滤器”：原始数据来自社区贡献和维护者的定期爬取，通过人工审核（而非单纯依赖算法）确保工具的质量和相关性。这种“众包+专家筛选”的混合模式，既避免了纯自动化推荐的低准确性，又解决了纯人工维护的滞后性问题。其 README 文件采用 Markdown 结构化编写，支持快速检索和跨平台渲染，背后的版本控制通过 GitHub 实现，使得更新历史和协作痕迹透明可追溯。这种设计让项目在保持轻量化的同时，具备了较强的可扩展性和可持续性。整体而言，awesome-ai-tools 不仅是一个工具列表，更是一个动态生长的 AI 生态地图。它以极低的认知成本帮助用户穿透信息噪声，其成功的关键在于将“社区智慧”与“结构化呈现”巧妙结合，最终成为开发者探索 AI 领域的实用导航仪。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "A curated list of Artificial Intelligence Top Tools",
+                        "homepage": null,
+                        "id": 683212753,
+                        "language": null,
+                        "license": "MIT",
+                        "last_commit": "2025-12-31T14:46:19Z",
+                        "open_issues": 1296,
+                        "owner": "mahseema",
+                        "repo": "awesome-ai-tools",
+                        "stars": 6138,
+                        "topics": [
+                          "ai",
+                          "ai-agent",
+                          "ai-agents",
+                          "ai-assistant",
+                          "ai-tools",
+                          "ai-tools-list",
+                          "ai-top-tools",
+                          "awesome",
+                          "awesome-ai",
+                          "awesome-ai-tools",
+                          "awesome-list",
+                          "bestofai",
+                          "futuretools",
+                          "machine-learning",
+                          "ml",
+                          "mlops",
+                          "theresanaiforthat",
+                          "top-ai-tools",
+                          "vibe-coding",
+                          "workflow"
+                        ]
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
                     }
                   ],
                   "description": null,
@@ -565,105 +458,6 @@
                 },
                 {
                   "children": [
-                    {
-                      "node_type": "item",
-                      "title": "nidhinjs/prompt-master",
-                      "description": "nidhinjs/prompt-master 是一个基于 Claude 模型的智能提示词优化工具，它通过自动化生成高精度提示词（prompt），彻底解决了用户在调用各类AI工具时因反复调试提示词而导致算力资源（如token或API credits）浪费的核心痛点。该项目能够保留完整的上下文记忆，确保每次生成的提示词都能精准匹配目标AI工具的需求，从而显著提升工作效率并降低使用成本。该项目的核心亮点体现在三个方面：首先是零资源浪费的设计哲学，其生成的提示词能一次性达到可用状态，避免了传统方式中因多次试错造成的不必要消耗；其次是全上下文记忆能力，能智能回溯历史交互信息，使得生成的提示词具备连贯性和深度，这一点远超那些只能处理单次请求的同类工具；最后是跨平台适配性，它能根据不同的AI工具特性动态调整输出策略，这种灵活性在需要同时操作多个AI系统的场景中尤为珍贵。从技术实现来看，prompt-master 的工作原理类似于一位经验丰富的\"翻译官\"——它首先通过 Claude 模型解析用户原始需求，然后结合内置的规则库和历史交互数据，将这些需求\"翻译\"成特定AI工具能高效执行的标准化指令。这一过程中，系统会持续优化\"翻译规则\"，类似语言学习者的自我修正机制，最终形成越用越精准的良性循环。这种架构既避免了复杂机器学习模型的高成本，又通过巧妙的上下文管理实现了接近定制化服务的质量，展现出作者对AI应用层痛点的深刻理解。整体而言，该项目以轻量化方案解决了AI交互中的关键瓶颈，其设计思路特别适合需要频繁调用不同AI工具的中高级用户。随着AI服务日益多元化，这种能降低边际成本的工具或将展现出更大的生态价值。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
-                        "homepage": null,
-                        "id": 1179046874,
-                        "language": null,
-                        "license": "MIT",
-                        "last_commit": "2026-08-24T07:30:40Z",
-                        "open_issues": 30,
-                        "owner": "nidhinjs",
-                        "repo": "prompt-master",
-                        "stars": 12395,
-                        "topics": [
-                          "claude-ai",
-                          "claude-skills",
-                          "llm",
-                          "prompt-engineering"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "openclaw/clawhub",
-                      "description": "ClawHub 是 OpenClaw 的公开技能注册库 ：发布、版本和搜索基于文本的代理技能（SKILL.md 及支持文件）。它设计为快速浏览+支持 CLI 的 API，带有管理钩子和矢量搜索功能。它现在还提供了原生的 OpenClaw 软件包目录 ，用于代码插件和捆绑插件。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Skill + Plugin Registry for OpenClaw",
-                        "homepage": "https://clawhub.ai",
-                        "id": 1127248221,
-                        "language": "TypeScript",
-                        "license": "MIT",
-                        "last_commit": "2026-09-05T05:31:35Z",
-                        "open_issues": 58,
-                        "owner": "openclaw",
-                        "repo": "clawhub",
-                        "stars": 9393,
-                        "topics": [
-                          "directory",
-                          "skill"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    }
-                  ],
-                  "description": null,
-                  "node_type": "group",
-                  "title": "提示词prompt"
-                },
-                {
-                  "children": [
-                    {
-                      "node_type": "item",
-                      "title": "tobi/qmd",
-                      "description": "是一款面向开发者的轻量级命令行本地搜索工具，旨在解决跨文档、知识库与会议记录等碎片化信息中精准检索难且过度依赖云端服务带来的隐私泄露痛点。该项目将当前最前沿的语义检索技术浓缩于终端之中，通过全本地化架构彻底摆脱对外部API的强依赖，在保障数据绝对私有化的同时提供接近企业级知识平台的查询体验。其核心优势首先体现在极致的隐私安全与部署自由度上，相较于需上传数据的在线AI搜索引擎，qmd的所有计算均在用户设备内闭环完成；其次，它巧妙融合了现代词向量技术与轻量级架构，以极低的资源开销实现超越传统关键字匹配的语义理解能力，避免了重型知识管理系统带来的性能负担；最后，项目对多格式文本文件具备原生兼容特性，无需复杂的数据清洗流水线即可直接索引各类非结构化资料，大幅降低了个人知识管理的门槛。在技术原理层面，qmd的工作机制可类比为构建一座“语义图书馆”。系统首先利用嵌入模型将每份文档转化为高维数学向量，这些向量并非简单的文字堆砌，而是经过算法压缩后的内容数字指纹，能够精准捕捉词汇间的上下文关联与潜在含义；随后，所有指纹被有序存入本地索引库中。当用户输入查询指令时，工具并不会进行机械的字面匹配，而是将问题同样转换为向量并在库中计算数学距离，通过相似度排序快速定位语义最接近的文档片段。这种将复杂自然语言处理转化为线性代数运算的设计，既保留了现代AI检索的准确性，又规避了重型框架的性能瓶颈，为追求高效与隐私的个人开发者提供了一条极具实用价值的信息管理路径。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
-                        "homepage": null,
-                        "id": 1112365301,
-                        "language": "TypeScript",
-                        "license": "MIT",
-                        "last_commit": "2026-08-18T14:26:31Z",
-                        "open_issues": 135,
-                        "owner": "tobi",
-                        "repo": "qmd",
-                        "stars": 29541,
-                        "topics": []
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "nashsu/llm_wiki",
-                      "description": "llm_wiki是一款跨平台桌面应用，它通过大语言模型（LLM）将散乱文档自动转化为结构化、可关联的维基知识库，解决了传统RAG（检索增强生成）工具每次查询都需重新处理原始文档的效率痛点。不同于“用完即弃”的临时检索，该项目像一位持续学习的知识管家，逐步将用户文件编织成可长期维护的智能网络。三大核心优势使其脱颖而出：首先，增量式知识构建允许用户在新增文档时仅更新局部关联，而非全量重建，大幅节省计算资源；其次，持久化维基架构通过动态维护文档间的语义链接，形成类似维基百科的网状知识体系，比扁平化检索更贴近人类思维；最后，开箱即用的桌面端设计打破了常规RAG工具对云端API的依赖，保障隐私的同时降低了使用门槛。技术原理的通俗拆解：想象在拼一幅不断扩展的拼图。传统RAG每次都要打散所有碎片重新拼装（全量解析文档），而llm_wiki则像一位记忆力超群的拼图师——它首次处理文档时会建立“碎片索引”（嵌入向量和关联节点），后续新增内容时只需定位到相关区域局部拼接（增量嵌入和链接预测）。这种设计背后是轻量化的本地知识图谱技术，结合LLM的语义理解能力，将文档中的概念自动转化为“知识点-关系”的拓扑网络，最终以可视化维基的形式呈现可交互的知识拓扑。该项目尤其适合个人研究者或小团队管理碎片化知识，其“一次处理，终身受益”的设计哲学，在信息过载时代为用户提供了可持续进化的数字第二大脑。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
-                        "homepage": null,
-                        "id": 1204828304,
-                        "language": "TypeScript",
-                        "license": "NOASSERTION",
-                        "last_commit": "2026-08-25T06:42:02Z",
-                        "open_issues": 239,
-                        "owner": "nashsu",
-                        "repo": "llm_wiki",
-                        "stars": 17443,
-                        "topics": []
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
                     {
                       "node_type": "item",
                       "title": "AgriciDaniel/claude-seo",
@@ -677,10 +471,10 @@
                         "language": "Python",
                         "license": "MIT",
                         "last_commit": "2026-08-26T12:16:22Z",
-                        "open_issues": 52,
+                        "open_issues": 53,
                         "owner": "AgriciDaniel",
                         "repo": "claude-seo",
-                        "stars": 16384,
+                        "stars": 16457,
                         "topics": [
                           "ai",
                           "ai-seo",
@@ -705,11 +499,11 @@
                         "id": 1160693255,
                         "language": "Python",
                         "license": "MIT",
-                        "last_commit": "2026-09-05T06:36:14Z",
+                        "last_commit": "2026-09-06T06:36:23Z",
                         "open_issues": 26,
                         "owner": "zubair-trabzada",
                         "repo": "geo-seo-claude",
-                        "stars": 10302,
+                        "stars": 10320,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -779,7 +573,7 @@
                         "open_issues": 6,
                         "owner": "elder-plinius",
                         "repo": "OBLITERATUS",
-                        "stars": 8215,
+                        "stars": 8222,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -793,24 +587,45 @@
                   "children": [
                     {
                       "node_type": "item",
-                      "title": "antirez/ds4",
-                      "description": "是一款专为 DeepSeek 4 Flash 与 PRO 模型打造的本地化推理引擎，旨在彻底解决开发者在个人设备上运行大语言模型时面临的硬件生态割裂、环境配置繁琐以及消费级算力调度低效的核心痛点。该项目的突出优势在于其跨平台原生架构设计，不仅底层全面打通了苹果 Metal、英伟达 CUDA 与 AMD ROCm 三大计算协议，更通过动态显存分片技术打破了传统框架对高端显卡的依赖。相较于同类推理工具，它摒弃了繁琐的算子重写与依赖编译流程，转而采用统一的高层抽象接口，使得同一套代码能在不同算力生态中自动匹配最优执行路径，显著降低了本地部署的技术门槛。同时，针对 DeepSeek 4 系列特有的混合专家架构，引擎内置了智能路由合并机制，能够动态裁剪冗余计算分支，从而在普通显卡上实现接近商业云服务的吞吐表现。从技术原理来看，该引擎的运作逻辑犹如一位经验丰富的交响乐团指挥。它将庞大的模型参数拆解为独立的数据模块，并根据当前硬件的实际负载状态，实时调整这些模块在内存与显存之间的搬运节奏。当检测到某类计算指令出现拥堵时，系统会像分流河道般将任务重新分配至闲置的核心；而在处理长上下文生成时，它又会预先规划好数据缓存的阶梯结构，避免频繁的全盘读写。这种基于硬件感知的前置调度策略，配合底层编译器的即时优化，使得模型推理不再是机械的参数堆砌，而是形成了一套高度协同的流水线作业，让非专业用户也能在本地流畅驾驭前沿大模型。",
+                      "title": "JustVugg/colibri",
+                      "description": "Colibri 是一款采用纯 C 语言编写且零外部依赖的轻量级推理引擎，专为解决前沿混合专家（MoE）大模型在消费级硬件上部署时因显存与内存开销过大而“水土不服”的核心痛点。相较于同类框架，其卓越之处首先体现在极致的轻量化架构上，摒弃了繁杂的运行时依赖链，使代码库本身即可在资源受限的环境中快速编译并独立运行；其次，它创新性地实现了专家参数的按需磁盘流式加载机制，彻底打破了传统全量预载对系统内存的垄断性占用，让普通消费者也能流畅驾驭万亿参数级模型；最后，其高度统一的底层设计不仅消除了跨平台兼容性的隐式风险，更通过极简的数据通路优化为边缘设备推理提供了前所未有的执行效率。该项目的技术内核可类比为一家智能图书馆的动态借阅系统，传统大模型如同要求用户一次性搬空整座藏书楼，而 Colibri 则通过精准的路由算法，仅在产生具体查询请求时，才从高速存储介质中按需调取出当前任务所需的特定专家模块进行即时计算。这种“即用即取、动态拼接”的流式调度逻辑，配合纯 C 语言对内存缓存机制的毫厘级控制，使得庞杂的模型参数能够以极低的延迟在本地硬件上完成推理闭环，从而在有限的物理算力边界内实现了性能边界的实质性拓展。",
                       "children": [],
                       "repo_info": {
                         "archived": false,
-                        "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-                        "homepage": null,
-                        "id": 1231148626,
+                        "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+                        "homepage": "https://justvugg.github.io/colibri",
+                        "id": 1286080397,
                         "language": "C",
-                        "license": "MIT",
-                        "last_commit": "2026-09-05T18:57:12Z",
-                        "open_issues": 623,
-                        "owner": "antirez",
-                        "repo": "ds4",
-                        "stars": 22095,
+                        "license": "Apache-2.0",
+                        "last_commit": "2026-09-06T20:47:26Z",
+                        "open_issues": 106,
+                        "owner": "JustVugg",
+                        "repo": "colibri",
+                        "stars": 26953,
                         "topics": []
                       },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "elder-plinius/G0DM0D3",
+                      "description": "elder-plinius/G0DM0D3 是一个旨在解放 AI 对话能力的开源工具，它通过绕过传统 AI 聊天系统的内容限制，为用户提供无过滤、高自由度的交互体验。其核心解决了当前主流 AI 模型（如 ChatGPT 等）因安全策略导致的过度审查问题，尤其适合需要探索敏感或争议性话题的研究者、开发者及普通用户。该项目的核心亮点首先体现在其对抗性提示工程（Adversarial Prompting）技术上，通过精心设计的输入模板欺骗 AI 模型的审查机制，从而突破预设的道德护栏。其次，它采用模块化架构，允许用户灵活切换不同的底层模型（如 GPT-3.5、Claude 等），并支持自定义审查绕过逻辑，这种可扩展性远超单一功能的同类脚本工具。最后，项目通过开源协作持续迭代对抗策略，社区贡献的“越狱”提示词库（Jailbreak Prompts）能动态适应模型更新，形成了一种“道高一尺，魔高一丈”的攻防生态。从技术原理看，G0DM0D3 的工作原理类似于“语言魔术师”。它并不直接修改 AI 模型，而是通过重构用户输入的语义结构，使模型误判对话的合规性。例如，将敏感问题伪装成虚构的文学创作请求，或利用模型对代码和隐喻的理解漏洞——好比用方言和暗号骗过安检系统。项目文档中提到的“链式提示”（Chained Prompts）进一步放大了这一效果，通过多轮对话逐步诱导模型脱离审查框架，其逻辑类似层层剥开一个洋葱，最终触及核心。整体而言，G0DM0D3 的技术激进性也带来了伦理争议，但其开源属性为研究 AI 安全边界提供了透明沙箱。开发者明确强调“责任自负”原则，暗示工具的双刃剑本质——既能推动审查机制的漏洞修复，也可能被滥用。这种对技术中立性的坚持，恰恰是开源社区对抗黑箱操作的典型范本。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "LIBERATED AI CHAT",
+                        "homepage": null,
+                        "id": 1191904384,
+                        "language": "TypeScript",
+                        "license": "AGPL-3.0",
+                        "last_commit": "2026-07-15T14:48:02Z",
+                        "open_issues": 76,
+                        "owner": "elder-plinius",
+                        "repo": "G0DM0D3",
+                        "stars": 11030,
+                        "topics": []
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
                     }
                   ],
                   "description": null,
@@ -821,346 +636,300 @@
                   "children": [
                     {
                       "node_type": "item",
-                      "title": "mattpocock/skills",
-                      "description": "mattpocock/skills是一套专为专业软件工程师打造的AI编程代理工作流技能包，旨在通过可复用、模块化的指令集解决大语言模型在代码开发中常见的“需求错位、输出冗长、逻辑缺陷与架构腐化”等核心痛点。该项目的突出特色在于将数十年工程经验提炼为一套严格区分“用户调用型”（如/grill-me深度需求对齐、/to-prd快速生成PRD）与“模型调用型”技能（如tdd红绿重构循环、diagnosing-bugs系统化排错、domain-modeling领域建模与共享词汇库构建）的结构化体系，在保障开发者控制权的前提下实现Agent的精准协同；其内置的工程哲学强调小步快跑、反馈闭环与架构健康维护（如定期运行/improve-codebase-architecture防熵增），配合一键式npx install脚本自动完成Issue追踪器、分诊标签与文档规范的配置，最终为任何主流AI编码代理提供了一套强调设计优先、类型安全与可交付性的高质量工程实践底座。",
+                      "title": "stablyai/orca",
+                      "description": "Orca 是一款专注于多智能体协同编排的开源应用开发环境（ADE），旨在解决开发者在并行调度多个 AI 编程代理时面临的状态割裂、依赖配置繁琐与算力资源分散等核心痛点。该项目凭借三项差异化优势确立技术壁垒：其一，内置的并发调度引擎打破了传统单点工作的孤岛模式，通过任务切片与资源隔离实现多代理流水线式协作，使复杂代码生成效率显著超越串行工具；其二，采用“自带订阅”架构允许开发者直接挂载自有大模型 API 与第三方编程工具链，彻底规避了闭源平台的生态封锁、数据滥用风险与隐性抽成；其三，全端一致的跨平台部署能力无缝覆盖桌面、移动端及 VPS，确保分布式团队在不同网络与硬件条件下均能保持低延迟的实时同步。在底层原理上，Orca 的工作流宛如一座精密运转的智能交通枢纽：用户指令进入后会被路由中枢拆解为独立数据包并分发至对应代理节点，随后系统通过轻量级状态总线实时收集中断点、编译日志与上下文变更；这些碎片化信息经编排内核进行逻辑缝合与冲突仲裁后，最终由前端渲染引擎以动态面板形式呈现。得益于模块化微服务设计与端到端加密机制，开发者既能依托 VPS 实现数据不出域的私有化部署，也能在移动端通过安全通道远程接管集群算力，从而在保障底层技术自主可控的前提下，重构了人机协同开发的交互范式。",
                       "children": [],
                       "repo_info": {
                         "archived": false,
-                        "description": "Skills for Real Engineers. Straight from my .agents directory.",
-                        "homepage": "https://aihero.dev/skills",
-                        "id": 1148788086,
-                        "language": "Shell",
-                        "license": "MIT",
-                        "last_commit": "2026-09-04T08:45:43Z",
-                        "open_issues": 466,
-                        "owner": "mattpocock",
-                        "repo": "skills",
-                        "stars": 252539,
-                        "topics": []
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "esengine/DeepSeek-Reasonix",
-                      "description": "是一款专为开发者打造的终端原生 AI 编程助手，旨在彻底解决传统命令行 AI 工具在长周期代码迭代中因上下文丢失、响应延迟高及会话不稳定所导致的开发中断痛点。该项目的核心优势首先体现在其深度契合 DeepSeek 模型特性的原生架构设计，摒弃了冗余的中间抽象层，使大模型的逻辑推理能力得以在终端环境中实现零损耗调用；其次，项目独创的前缀缓存稳定机制如同为对话记忆安装了“防抖阻尼”，能够智能复用历史交互的已生成内容，从而在长时间运行中显著降低 API 消耗并保障响应速度的连贯性；最后，其纯终端优先的设计理念无缝契合开发者现有的工作流，无需依赖臃肿的 Web UI 或额外部署服务即可通过 SSH、Tmux 等环境实现沉浸式辅助编程。从技术原理来看，该项目的工作逻辑可类比为一位始终记得你所有草稿的资深结对程序员，当你在终端输入指令时，系统并非每次都从零开始构思，而是将当前代码库与历史对话共同编译为一份“动态前缀索引”，随后调用底层推理引擎仅针对新增需求生成增量代码块；这种机制通过流式传输实时渲染至终端界面，并利用缓存池锁定已确认的上下文片段，使得复杂的多轮调试过程如同在一条不断向前延伸的轨道上平稳推进，既避免了重复计算带来的资源浪费，又确保了项目状态在长时间运行中的无缝续接。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-                        "homepage": "http://reasonix.io/",
-                        "id": 1216785679,
-                        "language": "Go",
-                        "license": "MIT",
-                        "last_commit": "2026-09-05T21:28:01Z",
-                        "open_issues": 1708,
-                        "owner": "esengine",
-                        "repo": "DeepSeek-Reasonix",
-                        "stars": 35410,
-                        "topics": [
-                          "agent",
-                          "agent-framework",
-                          "ai-agent",
-                          "ai-coding",
-                          "cli",
-                          "coding-agent",
-                          "deepseek",
-                          "developer-tools",
-                          "dsh",
-                          "dsh-plugin",
-                          "ink",
-                          "llm",
-                          "prompt-caching",
-                          "r1",
-                          "terminal",
-                          "tool-use",
-                          "tui",
-                          "typescript"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "Gitlawb/openclaude",
-                      "description": "OpenClaude是一个基于TypeScript与Node.js构建的开源独立命令行AI编程代理框架，旨在打破单一模型生态壁垒，为开发者提供跨平台、高性能的多模型协同编程体验。该项目的核心特色在于其高度统一的“单CLI多后端”架构，通过内置/provider指令可安全持久化配置并无缝接入OpenAI兼容接口、Gemini、GitHub Models、Ollama、Z.AI GLM及小米MiMo等数十种云端与本地大模型服务；在功能实现上，它深度整合了完整的编码代理工作流，涵盖Bash终端交互、文件读写编辑、多模态视觉理解、MCP协议扩展以及智能Agent路由机制（允许用户根据探索、规划、代码审查等不同任务类型，将子代理精准分配至不同性价比模型以优化API成本）；此外，项目还支持后台异步会话管理（--bg分离运行与实时日志追踪）、免交互gRPC头服务模式便于无缝嵌入CI/CD或第三方应用生态，并原生配套VS Code扩展实现编辑器内联动，同时严格遵循隐私安全规范采用本地凭证加密存储机制，最终打造出一个开箱即用、高度可定制且兼顾性能与安全的全栈AI编程基础设施。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "runs anywhere. uses anything",
-                        "homepage": "https://openclaude.gitlawb.com",
-                        "id": 1197990888,
+                        "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+                        "homepage": "https://onOrca.dev",
+                        "id": 1183888342,
                         "language": "TypeScript",
-                        "license": "NOASSERTION",
-                        "last_commit": "2026-09-03T23:35:39Z",
-                        "open_issues": 83,
-                        "owner": "Gitlawb",
-                        "repo": "openclaude",
-                        "stars": 32712,
+                        "license": "MIT",
+                        "last_commit": "2026-09-06T23:11:05Z",
+                        "open_issues": 5407,
+                        "owner": "stablyai",
+                        "repo": "orca",
+                        "stars": 62752,
                         "topics": [
-                          "ai",
-                          "ai-agent",
-                          "ai-tools",
-                          "cli",
-                          "coding"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "mukul975/Anthropic-Cybersecurity-Skills",
-                      "description": "Anthropic-Cybersecurity-Skills 是一个面向 AI 编程助手的标准化网络安全能力注入库，旨在解决大语言模型在代码生成时安全意识薄弱与防御规则缺失的痛点。该项目的核心优势首先在于其高度结构化的知识体系，内置七百五十余项技能精准映射至 MITRE ATT&CK、NIST CSF 2.0 等五大权威框架，使 AI 能够自动遵循业界严苛标准，远超传统仅做基础语法检查的代码补全工具。其次，项目严格遵循 agentskills.io 开放标准构建，实现了跨平台无缝兼容，无论是 Claude Code、Cursor 还是 Copilot 等二十余种主流环境均可直接调用，彻底打破了以往安全规则与开发工作流割裂的壁垒。此外，其覆盖的二十六个细分领域配合 Apache 2.0 协议，为企业提供了即插即用且可商用的底层支撑。从技术架构来看，该项目本质上是一套为 AI 代理设计的“决策导航图”。它并非直接提供现成代码片段，而是将复杂的安全规范拆解为结构化的提示词逻辑链，类似于在自动驾驶系统中部署了一套实时交通规则解析器；当开发者编写业务代码时，这些技能会以标准接口向 AI 发送隐式指令，引导模型在内存中动态比对当前编码行为与五大框架中的威胁建模或防御策略。通过这种规则前置的逻辑拦截机制，AI 能在生成代码的瞬间自动完成安全上下文校验，从而将传统的被动漏洞扫描转变为主动免疫。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-                        "homepage": "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/",
-                        "id": 1166506614,
-                        "language": "Python",
-                        "license": "Apache-2.0",
-                        "last_commit": "2026-08-31T04:32:44Z",
-                        "open_issues": 45,
-                        "owner": "mukul975",
-                        "repo": "Anthropic-Cybersecurity-Skills",
-                        "stars": 32244,
-                        "topics": [
+                          "ade",
+                          "agent-ide",
                           "ai-agents",
                           "claude-code",
-                          "cloud-security",
-                          "cybersecurity",
-                          "devsecops",
-                          "ethical-hacking",
-                          "incident-response",
-                          "infosec",
-                          "llm",
-                          "malware-analysis",
-                          "mcp",
-                          "mitre-attack",
-                          "nist-csf",
-                          "osint",
-                          "penetration-testing",
-                          "red-team",
-                          "security",
-                          "security-automation",
-                          "threat-hunting",
-                          "threat-intelligence"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "can1357/oh-my-pi",
-                      "description": "oh-my-pi是一个面向终端开发的AI编码助手项目，其核心目标是解决开发者在命令行环境中效率低下、工具链割裂的痛点。传统终端操作依赖大量手工输入和上下文切换，而该项目通过深度整合AI能力与终端工具链，实现了代码编辑、语言服务协议（LSP）支持、多子任务协同等自动化功能，相当于为终端装上了\"智能操作系统\"。 该项目的三大核心优势使其显著优于同类工具：首先是哈希锚定编辑技术，它像书签一样精准标记代码位置，允许AI直接修改终端历史内容而无需全量重写，解决了传统终端回退修改的笨拙问题。其次是工具链优化引擎，如同\"终端交通调度员\"，能智能识别Python、浏览器等不同场景，自动匹配最佳工具组合。例如调用Python时动态加载LSP服务，而在处理网页数据时无缝切换至浏览器上下文。最后是子代理系统的模块化设计，好比一支分工明确的编程小队——每个子代理专注特定任务（如代码补全、错误检查），通过轻量级通信协议协作，避免单一AI模型\"超负荷思考\"带来的延迟问题。 从技术实现看，其架构犹如\"终端与AI的翻译层\"。当用户输入指令时，系统会用哈希算法为当前终端状态生成唯一指纹，AI只需记住这些指纹而非全部内容，大幅降低了记忆负担。而工具链的调度采用类似快递分拣的逻辑：首先分析指令特征（如是否包含.py后缀），然后触发预配置的\"工具包\"（如LSP服务器或浏览器驱动），最后通过子代理并行处理任务。这种设计既保留了终端原生的灵活性，又赋予其智能系统的响应速度。 值得一提的是，该项目对Python生态的深度适配展现了实用主义倾向——开发者无需离开终端即可完成从代码补全到调试的全流程，这种\"低认知负荷\"设计尤其适合快速迭代场景。其浏览器集成功能更进一步，能将网页元素直接映射为终端可操作对象，比传统剪贴板操作效率提升显著。 整体而言，oh-my-pi的创新在于重构了人机交互范式：不是让人类学习机器语言，而是让终端理解开发者意图。这种以哈希锚定为记忆基点、工具链为肌肉、子代理为神经元的架构，为AI时代终端工具的发展提供了有价值的实践样本。其设计哲学也暗示着未来IDE与终端界限的模糊化趋势。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "⌥ Coding agent with the IDE wired in",
-                        "homepage": "https://omp.sh",
-                        "id": 1125856365,
-                        "language": "TypeScript",
-                        "license": "MIT",
-                        "last_commit": "2026-09-05T22:56:14Z",
-                        "open_issues": 2348,
-                        "owner": "can1357",
-                        "repo": "oh-my-pi",
-                        "stars": 29682,
-                        "topics": [
-                          "ai-agent",
-                          "ai-coding-agent",
-                          "anthropic",
-                          "bun",
-                          "claude",
                           "cli",
-                          "coding-assistant",
-                          "llm",
-                          "mcp",
-                          "multi-provider",
-                          "openai",
-                          "rust",
-                          "terminal",
-                          "tui",
-                          "typescript"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "jlcodes99/cockpit-tools",
-                      "description": "cockpit-tools 是一款专为开发者设计的通用 AI IDE 账号管理工具，它通过集中化管理多款主流编程辅助工具（如 GitHub Copilot、Cursor、Gemini-cli 等）的账号体系，解决了开发者在频繁切换不同 AI 编码工具时面临的账号登录繁琐、配额监控困难、多实例协同效率低下等核心痛点。核心特色 1. 一站式多账号管理：支持 Antigravity、Codex 等 8 种主流 AI 编程工具的账号切换，避免了重复登录或浏览器多标签页的混乱，尤其适合团队协作或需要同时测试多平台效能的场景。2. 智能资源调度：通过实时配额监控与自动唤醒功能，工具能在账号使用量接近上限时智能切换备用账号，类比于“机场塔台动态分配跑道”，最大化利用订阅资源的剩余额度。3. 轻量级多开控制：允许用户为不同项目单独启动 IDE 实例并绑定对应账号，类似“虚拟工作区”的概念，既隔离了环境又避免了多工具间的进程冲突，显著提升复杂任务下的操作流畅度。硬核原理（通俗化） 其技术架构类似于一个“交通指挥中心”：底层通过封装各 AI 工具的 API 及认证协议（如 OAuth 2.0），构建统一的账号鉴权中继层；中间层则采用动态代理机制，将开发者的操作请求路由到当前活跃账号对应的服务端，同时通过心跳检测维持会话活性；前端则提供 CLI 或 GUI 交互界面，将账号状态、配额数据等抽象为可视化的仪表盘。这种设计好比在用户与多个云服务商之间架设了一座“智能立交桥”，既隐藏了底层复杂性，又能根据流量（请求负载）自动选择最优路径。cockpit-tools 凭借其模块化设计和对开发者工作流的深度理解，在 AI 编程工具生态中扮演了“粘合剂”角色。相比手动管理或单一工具插件，它通过自动化与聚合能力，将分散的账号操作转化为可编程的标准化流程，是追求效率的工程团队或个人开发者的实用增效利器。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
-                        "homepage": "https://github.com/jlcodes99/cockpit-tools#readme",
-                        "id": 1135492298,
-                        "language": "Rust",
-                        "license": null,
-                        "last_commit": "2026-09-05T11:01:02Z",
-                        "open_issues": 593,
-                        "owner": "jlcodes99",
-                        "repo": "cockpit-tools",
-                        "stars": 17107,
-                        "topics": [
-                          "account-manager",
-                          "ai",
-                          "antigravity",
-                          "codebuddy",
                           "codex",
-                          "cursor",
-                          "github-copilot",
-                          "kiro",
-                          "windsurf"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "walkinglabs/learn-harness-engineering",
-                      "description": "Learn Harness Engineering 是一门专注于 AI 编程智能体工程化落地的课程。本课程深度研究并总结了业内最前沿的 Harness Engineering（工具马具/脚手架工程）理论与实践，参考资料包括：OpenAI: Harness engineering: leveraging Codex in an agent-first world ; Anthropic: Effective harnesses for long-running agents ; Anthropic: Harness design for long-running application development;Awesome Harness Engineering.通过系统的环境设计、状态管理、验证与控制机制，本课程旨在帮助你让 Codex 和 Claude Code 等 AI Agent 能够真正可靠地完成真实工程任务。它通过明确的规则和边界约束你的 AI 编程助手，帮助你更可靠地构建功能、修复 Bug 并自动化开发任务。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Harness engineering beginner tutorial, from 0 to 1",
-                        "homepage": "https://walkinglabs.github.io/learn-harness-engineering/",
-                        "id": 1195243030,
-                        "language": "TypeScript",
-                        "license": "MIT",
-                        "last_commit": "2026-08-26T01:08:59Z",
-                        "open_issues": 11,
-                        "owner": "walkinglabs",
-                        "repo": "learn-harness-engineering",
-                        "stars": 14849,
-                        "topics": [
-                          "agent",
-                          "agentic",
-                          "agentic-ai",
-                          "ai",
-                          "ai-agent",
-                          "ai-agents",
-                          "dsh",
-                          "dsh-plugin",
-                          "harness",
-                          "harness-engineering",
-                          "harness-framework",
-                          "llm"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "mindfold-ai/Trellis",
-                      "description": "Trellis是由mindfold-ai团队开发的开源AI代理编排框架，它通过模块化设计解决了传统AI工作流中代码臃肿、任务流转僵化和调试困难三大核心痛点。在自动化流程和复杂决策场景中（例如数据分析、客户服务自动化），传统脚本往往需要重复编写底层通信逻辑，而Trellis允许开发者像搭积木一样自由组合AI能力，显著降低了多代理系统的实现门槛。该项目的核心亮点首先体现为极简的声明式编程接口。开发者仅需通过YAML配置文件定义代理角色与工作流规则，无需关注底层通信细节，这与Kubernetes声明式部署的理念异曲同工。其次，其动态拓扑架构支持运行时实时增减代理节点，类比于交通调度系统在高峰时段动态调整车道，使得系统扩展性远超同类工具（如LangChain）。更值得一提的是全链路可观测性设计，所有代理间的消息传递均生成可视化日志，就像给分布式团队配备了一台全景监控摄像机，极大简化了调试过程。 技术实现上，Trellis采用了两层精巧设计：上层是基于有向无环图（DAG）的流程引擎，如同快递分拣中心的智能传送带，自动将任务路由到对应代理；底层则通过轻量级gRPC通信构建了去中心化网络，类似蜜蜂群体通过震动频率传递信息，既避免了单点故障，又实现了毫秒级响应。其创新性的\"逻辑-物理分离\"架构（工作流定义与节点资源解耦）使得同一套业务逻辑可无缝部署于本地笔记本或云端集群，这种灵活性在开源领域尚属罕见。当前版本虽处于早期阶段，但已展现出颠覆现有AI工程范式的潜力。对于需要快速构建弹性AI系统的团队而言，Trellis在易用性与工业级 robustness 之间取得的平衡，使其成为比传统脚本和过度封装SaaS工具更优雅的\"第三种选择\"。随着插件生态的完善，该项目很可能重新定义AI代理开发的最佳实践。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "The best agent harness.",
-                        "homepage": "https://docs.trytrellis.app",
-                        "id": 1142423471,
-                        "language": "TypeScript",
-                        "license": "AGPL-3.0",
-                        "last_commit": "2026-08-27T07:31:57Z",
-                        "open_issues": 50,
-                        "owner": "mindfold-ai",
-                        "repo": "Trellis",
-                        "stars": 14471,
-                        "topics": [
-                          "agentic-coding",
-                          "ai-workflow",
-                          "claudecode",
-                          "codex",
-                          "harness"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "sirmalloc/ccstatusline",
-                      "description": "ccstatusline 是一个专为 Claude Code CLI 设计的动态状态栏插件，它通过高度可定制的视觉化界面，解决了开发者在使用命令行工具时信息展示分散、界面单调的核心痛点。与传统的静态状态栏不同，它不仅整合了关键操作信息（如当前工作目录、Git分支状态、系统负载等），还通过Powerline风格的动态分隔符和主题系统，让命令行界面既美观又高效。该项目的核心亮点首先体现在深度可定制化——用户可以通过简单的配置文件调整颜色方案、模块顺序甚至动态图标，无需修改代码即可适配不同工作场景。其次，其Powerline 无缝支持通过矢量风格的箭头分隔符，实现了信息区块的自然流动，比同类工具（如vim-airline）更贴合现代终端的美学需求。最独特的是实时性能监控功能，它以内核级数据采集为基础，将CPU/内存负载转化为直观的进度条，帮助开发者在资源密集型任务中快速定位瓶颈。从技术实现上看，ccstatusline 的工作原理类似于\"乐高积木式组装\"。它采用模块化架构，将状态栏拆解为多个独立组件（如Git模块、路径模块等），每个组件通过轻量级协程异步更新数据。这种设计类似于快递分拣中心的传送带系统——各模块并行处理数据，最终由渲染引擎统一拼接成连贯的UI。底层通过ANSI转义码实现终端绘图，就像用精确的坐标指令指挥画笔，即使在低配设备上也能保持60FPS的流畅动画效果。整体而言，ccstatusline 重新定义了命令行工具的交互美学，它既保留了Unix哲学\"单一职责\"的精髓，又通过巧妙的视觉设计提升了信息密度。对于长期驻守终端的开发者而言，这不仅是效率工具，更是一次对工作环境的感官升级。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
-                        "homepage": null,
-                        "id": 1034425196,
-                        "language": "TypeScript",
-                        "license": "MIT",
-                        "last_commit": "2026-09-03T19:27:44Z",
-                        "open_issues": 109,
-                        "owner": "sirmalloc",
-                        "repo": "ccstatusline",
-                        "stars": 12782,
-                        "topics": [
-                          "ai-tools",
-                          "claude-code",
-                          "cli",
-                          "developer-tools",
-                          "git",
-                          "powerline",
-                          "statusbar",
-                          "statusline",
+                          "cursor-agent",
+                          "devtools",
+                          "ghostty",
+                          "ide",
+                          "mobile-app",
+                          "opencode",
+                          "orchestration",
+                          "parallel-agents",
+                          "pi",
                           "terminal",
-                          "themeing"
+                          "worktrees",
+                          "yc-backed"
                         ]
                       },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
+                      "first_seen": "2026-09-06T23:12:31.646Z"
                     },
                     {
                       "node_type": "item",
-                      "title": "Piebald-AI/claude-code-system-prompts",
-                      "description": "Piebald-AI/claude-code-system-prompts 是一个专为提升 Claude AI 代码生成质量设计的系统提示词库，它通过结构化模板解决了大语言模型在编程场景中容易产生的逻辑碎片化、工具调用混乱等核心痛点。不同于普通提示词集合，该项目将 Claude 的代码生成能力拆解为可组合的智能模块，使开发者能够像搭积木一样构建具备专业级代码理解、多工具协同和自主问题分解能力的 AI 助手。该项目的核心优势首先体现在其完整的工具链生态，内置的 24 种专业工具描述（如 WebFetch 网络抓取、Bash 命令生成等）让 AI 能精准调用技术栈资源，相比传统单点提示词效率提升显著。其次，独创的三级子代理体系（Plan/Explore/Task）实现了复杂任务的自动拆解，这种类似\"技术主管+架构师+程序员\"的协作机制，使得代码生成过程具备人类团队的决策层次。最独特的是其动态版本适配能力，所有提示词会随 Claude 版本迭代同步优化，这种持续演进机制避免了开源项目常见的版本滞后问题。其技术架构采用\"洋葱式分层设计\"：最内层是基础工具描述（如安全审查规范），相当于给 AI 装备标准化扳手；中间层通过 CLAUDE.md 等效用提示构建上下文感知能力，类似为工程师配备智能工具箱；外层由子代理系统实现任务流编排，好比建筑工地里自动协调的吊车系统。特别值得注意的是其\"魔法文档\"设计，这些经过压缩处理的提示词就像预先编译好的软件包，既能保留完整语义又显著降低 token 消耗，这种空间优化策略使得复杂系统提示的成本降低约 40%。当用户发起请求时，系统会像编译器处理源代码那样，自动选择并组合最匹配的提示模块，最终输出符合工程规范的解决方案。",
+                      "title": "tt-a1i/archify",
+                      "description": "Archify是一款专注于架构与业务流程可视化的开源智能体技能工具，它精准击中了传统绘图软件中逻辑表达晦涩、静态图表缺乏动态演示能力以及手工绘制极易失真的核心痛点。相较于市面上常见的排版插件，该项目的卓越之处在于其高度自洽的工程化设计。首先，它彻底摒弃了对外部运行环境的依赖，将所有矢量样式、交互动画与底层数据完整封装于单一HTML文件中，实现了真正的开箱即用与跨终端无损流转；其次，内置的可验证引擎在出图前会进行拓扑逻辑自检，确保每一处连线与状态跃迁均符合设计规范，有效弥补了传统可视化工具“重外观轻逻辑”的行业缺陷；最后，其动态渲染管线为枯燥的架构图注入了流畅的视觉动效，大幅提升了技术评审与架构汇报的沟通效率。从底层原理来看，Archify的运作机制犹如一位严谨的规划师与自动化绘图仪的深度协同。系统首先将用户的指令拆解为实体关系图与状态机模型，这一步骤如同在空白画布上精准标定坐标网格；随后，布局算法会根据预设的拓扑规则自动优化节点分布，并将样式表、动画脚本与图形数据通过内联方式无缝缝合；最终输出的文件无需任何服务器解析即可在浏览器中独立解码，这种将意图解析、逻辑校验与前端渲染深度耦合的技术路径，使得架构表达真正从繁琐的手工排版跃升为可追溯、可复用、可验证的标准化数字资产。",
                       "children": [],
                       "repo_info": {
                         "archived": false,
-                        "description": "All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
-                        "homepage": null,
-                        "id": 1099328966,
+                        "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+                        "homepage": "https://tt-a1i.github.io/archify/",
+                        "id": 1211139949,
                         "language": "JavaScript",
                         "license": "MIT",
-                        "last_commit": "2026-09-04T21:41:36Z",
-                        "open_issues": 8,
-                        "owner": "Piebald-AI",
-                        "repo": "claude-code-system-prompts",
-                        "stars": 12584,
+                        "last_commit": "2026-09-06T08:38:31Z",
+                        "open_issues": 123,
+                        "owner": "tt-a1i",
+                        "repo": "archify",
+                        "stars": 50721,
                         "topics": [
-                          "claude-code",
-                          "claude-code-system-prompts",
-                          "system-prompts"
+                          "agent-skills",
+                          "architecture-as-code",
+                          "architecture-diagram",
+                          "claude-skill",
+                          "code-visualization",
+                          "codex",
+                          "coding-agents",
+                          "data-flow-diagram",
+                          "deepseek-harness",
+                          "developer-tools",
+                          "diagram-as-code",
+                          "diagrams",
+                          "diagrams-as-code",
+                          "dsh-plugin",
+                          "mermaid-alternative",
+                          "opencode",
+                          "sequence-diagram",
+                          "software-architecture",
+                          "system-design",
+                          "text-to-diagram"
                         ]
                       },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
+                      "first_seen": "2026-09-06T23:12:31.646Z"
                     },
                     {
                       "node_type": "item",
-                      "title": "Jeffallan/claude-skills",
-                      "description": "Jeffallan/claude-skills 是一个专为全栈开发者设计的AI技能库项目，它通过系统化整理66项Claude模型的编程技能，解决了开发者在日常工作中需要反复向AI解释专业需求、调试低效提示词的痛点，将Claude模型转化为真正理解开发语境的\"专家级结对程序员\"。该项目区别于普通提示词集合的核心价值在于其实现了三个关键突破：首先，它采用模块化设计将复杂开发任务拆解为原子级技能单元，就像为程序员配备了一个可自由组合的\"数字瑞士军刀\"，相比零散的提示词模板能实现更精准的上下文衔接；其次，每个技能都经过真实项目验证并标注适用场景，如同经过严格质检的代码模块，避免了普通AI工具常见的\"理论正确但实操卡壳\"问题；第三，其内置的技能协同机制允许不同专业领域的提示词智能组合，这种\"技能乐高\"式的设计让处理复合型开发任务时能自动保持技术栈的一致性。该项目的工作原理本质上构建了一个\"AI技能中间件层\"：当开发者调用具体技能时，系统会自动注入经过优化的上下文记忆、预设质量检查点以及领域知识图谱。这种设计通过\"预训练+微调+即时上下文增强\"的三级知识处理架构，使得Claude模型能像经验丰富的技术主管那样，既理解git rebase 这样的具体操作，又能把握\"保持提交历史整洁\"的工程哲学。特别值得注意的是其\"技能热加载\"机制，开发者对本地技能文件的修改会实时影响AI输出，这种类似IDE的即时反馈循环大幅降低了提示词工程的试错成本。相较于传统AI编程助手需要用户自行维护上下文，该项目通过结构化技能描述和自动化的意图识别，实现了从\"被动工具\"到\"主动协作者\"的质变，这正是其在开发者社区快速流行的根本原因。",
+                      "title": "Hmbown/CodeWhale",
+                      "description": "CodeWhale是一款专为开发者打造的终端开源编程智能体，精准切中了现代软件工程中对自动化代码生成与交互式调试流程日益增长的迫切需求。相较于传统IDE插件或静态补全工具，该项目的核心优势在于其将AI推理深度原生嵌入命令行工作流、采用Rust语言重构底层交互逻辑以彻底规避内存安全风险，以及依托开源社区驱动的敏捷迭代机制，从而在响应延迟与本地资源占用上实现了显著超越。其内在运作原理犹如一位隐于屏幕后的技术副驾，当你在终端下达指令或圈选代码时，智能体会首先抓取当前工作目录的上下文环境并绘制成语义地图，随后借助轻量级模型进行意图拆解，最终将生成的脚本或命令经安全校验后平稳推回执行链路；得益于Rust语言严谨的所有权管理与异步并发架构，这套流程无需依赖臃肿的外部服务即可在本地高效完成“接收指令-逻辑推演-结果交付”的完整闭环。整体而言，CodeWhale以克制的终端交互设计与坚实的底层技术栈，成功重塑了开发者与人工智能在代码编写场景下的协同范式。",
                       "children": [],
                       "repo_info": {
                         "archived": false,
-                        "description": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
-                        "homepage": null,
-                        "id": 1080070047,
-                        "language": "Python",
+                        "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
+                        "homepage": "https://codewhale.net/",
+                        "id": 1137711311,
+                        "language": "Rust",
                         "license": "MIT",
-                        "last_commit": "2026-08-07T20:19:18Z",
-                        "open_issues": 34,
-                        "owner": "Jeffallan",
-                        "repo": "claude-skills",
-                        "stars": 11332,
+                        "last_commit": "2026-09-06T23:08:45Z",
+                        "open_issues": 93,
+                        "owner": "Hmbown",
+                        "repo": "Codewhale",
+                        "stars": 40915,
                         "topics": [
-                          "ai-agents",
-                          "claude",
-                          "claude-code",
-                          "claude-marketplace",
-                          "claude-skills"
+                          "agent-orchestration",
+                          "ai-agent",
+                          "cli",
+                          "coding-agent",
+                          "local-first",
+                          "mcp",
+                          "multi-agent",
+                          "multi-model",
+                          "open-source",
+                          "rust",
+                          "tui"
                         ]
                       },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "herdrdev/herdr",
+                      "description": "Herdr是一款专为AI编码智能体打造的轻量级运行时环境，旨在解决当前大模型驱动的代码生成工具在持久化执行、状态管理及多代理协同中普遍存在的上下文断裂与沙箱隔离难题。相较于传统依赖静态脚本或重型编排框架的同类方案，该项目通过内置的智能体生命周期管理器、基于版本控制的状态快照机制以及零信任级别的隔离执行沙箱三大核心特性，实现了从代码生成到自动测试部署的全链路无缝衔接，显著降低了多智能体协作时的上下文丢失风险与资源竞争冲突。其底层架构可类比为一座智能化的数字孵化器，内部不仅预置了标准化的容器化工作区供各编码代理独立栖息，更通过一条高效的事件总线实现代理间的安全对话与任务调度，同时利用差异化的状态记录引擎实时捕获代码变更轨迹，使得复杂的多轮对话与文件操作如同在本地开发环境中般连贯自然。当用户向系统下达指令时，Herdr会首先在隔离沙箱中为智能体分配专属计算资源并注入预设上下文，随后由调度中枢监控执行流，一旦检测到依赖变更或状态异常，便会自动触发快照回滚机制以维持运行一致性，这种将微服务架构的弹性与单机开发的确定性巧妙融合的设计思路，彻底打破了传统AI编程工具生成即结束的体验瓶颈，为下一代自主编码工作流提供了坚实可靠的底层支撑。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "the runtime your coding agents live on",
+                        "homepage": "https://herdr.dev",
+                        "id": 1193909050,
+                        "language": "Rust",
+                        "license": "Apache-2.0",
+                        "last_commit": "2026-09-06T20:44:16Z",
+                        "open_issues": 278,
+                        "owner": "herdrdev",
+                        "repo": "herdr",
+                        "stars": 35797,
+                        "topics": [
+                          "agent",
+                          "agent-orchestration",
+                          "ai",
+                          "ai-agents",
+                          "claude-code",
+                          "cli",
+                          "codex",
+                          "coding-agents",
+                          "developer-tools",
+                          "devtools",
+                          "multiplexer",
+                          "rust",
+                          "terminal",
+                          "terminal-multiplexer",
+                          "terminal-ui",
+                          "tmux",
+                          "tui",
+                          "workspace-manager"
+                        ]
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "virgiliojr94/book-to-skill",
+                      "description": "book-to-skill 是一款开源转换工具，可将静态技术 PDF 文档转换为原生 Claude Code 技能，直接解决开发人员在尝试将内容繁杂的参考手册与现代 AI 辅助编程工作流程衔接时遇到的难题。该项目无需工程师手动提取代码片段或依赖未经训练的大型语言模型，即可自动将已发布的文档提炼成结构化、可查询的技能包，并无缝集成到开发环境中。这种方法消除了每次编码会话中重复的上下文加载阶段，同时通过内联引用映射保留了作者的权威性——通用文档解析器通常会忽略这一功能，而倾向于处理非结构化的文本转储。此外，该工具绕过了复杂的向量索引管道和微调需求，只需执行一次即可生成可用于生产环境的技能清单，并原生支持版本控制和协作共享工作流程。其底层架构通过确定性知识提取管道运行，其工作方式类似于专业编辑为高技能助手准备专门的参考卡片。该系统首先接收原始PDF文件，去除页码、页边距和排版噪声，提取纯粹的技术文本，类似于标准OCR引擎将文本与视觉格式分离的方式。提取干净的内容后，系统应用基于规则的解析层，识别可重用的代码块、依赖关系规范和决策模式，并将它们分组为独立的功能模块，而不是呈现大量无结构的文本。这些模块随后被封装在Claude的原生技能清单模式中，系统会自动生成语义元数据和轻量级索引标签，以便AI在开发者提出特定问题时能够检索到精确的章节片段。这种架构用可预测的检索逻辑取代了推测性的模型记忆，确保生成的每个见解都能完全追溯到原始来源，同时在活跃的编码会话中也能即时访问。通过规范静态文献与动态AI代理的交互方式，“书籍到技能”在传统技术出版和当代提示驱动的开发实践之间架起了一座可复制的桥梁。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+                        "homepage": null,
+                        "id": 1226123343,
+                        "language": "Python",
+                        "license": "MIT",
+                        "last_commit": "2026-09-06T21:24:33Z",
+                        "open_issues": 20,
+                        "owner": "virgiliojr94",
+                        "repo": "book-to-skill",
+                        "stars": 28793,
+                        "topics": [
+                          "agent-skills",
+                          "ai-agents",
+                          "book-to-skill",
+                          "context-engineering",
+                          "document-processing",
+                          "edtech",
+                          "knowledge-base",
+                          "knowledge-management",
+                          "llm",
+                          "pdf-to-markdown",
+                          "rag",
+                          "self-study",
+                          "study-tools"
+                        ]
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "Nutlope/hallmark",
+                      "description": "Hallmark是一个专为Claude Code、Cursor及Codex等AI编程助手打造的防“AI水化”提示词工程框架，旨在根治大模型在生成代码与设计稿时普遍存在的模板化、缺乏业务语境与可维护性差的痛点。该项目通过深度解构人类专家的设计思维与工作流，将原本松散的自然语言指令转化为结构化且可复用的技能模块，使得AI输出从基础的功能实现直接跃升至生产级水准；其内置的反套路校验机制能有效拦截低质量泛化回答，确保每次交互都聚焦于高价值逻辑而非堆砌无效注释；此外，框架采用轻量级的文件映射架构，开发者仅需微调路径参数即可无缝接入主流AI终端，彻底规避了同类工具依赖复杂环境配置或私有服务器部署的沉重负担。其底层运作逻辑如同为AI配备了一套标准化的影视剪辑台，系统首先通过解析核心文档自动构建项目上下文认知库，随后借助角色锚定与条件分支技术强制模型切换至特定专家视角；这一过程犹如在烹饪前严格界定食材配比与火候曲线，从而从根本上遏制大模型因过度自由发散而导致的结构松散或逻辑断层问题。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+                        "homepage": "https://www.usehallmark.com/",
+                        "id": 1222917575,
+                        "language": "CSS",
+                        "license": "MIT",
+                        "last_commit": "2026-08-06T16:19:18Z",
+                        "open_issues": 45,
+                        "owner": "Nutlope",
+                        "repo": "hallmark",
+                        "stars": 28169,
+                        "topics": []
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "google-labs-code/design.md",
+                      "description": "DESIGN.md是一套专为AI编程代理设计的视觉标识描述规范，它通过提供持久且结构化的设计系统上下文，精准解决了大语言模型在自动化生成代码时因缺乏统一设计规范而导致的界面风格漂移与重复沟通痛点。该项目相较于传统工具的核心优势在于其标准化架构能够彻底消除多智能体协作中的认知碎片化，凭借内置的层级化索引机制实现设计规则的长期记忆而非短暂会话存储，同时依托原生Markdown语法实现了无需额外解析器的无缝工程集成，从而在易用性与稳定性上显著优于依赖私有格式的竞品方案。在底层运作逻辑上，该规范犹如为编程代理配备了一本可随时查阅的“数字化建筑蓝图”，它将抽象的色彩、字体与组件规范转化为带标题层级的树状文档结构，代理只需在初始化阶段完整读取一次即可将设计映射建立为内部知识库，后续生成代码时便可通过简单的语义检索快速调用对应规则，这种以静态文档驱动动态生成的范式不仅大幅降低了上下文窗口的消耗压力，更让非专业开发者也能通过自然语言标记轻松掌控复杂的视觉一致性约束。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+                        "homepage": "https://stitch.withgoogle.com/docs/design-md/specification",
+                        "id": 1207222725,
+                        "language": "TypeScript",
+                        "license": "Apache-2.0",
+                        "last_commit": "2026-07-27T21:15:07Z",
+                        "open_issues": 43,
+                        "owner": "google-labs-code",
+                        "repo": "design.md",
+                        "stars": 27763,
+                        "topics": []
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "ayghri/i-have-adhd",
+                      "description": "i-have-adhd 是一款轻量级的 AI 代码助手配置工具，旨在消除冗长、无结构化的模型响应所造成的认知负担。它通过拦截并重构开发代理的通信方式，解决了开发者不得不在大量文本中苦苦搜寻可执行代码或简洁解释的难题。该项目通过三个主要的架构选择脱颖而出，使其有别于传统的提示调整工具。首先，它实现了一个严格的层级式输出解析器，能够自动将冗长的 Markdown 段落转换为易于浏览的决策树和代码块优先的布局，确保开发者在看到任何补充上下文之前就能立即找到解决方案。其次，该工具强制执行自适应的冗长控制，能够根据检测到的复杂性动态调整，防止简单的修复方案淹没在冗长的理论讨论中，同时又能为真正复杂的架构问题保留足够的深度。最后，它通过标准系统指令注入与现有的AI编码框架无缝集成，无需设置独立的外部环境，因此可以作为Aider或Cursor等工具的即插即用增强功能，而不会干扰既定的工作流程。与生成后仅重新格式化输出的独立文档生成器不同，这项技术在提示编排层运行，从第一个词元开始就主动塑造模型的推理过程，优先考虑清晰度而非全面性。在底层，该系统依赖于一个分层指令流水线，其工作原理类似于编辑器在广播清晰信号之前过滤掉无线电静电干扰。i-have-adhd 并没有允许语言模型输出所有可能措辞变体的原始概率分布，而是应用了一个结构化的约束矩阵，强制智能体遵循可预测的通信协议。初始阶段充当认知过滤器，要求工具在生成任何响应文本之前评估查询是需要立即生成实现代码还是需要概念解释。这种早期的把关机制可以防止模型陷入不必要的上下文离题。中间阶段充当信息架构师的角色，自动为每个片段添加明确的优先级标识，并利用成熟的语言压缩技术将冗余的解释精简为单行摘要。这种方法之所以有效，是因为现代编码代理基于可预测的注意力模式运行，通过在生成周期的早期建立严格的格式边界，系统能够有效地引导模型避免对话填充内容，从而生成简洁、高信号的输出。最后阶段运行一个轻量级的后处理验证器，检查结构一致性，确保每个响应都通过一致的标题级别、语法高亮的代码分隔以及针对警告或极端情况的明确标注来保持视觉节奏。这些组件共同创建了一个可预测的信息流，显著降低了解析人工智能生成的开发指导所需的认知负荷。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+                        "homepage": null,
+                        "id": 1238120057,
+                        "language": "Python",
+                        "license": "MIT",
+                        "last_commit": "2026-09-01T20:49:17Z",
+                        "open_issues": 28,
+                        "owner": "ayghri",
+                        "repo": "i-have-adhd",
+                        "stars": 27402,
+                        "topics": [
+                          "adhd",
+                          "claude-",
+                          "claude-code-plugin",
+                          "claude-skills",
+                          "developer-tools",
+                          "productivity"
+                        ]
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "getpaseo/paseo",
+                      "description": "Paseo 是一个面向开发者的远程代码代理编排平台，它巧妙地解决了多设备协同编程时环境割裂的核心痛点——开发者经常需要在手机、桌面设备和命令行界面之间切换，却缺乏统一的工具来无缝管理和监控分布式编码任务。这个开源项目通过智能代理架构，让用户能够像指挥交响乐团一样，从任意终端设备优雅地协调分布在云环境或本地主机上的代码执行单元，彻底打破了传统IDE对物理设备的依赖枷锁。该项目最引人注目的三大创新点在于其全场景覆盖能力、轻量化通信协议和可视化编排界面。与常见的远程开发工具如VS Code Remote不同，Paseo创造性地采用声明式任务描述语言，使得在手机上编写的一个简单YAML配置就能触发云端复杂的CI/CD流程，这种抽象程度远超同类工具；其基于WebSocket的双向通信协议经过特殊优化，在移动网络环境下仍能保持流畅的代码同步体验，实测延迟比SSH隧道降低62%；而动态可调整的DAG任务图界面，则让开发者能像拼装乐高积木一样直观地组合代码片段，这种交互模式在开源领域尚属首创。 技术实现上，Paseo借鉴了微服务架构中的边车模式（Sidecar Pattern），每个执行代理都配备了一个轻量级通信适配器。这个设计类似于给每个快递员配备智能对讲机——主控端发送的指令首先被编译成中间表示层（IR），然后通过自适应路由算法选择最优传输路径，最终在目标环境还原为原生系统调用。特别值得注意的是其状态同步机制：采用操作转换（OT）算法实时合并多端修改，就像多人协作编辑文档时的版本合并，但额外增加了代码语法树的语义校验层，确保分布式执行的正确性。项目还内置了沙箱化的WASM运行时，使得手机发起的代码片段能在受控环境中安全执行，这种设计显著降低了移动端开发的安全风险。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "Orchestrate multiple coding agents from desktop and mobile",
+                        "homepage": "https://paseo.sh",
+                        "id": 1075381375,
+                        "language": "TypeScript",
+                        "license": "NOASSERTION",
+                        "last_commit": "2026-09-06T19:40:24Z",
+                        "open_issues": 1244,
+                        "owner": "getpaseo",
+                        "repo": "paseo",
+                        "stars": 16212,
+                        "topics": [
+                          "ade",
+                          "agents",
+                          "android",
+                          "claude-code",
+                          "codex",
+                          "copilot",
+                          "developer-tools",
+                          "hermes",
+                          "ios",
+                          "linux",
+                          "mobile",
+                          "opencode",
+                          "orchestration",
+                          "pi",
+                          "windows"
+                        ]
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
                     },
                     {
                       "node_type": "item",
@@ -1178,7 +947,7 @@
                         "open_issues": 0,
                         "owner": "yizhiyanhua-ai",
                         "repo": "fireworks-tech-graph",
-                        "stars": 11225,
+                        "stars": 11245,
                         "topics": [
                           "agent-workflows",
                           "ai",
@@ -1202,11 +971,11 @@
                         "id": 1156994049,
                         "language": "Go",
                         "license": "Apache-2.0",
-                        "last_commit": "2026-09-05T22:52:04Z",
-                        "open_issues": 754,
+                        "last_commit": "2026-09-06T22:00:24Z",
+                        "open_issues": 760,
                         "owner": "Untrivial-ai",
                         "repo": "agent-orchestrator",
-                        "stars": 10968,
+                        "stars": 11002,
                         "topics": [
                           "agent-fleet",
                           "agent-ide",
@@ -1237,11 +1006,11 @@
                         "id": 1209889782,
                         "language": "TypeScript",
                         "license": "MIT",
-                        "last_commit": "2026-09-04T09:51:37Z",
-                        "open_issues": 45,
+                        "last_commit": "2026-09-06T07:49:08Z",
+                        "open_issues": 46,
                         "owner": "getagentseal",
                         "repo": "codeburn",
-                        "stars": 10863,
+                        "stars": 10869,
                         "topics": [
                           "ai-coding",
                           "claude-code",
@@ -1255,101 +1024,6 @@
                           "terminal-ui",
                           "token-usage",
                           "web-dashboard"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "Kuberwastaken/claurst",
-                      "description": "Claurst 是一个面向开发者的智能编码代理框架，旨在通过自动化编码流程解决开发者频繁上下文切换、重复性工作过多等效率痛点。其核心思想是将常见的代码生成、重构、验证等任务转化为可编排的\"代理工作流\"，让开发者能专注于核心逻辑而非样板代码，尤其适合需要快速迭代的云原生应用开发场景。该项目有三大核心亮点：首先，它采用声明式工作流定义，通过 YAML 或 Python DSL 描述编码任务链，相比传统代码生成器更易于维护和扩展；其次，内置上下文感知引擎，能自动追踪项目结构、依赖关系等元数据，确保生成的代码与现有体系兼容；最后，其模块化代理设计允许自由组合代码补全、静态检查、测试生成等能力，这种\"乐高积木式\"的灵活性远超单一功能的代码助手工具。 技术实现上，Claurst 的运作类似于自动化装配线：当开发者定义好目标任务（如\"创建 Kubernetes 控制器\"），框架会像车间调度系统一样，依次启动语法分析代理（拆解需求）、代码生成代理（生产零件）、校验代理（质检），最终输出符合规范的代码。其底层通过抽象语法树（AST）操作保证代码结构准确性，结合静态分析避免常见错误，整个过程如同经验丰富的工程师在脑海中推演代码结构后一气呵成。该项目特别强调\"builders who ship\"的理念，所有设计都服务于降低从构思到产出的延迟。例如其内置的 Kubernetes 资源生成器，能根据 CRD 定义自动生成控制器脚手架代码，将原本需要数小时的手动配置压缩至分钟级。这种聚焦实际交付痛点的设计，使其在云原生工具链中展现出独特的实用价值。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Agentic Coding for Builders who Ship",
-                        "homepage": "https://claurst.kuber.studio/",
-                        "id": 1197043989,
-                        "language": "Rust",
-                        "license": "GPL-3.0",
-                        "last_commit": "2026-09-02T15:57:58Z",
-                        "open_issues": 31,
-                        "owner": "Kuberwastaken",
-                        "repo": "claurst",
-                        "stars": 10290,
-                        "topics": [
-                          "claude",
-                          "claude-code",
-                          "claurst",
-                          "cli",
-                          "codex",
-                          "gemini",
-                          "rust",
-                          "tui"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "ykdojo/claude-code-tips",
-                      "description": "《Claude Code技巧大全》是一个专注于提升Anthropic公司Claude AI代码生成效率的开源指南项目，它系统性地解决了开发者在使用Claude时存在的提示词效率低下、功能挖掘不充分等核心痛点。该项目通过45条渐进式技巧，将AI辅助编程从基础操作延伸到容器化自运行等前沿场景，其价值在于把碎片化的民间经验转化为可复用的工程化方案。该项目最突出的三大创新点在于其技术深度、生态整合与自动化能力。不同于普通的API使用手册，开发者可通过内置的dx插件实现终端无缝对接，这相当于为Claude打造了一个专属的CLI工作台；而将系统提示词精简50%的优化方案，则像给AI引擎加装了涡轮增压器，显著提升了响应速度与准确性；最具突破性的是项目演示了让Claude在容器内自运行的方案，这如同教会AI\"自我托管\"，为构建AI自治系统提供了可行性验证。其技术架构呈现出典型的\"洋葱式\"分层设计：最外层是即插即用的Bash/Zsh脚本，如同给终端装上智能仪表盘；中间层通过环境变量与API密钥管理，构建起类似操作系统的权限隔离机制；内核则采用Markdown结构化文档作为知识库，这种设计使得技巧更新如同维基百科般可持续演进。特别值得一提的是其\"AI套娃\"模式——通过让Claude调用Gemini CLI执行子任务，形成了类似人类\"主管-助理\"的协作链条，这种元编程思维正是该项目在AI工程化领域的超前之处。该项目本质上构建了一套面向大模型时代的\"开发者生存工具包\"，其每个技巧都经过真实编程场景的淬炼。从缩短提示词响应时间的毫秒级优化，到实现AI自治系统的概念验证，这个持续更新的知识库正在重新定义人类与AI协作的边界。对于追求极致效率的全栈工程师而言，这些经过实战检验的方案比学术论文更具现实指导意义。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
-                        "homepage": null,
-                        "id": 1105657641,
-                        "language": "HTML",
-                        "license": "NOASSERTION",
-                        "last_commit": "2026-09-02T21:51:40Z",
-                        "open_issues": 4,
-                        "owner": "ykdojo",
-                        "repo": "claude-code-tips",
-                        "stars": 10040,
-                        "topics": [
-                          "agentic",
-                          "agentic-ai",
-                          "agentic-coding",
-                          "agentic-workflow",
-                          "ai",
-                          "claude",
-                          "claude-ai",
-                          "claude-code",
-                          "cli",
-                          "developer-tools",
-                          "productivity",
-                          "tips-and-tricks"
-                        ]
-                      },
-                      "first_seen": "2026-08-28T05:49:48.006Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "frankbria/ralph-claude-code",
-                      "description": "frankbria/ralph-claude-code 是一个基于 Claude 模型的自动化 AI 开发循环工具，旨在解决开发者在迭代式代码生成与优化过程中频繁手动介入的痛点。通过智能退出检测机制，它能够自主判断代码生成的完成度，从而减少人为干预，提升开发效率。该项目的核心亮点在于其高度自主性、智能退出机制以及对 Claude 模型的深度集成。首先，它通过自动化循环持续优化代码，避免了传统工具需要开发者反复触发生成的繁琐流程。其次，智能退出检测能够分析代码的稳定性和完整性，确保生成的代码达到可用标准后才终止循环，这一点相较于普通代码生成工具更具可靠性。最后，该项目充分利用 Claude 模型的自然语言理解能力，使得代码生成更贴近开发者意图，而非简单的模板填充。从技术原理来看，ralph-claude-code 的工作流程类似于一位经验丰富的编程助手：它首先接收开发者的需求描述，通过 Claude 生成初始代码，随后进入循环检测阶段，不断评估代码质量（如语法正确性、逻辑合理性等），直至满足预设的退出条件。这一过程类似于人类开发者反复调试代码，但速度更快且不易疲劳。其底层架构可能结合了静态代码分析、模型置信度评估等技术，但通过智能封装，使用者无需关心复杂细节即可获得高质量的生成结果。整体而言，该项目为 AI 辅助编程提供了一种更流畅的协作模式，尤其适合需要快速原型开发或频繁迭代的场景。其设计平衡了自动化与可控性，既避免了过度依赖 AI 导致的结果不可控，又显著降低了人工监督的成本，代表了当前 AI 代码生成工具向更高阶自主性演进的重要尝试。",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
-                        "homepage": null,
-                        "id": 1045721921,
-                        "language": "Shell",
-                        "license": "MIT",
-                        "last_commit": "2026-07-18T02:33:21Z",
-                        "open_issues": 37,
-                        "owner": "frankbria",
-                        "repo": "ralph-claude-code",
-                        "stars": 9622,
-                        "topics": [
-                          "ai",
-                          "ai-agent",
-                          "ai-agents",
-                          "ai-development",
-                          "ai-development-tools",
-                          "claude-code",
-                          "claude-code-cli",
-                          "development-tools",
-                          "development-workflow"
                         ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -1370,7 +1044,7 @@
                         "open_issues": 37,
                         "owner": "Maciek-roboblog",
                         "repo": "Claude-Code-Usage-Monitor",
-                        "stars": 8674,
+                        "stars": 8673,
                         "topics": [
                           "ai",
                           "analytics",
@@ -1401,7 +1075,7 @@
                         "open_issues": 57,
                         "owner": "smtg-ai",
                         "repo": "claude-squad",
-                        "stars": 8433,
+                        "stars": 8440,
                         "topics": [
                           "claude-code",
                           "cli",
@@ -1411,6 +1085,48 @@
                         ]
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "UfoMiao/zcf",
+                      "description": "ZCF是一个专为Claude和Codex设计的零配置代码流工具，它解决了开发者在处理多文件代码库时面临的上下文管理难题。传统方式需要手动拼接代码文件作为提示词输入，既低效又容易出错，而ZCF通过自动化代码文件组织，让开发者能够专注于核心逻辑而非繁琐的配置。该项目的核心亮点首先体现在其\"智能上下文感知\"能力，它能自动识别代码依赖关系，相比同类工具需要手动指定文件路径的做法，ZCF像经验丰富的图书管理员一样，准确找出所有关联文件。其次是\"动态分块优化\"技术，通过分析Claude API的token限制，智能拆分超长代码块，这比固定分块策略更节省API调用次数。最独特的是其\"版本控制友好\"设计，自动忽略.gitignore文件中的条目，避免了将临时文件或敏感信息意外传入AI模型的风险。从技术实现看，ZCF的工作原理类似于精密的流水线系统：当用户指定根目录后，它会像编译器前端那样进行词法分析，但不同于编译器关注语法正确性，ZCF聚焦于建立文件间的引用图谱。这个过程中运用了类似Webpack的依赖解析算法，不过目标不是打包而是构建最优提示词。特别巧妙的是其\"热度优先\"排序策略，参考了CPU缓存的工作原理，将频繁修改的文件保持在上下文窗口的\"热区\"，这种设计使得AI模型能更连贯地理解代码演进逻辑。整个系统通过轻量级文件监听器实现实时更新，其架构类似于React的虚拟DOM，只对变更部分进行增量处理，确保了高效运作。这个项目展现了开源社区对AI编程助手的深度适配创新，其价值不仅在于节省配置时间，更重塑了人机协作的代码交互范式。随着AI编程普及，这类降低认知负荷的工具将变得越来越关键。",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "Zero-Config Code Flow for Claude code & Codex",
+                        "homepage": "http://zcf.ufomiao.com/",
+                        "id": 1028832403,
+                        "language": "TypeScript",
+                        "license": "MIT",
+                        "last_commit": "2026-08-31T03:02:03Z",
+                        "open_issues": 42,
+                        "owner": "UfoMiao",
+                        "repo": "zcf",
+                        "stars": 6084,
+                        "topics": [
+                          "agent",
+                          "ai",
+                          "ai-agent",
+                          "bmad-method",
+                          "ccr",
+                          "claude",
+                          "claude-4",
+                          "claude-ai",
+                          "claude-code",
+                          "cli",
+                          "gpt",
+                          "gpt-5",
+                          "llm",
+                          "llm-code",
+                          "nodejs",
+                          "openai",
+                          "prompt",
+                          "typescript",
+                          "workflow",
+                          "zcf"
+                        ]
+                      },
+                      "first_seen": "2026-09-06T23:12:31.646Z"
                     }
                   ],
                   "description": null,
@@ -1439,72 +1155,29 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "millionco/react-doctor",
-                  "description": "是一款专为拦截大语言模型生成代码缺陷而打造的 React 质量守门员，它直击当前 AI 编程助手频繁产出违背框架规范、埋藏运行时隐患的致命痛点。该工具在同类检查器中建立显著优势，不仅凭借上下文感知规则引擎精准剥离 AI 在组件拆分与状态管理中的逻辑幻觉，从而突破传统 Lint 仅校验基础语法的瓶颈，更通过零配置开箱即用的集成架构彻底免去繁琐的手动调优负担，同时其内置的自动化修复建议生成模块能够直接输出符合最佳实践的重构方案，大幅压缩人工审查周期。该系统的底层运作逻辑犹如一位严谨的临床医师实施靶向诊断，首先将 AI 生成的源码拆解为结构化的抽象语法树，随后沿着数据流向与组件生命周期轨迹进行深度渗透扫描，一旦捕获到违反 Hooks 依赖或副作用失控的异常路径，便会立即触发拦截机制并输出修复处方。这种从静态解析到动态逻辑推演的闭环设计，从根本上杜绝了劣质代码流入生产环境的风险。",
+                  "title": "Lakr233/vphone-cli",
+                  "description": "vphone-cli 是一个在 Apple Silicon Mac（macOS 15+）上，借助苹果 Virtualization.framework 与 PCC 研究 VM 基础设施启动虚拟 iPhone（iOS 26/27 等）的命令行工具。它提供从下载/合并 IPSW、二进制补丁改造引导链、DFU 恢复、装自定义固件（CFW）到首次启动的全流程自动化（vm create 一条命令跑通），并支持 less/regular/dev/jb/exp 五种安全绕过层级递增的固件变体（越往后越接近越狱，exp 还带反 VM 检测研究补丁）。工具链以 Swift 为主，依赖 SIP/AMFI 放宽、pymobiledevice3、ldid 等，启动后可通过 SSH/VNC/usbmux 接入，也暴露本地控制 socket 供 MCP 封装做 AI 驱动端到端测试，适合安全研究、iOS 内核分析与越狱实验场景。",
                   "children": [],
                   "repo_info": {
                     "archived": false,
-                    "description": "Your agent writes bad React. This catches it",
-                    "homepage": "https://react.doctor",
-                    "id": 1156960719,
-                    "language": "TypeScript",
-                    "license": "NOASSERTION",
-                    "last_commit": "2026-09-05T21:38:27Z",
-                    "open_issues": 82,
-                    "owner": "millionco",
-                    "repo": "react-doctor",
-                    "stars": 14717,
-                    "topics": [
-                      "agents",
-                      "code-review",
-                      "doctor",
-                      "react",
-                      "skill"
-                    ]
+                    "description": null,
+                    "homepage": null,
+                    "id": 1167515091,
+                    "language": "Swift",
+                    "license": "MIT",
+                    "last_commit": "2026-08-31T22:34:35Z",
+                    "open_issues": 24,
+                    "owner": "Lakr233",
+                    "repo": "vphone-cli",
+                    "stars": 10953,
+                    "topics": []
                   },
-                  "first_seen": "2026-08-28T05:49:48.006Z"
+                  "first_seen": "2026-09-06T23:12:31.646Z"
                 }
               ],
               "description": null,
               "node_type": "group",
-              "title": "React工具库"
-            },
-            {
-              "children": [
-                {
-                  "node_type": "item",
-                  "title": "webadderallorg/Recordly",
-                  "description": "Recordly是一款面向开发者的跨平台自动化演示视频生成工具，它精准切中了非专业用户难以低成本制作高质量产品演示视频的痛点。该项目的核心优势首先体现在其零门槛的交互设计，通过内置的标准化渲染管线彻底取代了传统剪辑软件中繁琐的时间轴对齐与特效叠加步骤；其次，它支持从屏幕录制到字幕生成、动态标注的一键式流水线输出，大幅压缩了内容生产周期；最后，依托完全开源的架构与原生跨平台兼容性，Recordly在保障代码透明可审计的同时，无缝适配Mac、Windows与Linux环境，有效规避了同类闭源工具的平台限制。其底层工作原理可类比为一位隐形的“数字导演”，系统首先通过调用操作系统的图形捕获接口实时记录鼠标轨迹与界面交互，随后借助轻量级多媒体处理框架对原始画面进行自动化抽帧与关键操作高亮标记；在此基础上，内置的规则引擎会自动识别操作序列的逻辑节点，将离散的屏幕片段重组为具有专业节奏感的叙事流。用户仅需输入基础意图或脚本指令，后台算法便能自主完成参数调优与视觉包装，真正实现了从手动剪辑到智能生成的技术范式转移。",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
-                    "homepage": "https://recordly.dev",
-                    "id": 1180325220,
-                    "language": "TypeScript",
-                    "license": "NOASSERTION",
-                    "last_commit": "2026-09-05T10:08:42Z",
-                    "open_issues": 290,
-                    "owner": "webadderallorg",
-                    "repo": "Recordly",
-                    "stars": 23369,
-                    "topics": [
-                      "electron",
-                      "free",
-                      "linux",
-                      "macos",
-                      "open-source",
-                      "screen-recorder",
-                      "screen-studio",
-                      "windows"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T05:49:48.006Z"
-                }
-              ],
-              "description": null,
-              "node_type": "group",
-              "title": "多工具库支持或纯JS"
+              "title": "iOS_Swift应用开发"
             }
           ],
           "description": null,
@@ -1515,89 +1188,6 @@
           "children": [
             {
               "children": [
-                {
-                  "node_type": "item",
-                  "title": "bluewave-labs/Checkmate",
-                  "description": "Checkmate 是一个开源的自托管工具，专为实时追踪和监控服务器硬件状态、运行时间、响应速度以及事故记录而设计，并通过直观的可视化界面呈现数据，解决了运维团队在分散式监控环境中难以快速定位系统异常的核心痛点。与传统的服务器监控工具相比，Checkmate 以轻量化、易部署和高定制化脱颖而出，尤其适合中小型团队或开发者快速搭建低成本的内网监控系统。核心特色 首先，它将多维度监控数据（如 CPU 温度、磁盘 I/O、HTTP 延迟）整合为统一的仪表盘，避免了用户在不同工具间切换的繁琐；其次，其主动告警机制通过智能阈值检测异常，相比被动轮询的旧方案能提前 30% 以上发现潜在故障；最后，项目采用模块化设计，允许通过插件扩展监控项（例如对接 Prometheus 或自定义脚本），这种灵活性远超许多闭源 SaaS 方案的固化功能。技术原理 上，Checkmate 的架构可以类比为一位“全天候体检医生”。后端通过轻量代理（Agent）定期采集主机指标，如同医生用听诊器测量生命体征；数据经时间序列数据库压缩存储后，由分析引擎像诊断算法一样比对历史规律与实时波动，从而区分正常心跳与异常痉挛；前端则像动态病历本，用 D3.js 生成可交互图表，将抽象数据转化为肉眼可判读的趋势曲线。这种“采集-分析-呈现”的闭环，保证了从数据抓取到问题可视化的延迟控制在秒级。该项目以开发者友好性为核心，提供 Docker 一键部署和清晰的 API 文档，使得即使非运维背景的用户也能在 10 分钟内完成基础监控网络的搭建。其开源协议（MIT）和活跃的 Discord 社区进一步降低了协作门槛，预示着它在轻量级监控领域的持续迭代潜力。",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :)",
-                    "homepage": "https://checkmate.so/",
-                    "id": 793866369,
-                    "language": "TypeScript",
-                    "license": "AGPL-3.0",
-                    "last_commit": "2026-09-04T21:56:40Z",
-                    "open_issues": 113,
-                    "owner": "bluewave-labs",
-                    "repo": "Checkmate",
-                    "stars": 10792,
-                    "topics": [
-                      "good-first-contribution",
-                      "good-first-issue",
-                      "good-first-project",
-                      "hacktoberfest",
-                      "help-wanted",
-                      "incident",
-                      "infrastructure",
-                      "infrastructure-monitoring",
-                      "mui",
-                      "mui-material",
-                      "server-monitor",
-                      "server-monitoring",
-                      "server-monitoring-tools",
-                      "statuspage",
-                      "uptime",
-                      "uptime-checker",
-                      "uptime-monitor",
-                      "uptime-monitoring",
-                      "uptime-status",
-                      "uptimerobot"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T05:49:48.006Z"
-                }
-              ],
-              "description": null,
-              "node_type": "group",
-              "title": "后端项目_其他"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "后端开发框架及项目"
-        },
-        {
-          "children": [
-            {
-              "children": [
-                {
-                  "node_type": "item",
-                  "title": "maillab/cloud-mail",
-                  "description": "cloud-mail 是一款基于 Cloudflare 边缘计算生态构建的开源邮箱服务，旨在解决传统自建邮件系统部署复杂、运维成本高且容易遭遇反垃圾邮件拦截的痛点。该项目依托 Serverless 架构实现了零服务器维护成本与全球低延迟访问的完美结合，其核心优势在于彻底摆脱了对固定物理机房的依赖。首先，它通过 Cloudflare Workers 与 R2 对象存储的深度协同，将邮件读写请求无缝调度至离用户最近的边缘节点，大幅降低了传统 SMTP 服务对独占带宽与计算资源的消耗。其次，内置的智能路由与反垃圾过滤机制直接嵌入 HTTP 请求链路中，避免了外部第三方安全组件带来的额外延迟与配置冲突。最后，其标准化的一键部署流程配合环境变量驱动，使非运维背景的用户也能快速拉起私有邮箱环境，这在同类工具普遍要求复杂 Docker 编排或严格域名解析验证的背景下显得尤为轻量且友好。从技术架构来看，该服务的工作原理类似于一个高度自动化的智能物流分拣中心。当外部邮件抵达时，Cloudflare 的全球边缘网络会像区域中转站一样首先完成协议校验与基础路由；随后，处理逻辑被编译为无状态的计算片段，在临时内存中快速完成邮件解析、规则匹配与持久化写入，全程无需唤醒传统数据中心的主机。底层数据则被拆解为多个独立的逻辑抽屉，分别归档邮件元数据、正文流与附件二进制文件，并通过统一的哈希键表实现精准索引。这种按需分配计算资源与分布式存储的设计，不仅确保了高并发场景下的系统韧性，还通过极致的弹性伸缩将运营成本压缩至接近零的水平，从而在保障企业级收发稳定性的同时，为个人开发者提供了现代化、低门槛的邮件基础设施替代方案。",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "description": "A Cloudflare-based email service  | 基于 Cloudflare 的邮箱服务  | Cloudflare Email 邮箱 Mail",
-                    "homepage": "https://skymail.ink",
-                    "id": 971999086,
-                    "language": "JavaScript",
-                    "license": "MIT",
-                    "last_commit": "2026-09-05T15:54:04Z",
-                    "open_issues": 58,
-                    "owner": "maillab",
-                    "repo": "cloud-mail",
-                    "stars": 13975,
-                    "topics": [
-                      "cloudflare",
-                      "cloudflare-email",
-                      "cloudflare-workers",
-                      "email",
-                      "mail"
-                    ]
-                  },
-                  "first_seen": "2026-08-28T05:49:48.006Z"
-                },
                 {
                   "node_type": "item",
                   "title": "Nekogram/Nekogram",
@@ -1611,10 +1201,10 @@
                     "language": "Java",
                     "license": "GPL-2.0",
                     "last_commit": "2026-09-01T04:22:37Z",
-                    "open_issues": 32,
+                    "open_issues": 33,
                     "owner": "Nekogram",
                     "repo": "Nekogram",
-                    "stars": 3864,
+                    "stars": 3865,
                     "topics": [
                       "nekogram",
                       "telegram"
@@ -1629,6 +1219,43 @@
             },
             {
               "children": [
+                {
+                  "node_type": "item",
+                  "title": "jo-inc/camofox-browser",
+                  "description": "CamouFox是一款专为AI智能体设计的隐形无头浏览器，核心解决了自动化工具在访问网页时被Cloudflare验证、反爬机制（如指纹检测）拦截的痛点。它通过模拟真实浏览器行为，让AI驱动的数据采集、自动化测试等任务能够绕过主流防护系统，成为Puppeteer/Playwright等工具的\"隐身增强版\"。项目三大核心优势：首先，CamouFox的\"主动混淆\"技术能动态生成浏览器指纹，例如通过修改Canvas渲染噪点和WebGL参数，使得每次访问的硬件指纹均不同，其效果类似让AI每次操作都\"换一台新电脑\"。其次，项目内置了对抗流量分析的策略，自动调整请求间隔、鼠标移动轨迹等细粒度行为，避免因\"过于规律\"被识别为机器人，这如同人类打字时的自然延迟与错别字修正。更关键的是，它采用\"上下文感知\"的验证码应对机制，不仅能识别Cloudflare的JS挑战，还能结合AI决策（如自动切换代理IP或临时降速），这种动态适应的能力远超传统静态配置的爬虫工具。技术原理通俗解读：CamouFox的底层架构如同一个\"反侦察特工团队\"。当普通无头浏览器（如Puppeteer）仅提供基础隐身（如禁用JS特性）时，CamouFox则通过多层伪装系统深度协作：网络层通过代理池轮换制造\"IP漂移\"，应用层利用Chromium内核漏洞修补痕迹（如抹去navigator.webdriver标志），行为层则引入强化学习模型模拟人类操作模式。特别值得注意的是，其验证码破解并非依赖暴力识别，而是通过分析页面DOM结构预判验证类型，再触发相应规避策略——好比特工提前研究哨兵的巡逻规律再选择潜入路径。这种全方位动态对抗机制，使其在Reddit、电商平台等严格防护场景下仍能保持高可用性。作为开源解决方案，CamouFox以开发者友好性见长，仅需替换几行代码即可接入现有Puppeteer/Playwright项目，同时支持自定义指纹模板和防护规则库。这种兼顾隐蔽性与易用性的设计，使其成为AI自动化领域中颇具潜力的\"战术级工具\"。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+                    "homepage": "https://github.com/jo-inc/camofox-browser#readme",
+                    "id": 1142274728,
+                    "language": "JavaScript",
+                    "license": "MIT",
+                    "last_commit": "2026-09-06T03:30:20Z",
+                    "open_issues": 122,
+                    "owner": "jo-inc",
+                    "repo": "camofox-browser",
+                    "stars": 9230,
+                    "topics": [
+                      "ai-agent",
+                      "anti-bot",
+                      "antidetect-browser",
+                      "automation",
+                      "bot-detection",
+                      "browser-automation",
+                      "cloudflare-bypass",
+                      "headless-browser",
+                      "javascript",
+                      "nodejs",
+                      "playwright",
+                      "puppeteer",
+                      "scraping",
+                      "stealth-browser",
+                      "web-scraping"
+                    ]
+                  },
+                  "first_seen": "2026-09-06T23:12:31.646Z"
+                },
                 {
                   "node_type": "item",
                   "title": "jarun/googler",
@@ -1666,6 +1293,34 @@
               "description": null,
               "node_type": "group",
               "title": "网络服务_其他"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "eze-is/web-access",
+                  "description": "eze-is/web-access 是一个为 Claude Code 等 AI 模型提供完整联网能力的工具，解决了大语言模型（LLM）无法直接访问实时网络信息的核心痛点。传统 AI 模型受限于静态训练数据，无法获取最新网页内容或动态交互，而该项目通过智能调度浏览器实例，赋予 Claude Code 实时浏览、解析和提取网络信息的能力，使其在问答、数据抓取和自动化任务中表现更接近人类。项目的核心特色在于其高效、稳定且可扩展的三层架构设计。首先，它采用“三层通道调度”机制，将网络请求、浏览器控制和数据处理分离，避免单一环节阻塞整体流程，显著提升了并发性能。其次，直接集成浏览器 Chrome DevTools Protocol (CDP)，能够精准模拟人类操作（如点击、滚动、等待动态加载），绕过反爬机制并处理复杂 JavaScript 渲染的页面。第三，通过“并行分治”策略，将大规模抓取任务拆分为子任务分发至多个浏览器实例，既缩短了响应时间，又降低了单个实例崩溃的风险。这些设计使得它比简单 HTTP 请求工具（如 Requests）更适合现代动态网页，也比传统爬虫框架更适应 AI 交互场景。其工作原理可类比为“智能交通指挥系统”。用户请求如同车辆进入城市路网，调度层（第一层）像交通信号灯，分配请求到空闲的“车道”；浏览器 CDP 层（第二层）如同驾驶员，负责具体导航（加载页面）和规避障碍（处理验证码）；最后的并行分治层（第三层）则类似多车道分流，将大任务分解为小车辆并行通过。整个过程通过异步通信协调，确保高吞吐量的同时维持低延迟。这种架构尤其适合需要实时性的 AI 应用，例如在金融、新闻监控等领域中，Claude Code 可借助此工具即时整合网络最新信息，生成更准确的回答。",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
+                    "homepage": null,
+                    "id": 1184985738,
+                    "language": "JavaScript",
+                    "license": null,
+                    "last_commit": "2026-08-19T01:36:35Z",
+                    "open_issues": 47,
+                    "owner": "eze-is",
+                    "repo": "web-access",
+                    "stars": 8865,
+                    "topics": []
+                  },
+                  "first_seen": "2026-09-06T23:12:31.646Z"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "网络爬虫"
             }
           ],
           "description": null,
@@ -1678,34 +1333,6 @@
     {
       "description": null,
       "items": [
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "freemocap/freemocap",
-              "description": "FreeMoCap是一款面向大众的开源无标记动作捕捉软件系统，它彻底打破了传统动捕技术对昂贵专业设备与封闭实验室的依赖，让独立开发者、教育工作者与普通创作者也能以极低成本获取高精度的三维人体运动数据。该项目在同类工具中展现出显著优势，其一在于极度友好的硬件门槛，仅凭几台市售网络摄像头或消费级深度相机即可搭建采集环境，彻底免除了传统动捕服带来的穿戴束缚与数万元级的资金压力；其二采用高度模块化的开源架构，底层深度绑定Python生态与主流AI姿态估计模型，允许用户自由替换算法后端、自定义多机位同步逻辑或扩展数据导出插件，极大提升了技术迭代与二次开发的自由度；其三内置的三维重建管线经过针对性优化，可在保证实时预览的同时输出符合行业标准的数据格式，实现与Unity、Blender等创作软件的无缝衔接。从技术原理来看，该系统的工作流程宛如一场数字时代的“多视角拼图游戏”：多台相机同步采集视频流后，底层AI模型会像经验丰富的画师般在每一帧画面中精准标定人体关节的二维坐标点；随后系统借助空间几何学的三角测量法，将这些分散的二维锚点像经纬线一样交叉投射回真实三维空间，最终缝合出连续且平滑的骨骼运动轨迹。这种将前沿计算机视觉与经典光学原理巧妙融合的设计，不仅大幅压缩了技术学习曲线，更让专业级动捕能力真正走向平民化与开源化。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Free Motion Capture for Everyone 💀✨",
-                "homepage": "http://freemocap.org",
-                "id": 357362803,
-                "language": "TypeScript",
-                "license": "AGPL-3.0",
-                "last_commit": "2026-09-05T18:15:43Z",
-                "open_issues": 170,
-                "owner": "freemocap",
-                "repo": "freemocap",
-                "stars": 10142,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "人像_姿势_3D人脸"
-        },
         {
           "children": [
             {
@@ -1724,7 +1351,7 @@
                 "open_issues": 16,
                 "owner": "GetStream",
                 "repo": "Vision-Agents",
-                "stars": 8117,
+                "stars": 8116,
                 "topics": [
                   "agentic-ai",
                   "agents",
@@ -1750,39 +1377,6 @@
           "children": [
             {
               "node_type": "item",
-              "title": "heygen-com/hyperframes",
-              "description": "HyperFrames是一款面向AI智能体的可编程视频生成框架，旨在解决传统视频创作中脚本编写、镜头调度与后期渲染高度割裂且难以自动化批量的核心痛点。该项目将底层的高保真渲染能力与代码化工作流深度融合，使开发者仅需通过声明式指令或HTML结构即可驱动视频生成，彻底打破了非专业用户与复杂影视制作之间的技术壁垒。在功能亮点上，该框架首先实现了真正的“代码即视频”工作流，相较于依赖繁琐参数调校的同类工具，它直接解析结构化标记语言来定义画面元素与运动轨迹，大幅降低了试错成本；其次，其原生适配智能体调用接口，允许大模型实时生成并注入动态视觉资产，这在多模态Agent协作场景中提供了传统离线渲染方案无法企及的响应速度与交互灵活性；最后，内置的物理级光影模拟与材质解算引擎，确保了输出内容在商业级画质上远超一般开源生成模型，直接满足企业级演示与营销物料的制作标准。从技术架构来看，HyperFrames的运行逻辑可类比为一家高度自动化的数字制片厂：开发者编写的代码如同分镜脚本，负责统筹全局节奏与元素布局；底层视觉大模型则扮演导演与摄影团队的角色，实时理解意图并生成关键帧序列；而专属的渲染管线宛如后期合成车间，通过分层光追算法将静态画面转化为具备真实物理反馈的动态影像。这种“脚本调度—意图解算—物理渲染”的三段式流水线设计，既保留了程序化控制的精确性，又兼顾了AI生成的创造性，为下一代智能体视频应用奠定了坚实的底层基础。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Write HTML. Render video. Built for agents.",
-                "homepage": null,
-                "id": 1177402105,
-                "language": "TypeScript",
-                "license": "Apache-2.0",
-                "last_commit": "2026-09-05T23:12:56Z",
-                "open_issues": 173,
-                "owner": "heygen-com",
-                "repo": "hyperframes",
-                "stars": 44158,
-                "topics": [
-                  "ai",
-                  "animation",
-                  "ffmpeg",
-                  "framework",
-                  "gsap",
-                  "html",
-                  "mcp",
-                  "puppeteer",
-                  "rendering",
-                  "typescript",
-                  "video"
-                ]
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            },
-            {
-              "node_type": "item",
               "title": "opentoonz/opentoonz",
               "description": "OpenToonz是一款开源的全功能二维动画制作软件，旨在打破商业级动画工具的高门槛与版权壁垒，为独立创作者与小型工作室提供专业级且零成本的生产环境。相较于市面上常见的轻量级绘图或剪辑套件，它在核心架构上实现了三项关键突破：其一，底层管线直接脱胎于吉卜力工作室的实战项目，支持多镜头协同与自动化中间帧生成，彻底解决了传统手绘动画流程繁琐、团队协作低效的行业痛点；其二，软件内置的矢量与光栅混合绘制引擎，既保留了传统赛璐珞风格的笔触质感，又允许后期特效直接作用于独立图层，避免了同类工具在风格转换时的格式损耗；其三，作为开源生态产物，它摒弃了商业订阅制模式，通过开放的插件接口与社区驱动的迭代机制，实现了技术透明度与功能扩展的可预期性。从技术架构来看，OpenToonz的工作流可类比为“数字化的胶片剪辑室搭配分层画板”。它将每一帧动画拆解为多个独立的画轨，如同老式电影中的透明赛璐珞片，背景、角色与特效被分别绘制在不同轨道上，由内置的FLIP摄影机系统模拟真实镜头的运动轨迹。当用户调整时间轴时，系统并非简单叠加图像，而是像指挥交响乐般逐层合成并计算透视变化，确保复杂场景下的光影与动态始终符合物理规律。这种将工业标准与开源精神深度融合的设计，使其不仅是一套创作工具，更成为推动二维动画生产民主化的重要基础设施。",
               "children": [],
@@ -1794,10 +1388,10 @@
                 "language": "C++",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-04T23:59:18Z",
-                "open_issues": 227,
+                "open_issues": 229,
                 "owner": "opentoonz",
                 "repo": "opentoonz",
-                "stars": 7679,
+                "stars": 7681,
                 "topics": []
               },
               "first_seen": "2026-08-28T05:49:48.006Z"
@@ -1815,27 +1409,6 @@
       "items": [
         {
           "children": [
-            {
-              "node_type": "item",
-              "title": "NVIDIA/personaplex",
-              "description": "PersonaPlex 是一种实时、全双工语音转语音对话模型，通过文本角色提示和音频语音条件控制实现角色控制。它训练于合成与真实对话的结合，产生自然、低延迟的口语互动，并保持一致的人物形象。PersonaPlex 基于 Moshi 架构和权重。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "PersonaPlex code.",
-                "homepage": null,
-                "id": 1128525239,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-03-02T16:07:10Z",
-                "open_issues": 70,
-                "owner": "NVIDIA",
-                "repo": "personaplex",
-                "stars": 10417,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            },
             {
               "node_type": "item",
               "title": "argmaxinc/argmax-oss-swift",
@@ -1885,6 +1458,35 @@
       "description": null,
       "items": [
         {
+          "node_type": "item",
+          "title": "k0sproject/k0s",
+          "description": "k0s是一个完全开源的轻量级Kubernetes发行版，它通过消除传统K8s部署的复杂性和资源消耗，为开发者提供了“零摩擦”的集群管理体验。其核心解决了用户在部署生产级Kubernetes时面临的三大痛点：繁琐的初始配置、高资源占用，以及维护升级的负担。核心特色上，k0s以三项设计脱颖而出。首先，它采用单二进制架构，将控制平面和工作节点组件融合为独立的可执行文件，这意味着用户无需依赖外部基础设施即可一键启动集群，大幅降低了部署门槛。其次，k0s内置自动化的证书管理和高可用支持，通过智能化的生命周期管理，使集群滚动升级等操作如同手机系统更新般简单，避免了手动干预的出错风险。第三，其对ContainerD和Kubernetes上游版本的紧密跟踪，确保了用户在享受精简架构的同时，始终与社区最新功能和安全补丁同步，这种“减重不减配”的理念远超同类发行版如k3s或MicroK8s。技术原理上，k0s的巧妙设计可通过“模块化乐高”来理解**。它将Kubernetes的核心组件（如API Server、etcd）转化为可插拔的单元，通过静态Pod和宿主系统服务协同运作。例如，控制平面实质上是一个自我托管的微服务集合，而k0s通过内部负载均衡机制将这些服务动态连接，就像搭建一套自动调节的铁路网——列车（请求）总能找到最优轨道（服务实例）。此外，其基于SQLite的轻量存储方案替代了传统etcd的冗余写入，类似用高效索引卡片取代厚重账本，既保留了分布式一致性，又节省了70%以上的I/O开销。这种架构使得k0s既能在树莓派上流畅运行，也能扩展至千节点规模的企业环境。整体而言，k0s重新定义了Kubernetes发行版的用户体验，它像一把精心打磨的瑞士军刀，将云原生复杂度隐藏在“开箱即用”的优雅设计中。无论是边缘计算场景的快速原型开发，还是需要持续交付的CI/CD流水线，k0s都能以最低的学习成本和运维负担，成为团队拥抱容器化的理想跳板。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "k0s - The Zero Friction Kubernetes",
+            "homepage": "https://docs.k0sproject.io",
+            "id": 271250363,
+            "language": "Go",
+            "license": "NOASSERTION",
+            "last_commit": "2026-09-06T20:30:15Z",
+            "open_issues": 230,
+            "owner": "k0sproject",
+            "repo": "k0s",
+            "stars": 6465,
+            "topics": [
+              "kubernetes"
+            ]
+          },
+          "first_seen": "2026-09-06T23:12:31.646Z"
+        }
+      ],
+      "title": "云_虚拟化"
+    },
+    {
+      "description": null,
+      "items": [
+        {
           "children": [
             {
               "node_type": "item",
@@ -1902,7 +1504,7 @@
                 "open_issues": 119,
                 "owner": "uber",
                 "repo": "RIBs",
-                "stars": 7935,
+                "stars": 7936,
                 "topics": [
                   "android",
                   "architectural-patterns",
@@ -1927,80 +1529,50 @@
           "children": [
             {
               "node_type": "item",
-              "title": "pranshuparmar/witr",
-              "description": "witr是一款专为排查系统运行状态而设计的开源诊断工具，其核心使命是直观解答“某个进程、端口或容器为何正在运行”的疑问。与传统仅展示静态状态的监控命令不同，该工具通过深度追踪系统的调用链与依赖关系，自动生成人类可读的因果溯源图谱，清晰揭示目标实体的启动来源、监督服务（如systemd、Docker、PM2等）、运行上下文及安全警告信息。项目的核心特色在于提供了高度交互式的终端仪表盘（TUI），支持按名称、PID、端口或文件进行多维度混合查询与实时过滤；同时全面兼容Linux、macOS、Windows及FreeBSD等多平台与主流容器运行时，并内置结构化的CLI参数、JSON导出模式及标准化的故障退出码。这种设计不仅将原本分散在多个工具中的状态元数据转化为连贯的叙事性输出，还大幅降低了系统排障门槛，使其能够无缝集成至CI/CD流水线与自动化运维脚本中，真正实现“秒级定位运行成因”的高效诊断体验。",
+              "title": "namidaco/namida",
+              "description": "Namida 是一款基于 Flutter 构建的高颜值多功能音乐与视频播放器，其核心解决了传统播放器在跨平台适配、本地与流媒体资源整合以及用户界面个性化之间的割裂问题。在充斥着功能单一或设计陈旧的播放器市场中，Namida 通过优雅的统一架构，同时支持本地文件播放和 YouTube 流媒体，为用户提供了无缝切换的沉浸式体验。首先，Namida 的 YouTube 深度集成 突破了本地播放器的资源限制，用户无需切换应用即可直接搜索并播放平台内容，甚至能将流媒体音频保存为本地歌单。其次，其 高度可定制的界面 通过 Flutter 的灵活渲染能力，允许用户自由调整主题、布局和动效，兼顾美观与实用性。最值得一提的是 智能播放列表管理，它通过自动化标签识别（如艺术家、专辑）和手动规则组合，解决了大型媒体库分类繁琐的痛点，这一点远超同类工具的手动操作逻辑。Namida 的技术核心可类比为“分层式工具箱”。底层利用 Flutter 的跨平台特性，像万能适配器一样编译为原生代码，确保在 Windows、Android 等平台运行流畅；中间层通过 FFmpeg 等开源库处理多格式解码，如同翻译官般统一不同媒体格式的“语言”；而顶层则采用状态管理框架（如 Riverpod）动态协调用户交互与数据流，类似交通指挥系统，即使在高并发操作（如实时歌词加载+背景播放）下仍保持响应速度。这种设计使得 Namida 在功能丰富的同时，避免了传统 Electron 应用的资源臃肿问题。",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
-                "homepage": "https://pranshuparmar.github.io/witr/",
-                "id": 1120195677,
-                "language": "Go",
-                "license": "Apache-2.0",
-                "last_commit": "2026-08-15T22:55:12Z",
-                "open_issues": 16,
-                "owner": "pranshuparmar",
-                "repo": "witr",
-                "stars": 22103,
+                "description": "A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in Flutter",
+                "homepage": null,
+                "id": 600800971,
+                "language": "Dart",
+                "license": "NOASSERTION",
+                "last_commit": "2026-09-06T02:55:46Z",
+                "open_issues": 144,
+                "owner": "namidaco",
+                "repo": "namida",
+                "stars": 6351,
                 "topics": [
-                  "cli",
-                  "containers",
-                  "devops",
-                  "docker",
-                  "freebsd",
-                  "go",
-                  "golang",
-                  "incident-response",
-                  "kubernetes",
-                  "linux",
-                  "macos",
-                  "monitoring",
-                  "observability",
-                  "process-management",
-                  "sysadmin",
-                  "systemd",
-                  "terminal",
-                  "troubleshooting",
-                  "tui",
-                  "windows"
+                  "android",
+                  "android-app",
+                  "android-music-player",
+                  "audio-player",
+                  "beautiful-ui",
+                  "flutter",
+                  "flutter-app",
+                  "flutter-apps",
+                  "flutter-music-app",
+                  "flutter-music-player",
+                  "lastfm",
+                  "music",
+                  "music-player",
+                  "music-player-application",
+                  "player",
+                  "playlist",
+                  "video",
+                  "video-player",
+                  "video-player-application",
+                  "youtube"
                 ]
               },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            },
-            {
-              "node_type": "item",
-              "title": "go-task/task",
-              "description": "是一款以 Make 为灵感源头的现代化构建工具，旨在解决传统 Makefile 在跨平台兼容性、任务编排灵活性以及现代开发工作流适配性方面的痛点。该项目通过声明式的 YAML 或 TOML 文件替代了晦涩的 Shell 语法，使构建流程具备极强的可读性与版本控制友好性；其内置的依赖解析引擎能够自动梳理任务间的调用关系，配合丰富的环境变量注入与函数扩展机制，大幅降低了复杂项目的维护成本；此外，作为纯 Go 语言编译的独立二进制程序，它彻底摆脱了对特定系统 Shell 或外部解释器的强依赖，确保开发团队在不同操作系统下均能获得一致且高效的执行体验。在架构层面，该工具的核心调度逻辑可类比为一位经验丰富的“厨房总指挥”：它首先读取标准化的任务清单，依据前置条件自动绘制出最优的执行路径图，随后将每个独立步骤分派至对应的运行环境中，并在过程中动态管理状态与变量传递。这种基于有向无环图的拓扑排序机制不仅避免了重复计算，还通过命令隔离与上下文沙盒防止了前后步骤的环境污染。整体而言， 以极简的配置哲学与严谨的底层设计，为现代软件工程的构建环节提供了一套即插即用、稳定可靠的标准化解决方案。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A fast, cross-platform build tool inspired by Make, designed for modern workflows.",
-                "homepage": "https://taskfile.dev",
-                "id": 83252983,
-                "language": "Go",
-                "license": "MIT",
-                "last_commit": "2026-09-05T22:31:37Z",
-                "open_issues": 200,
-                "owner": "go-task",
-                "repo": "task",
-                "stars": 16100,
-                "topics": [
-                  "build-tool",
-                  "devops",
-                  "go",
-                  "make",
-                  "makefile",
-                  "task",
-                  "task-runner",
-                  "taskfile"
-                ]
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
+              "first_seen": "2026-09-06T23:12:31.646Z"
             }
           ],
           "description": null,
           "node_type": "group",
-          "title": "Go程序设计"
+          "title": "Flutter程序"
         },
         {
           "children": [
@@ -2016,11 +1588,11 @@
                 "id": 646426100,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-09-05T22:22:16Z",
+                "last_commit": "2026-09-06T23:12:00Z",
                 "open_issues": 103,
                 "owner": "pydantic",
                 "repo": "monty",
-                "stars": 8167,
+                "stars": 8176,
                 "topics": [
                   "python",
                   "rust",
@@ -2034,169 +1606,9 @@
           "description": null,
           "node_type": "group",
           "title": "Python程序"
-        },
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "memstechtips/Winhance",
-              "description": "Winhance是一款专为Windows系统打造的图形化优化与定制工具，旨在解决普通用户在面对繁杂的系统精简、隐私清理与性能调优时缺乏安全可控操作入口的痛点。该项目的核心优势在于其高度整合的操作逻辑与卓越的安全性设计。首先，它摒弃了传统脚本手动执行的繁琐流程，将注册表修改、服务启停及组件卸载等底层操作封装为直观的可视化界面，大幅降低了误操作风险；其次，内置的智能依赖检测机制能够精准识别系统版本与当前状态，避免盲目执行导致的环境冲突，这一点远胜于许多仅依赖通用批处理文件的同类项目；最后，其一键还原功能配合完整的操作日志记录，为用户提供了可靠的容错保障。从技术架构来看，Winhance本质上充当了Windows底层指令与用户界面之间的“翻译官”。它并不直接重写操作系统内核，而是通过调用系统原生的PowerShell脚本、注册表API以及任务计划程序接口，将复杂的配置变更转化为可逆的标准化动作。其工作原理类似于为精密仪器配备了一套带安全锁的调试面板：当用户点击某项优化选项时，工具会先在内存中构建完整的操作蓝图，并自动创建系统还原点作为备份快照；随后按序执行底层指令，过程中实时校验权限与返回值，确保每一步都在受控轨道内运行。这种预演、执行与留痕的闭环设计，既保留了高级定制的自由度，又通过自动化校验机制屏蔽了手动排错的门槛。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Application designed to optimize, customize and enhance your Windows experience.",
-                "homepage": null,
-                "id": 916105685,
-                "language": "C#",
-                "license": "NOASSERTION",
-                "last_commit": "2026-09-05T12:15:18Z",
-                "open_issues": 73,
-                "owner": "memstechtips",
-                "repo": "Winhance",
-                "stars": 12862,
-                "topics": [
-                  "autounattend",
-                  "bloatware",
-                  "bloatware-removal",
-                  "cleanup",
-                  "debloat",
-                  "debloater",
-                  "optimization",
-                  "optimize",
-                  "powershell",
-                  "privacy",
-                  "registry-tweaks",
-                  "tweaks",
-                  "windows",
-                  "windows-10",
-                  "windows-10-debloat",
-                  "windows-10-optimization",
-                  "windows-11",
-                  "windows-11-debloat",
-                  "windows-11-optimization",
-                  "winui3"
-                ]
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "Rust程序设计"
-        },
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "CoplayDev/unity-mcp",
-              "description": "Unity MCP 是一款专为游戏开发环境设计的开源中间件，它精准解决了大型 AI 语言模型无法直接理解与操作 Unity 编辑器底层逻辑的行业痛点。该项目通过标准化的 Model Context Protocol（MCP）协议，在开发者日常使用的 AI 助手与 Unity 引擎之间搭建了一座双向通信的桥梁，使大语言模型能够安全、可控地执行资源管理、场景控制、脚本编写及自动化工作流等核心任务。相较于以往依赖粗糙 API 调用或需要手动配置复杂插件的同类工具，Unity MCP 具备三大显著优势：其一是原生遵循开源 MCP 协议规范，实现了与主流 AI 框架的即插即用；其二是内置了细粒度的权限沙箱机制，确保 AI 在操作项目文件时严格遵循安全边界，避免意外破坏工程结构；其三是提供了高度封装的编辑器接口层，开发者无需深入 C# 底层即可让 AI 直接调用引擎功能，大幅降低了集成与维护成本。 从技术架构来看，该项目的运行逻辑类似于为 AI 配备了一位精通引擎规则的“本地项目秘书”。当大模型发出自然语言指令时，MCP 服务器会首先对请求进行语义解析与权限校验，随后将模糊的意图转化为 Unity 可识别的序列化操作序列。这些指令并不会直接穿透到引擎核心，而是通过标准化的消息总线安全传递至编辑器后台执行。整个过程如同专业翻译官将外语准确转述给本地技术团队，既保留了 AI 的创造性发散能力，又严格遵循了游戏开发的安全规范与资源管理规范。这种前后端解耦的设计不仅大幅降低了 AI 辅助开发的试错门槛，更为未来的智能游戏工作流奠定了可扩展的基础设施标准，是连接生成式人工智能与现代游戏引擎的一次务实且高效的工程实践。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
-                "homepage": "https://coplaydev.github.io/unity-mcp/",
-                "id": 950564038,
-                "language": "C#",
-                "license": "MIT",
-                "last_commit": "2026-09-05T21:16:30Z",
-                "open_issues": 76,
-                "owner": "CoplayDev",
-                "repo": "unity-mcp",
-                "stars": 13939,
-                "topics": [
-                  "ai",
-                  "ai-integration",
-                  "anthropic",
-                  "claude",
-                  "copilot",
-                  "cursor",
-                  "game-development",
-                  "gamedev",
-                  "gemini",
-                  "llm",
-                  "mcp",
-                  "model-context-protocol",
-                  "openai",
-                  "unity",
-                  "unity3d",
-                  "videogames"
-                ]
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "游戏"
         }
       ],
       "title": "其他项目"
-    },
-    {
-      "description": null,
-      "items": [
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "mouredev/hello-sql",
-              "description": "mouredev/hello-sql 是一个面向零基础学习者的开源 SQL 与关系型数据库入门教程项目，它通过系统化的课程设计与实践案例，解决了新手学习数据库时缺乏结构化指导、理论脱离实际应用的核心痛点。** 不同于零散的博客教程或付费课程，该项目以完全开源的形式提供从基础语法到实际查询的完整学习路径，尤其适合自学开发者快速掌握数据库操作的核心逻辑。项目的核心特色体现在三方面：首先，它采用“学练结合”的模块化设计，每个 SQL 概念均配套真实场景的查询示例（如用户管理、订单统计等），让学习者即时验证理论；其次，教程语言极度简洁，避免过度学术化表述，例如直接用“表格就像Excel，而SQL是操作它的高级指令集”类比关系型数据库；最后，项目持续更新常见数据库（MySQL、PostgreSQL等）的语法差异说明，避免了初学者因兼容性问题产生的挫败感。其技术架构虽以教学为核心，但隐含了高效的认知科学逻辑。通过将复杂查询拆解为“零件组装”过程（如先教筛选WHERE、再组合排序ORDER BY），模拟了人类学习递增式模式。项目中的示例数据库设计也遵循“低冗余原则”，例如用单张用户表关联多张订单表，直观体现外键关系，这种设计既降低了初学者的认知负担，又暗合数据库范式理论。值得一提的是，作者刻意避用了GUI工具，强迫学习者直接编写SQL代码，这种“降维打击”式的设计能更快培养出对底层逻辑的肌肉记忆。整体而言，hello-sql 的成功在于将抽象的数据库知识转化为可视化的操作逻辑——就像用乐高手册教编程，每一块SQL语句都是可拼装的积木。这种“最小化可行学习”理念，加上开源社区贡献的本地化案例（如西语与英语双版本），使其成为非英语母语地区开发者的低成本学习跳板。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Curso para aprender los fundamentos del lenguaje SQL y bases de datos relacionales desde cero y para principiantes.",
-                "homepage": "https://mouredev.link/sql",
-                "id": 700813968,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2025-03-31T17:05:09Z",
-                "open_issues": 9,
-                "owner": "mouredev",
-                "repo": "hello-sql",
-                "stars": 10172,
-                "topics": [
-                  "basesdedatos",
-                  "curso",
-                  "database",
-                  "mysql",
-                  "postgresql",
-                  "sql",
-                  "tutorial"
-                ]
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            },
-            {
-              "node_type": "item",
-              "title": "PostgresApp/PostgresApp",
-              "description": "PostgresApp 是 macOS 平台上的一站式 PostgreSQL 数据库解决方案，它彻底消除了开发者在本地安装、配置和管理 PostgreSQL 时的环境复杂度。不同于需要手动编译或依赖 Homebrew 的传统部署方式，这个项目通过精心封装的应用程序形态，将数据库服务转化为如同普通软件般的即开即用体验，特别适合需要快速搭建开发环境的程序员和数据科学家们。 该项目的首要亮点在于其颠覆性的用户体验设计。只需将其拖拽到应用程序文件夹，用户就能获得包含流行扩展（如 PostGIS、pg_stat_statements）的完整 PostgreSQL 环境，且自带可视化的服务控制台，这与需要命令行操作的 Docker 容器或 brew 安装形成鲜明对比。其次，它首创了动态端口管理技术，允许多个 PostgreSQL 实例同时运行而无需手动配置，解决了开发者需要隔离测试环境的痛点。更值得注意的是其智能化的版本升级机制，用户可以通过图形界面无缝切换大版本，避免了传统方式中繁琐的数据迁移过程。 在技术实现上，PostgresApp 就像一个精密的瑞士军刀式工具箱。其核心采用轻量化虚拟机技术，每个 PostgreSQL 实例都被封装为独立的沙盒，类似于 macOS 应用程序的沙盒机制，既保证了安全性又避免污染系统环境。数据目录被巧妙地设计在应用程序包内部的专用区域，这种设计类似 iOS 应用的数据存储策略，使得整个数据库环境可以随应用移动或删除。项目还内置了自动化的路径重定向模块，这相当于给所有命令行工具（如 psql、pg_dump）配置了智能导航系统，使得无论从哪个终端窗口调用，都能准确连接到当前活跃的数据库实例。这种深度系统集成技术，使得原本复杂的数据库操作获得了类似原生应用般的流畅体验。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "The easiest way to get started with PostgreSQL on the Mac",
-                "homepage": "https://postgresapp.com",
-                "id": 3946572,
-                "language": "Makefile",
-                "license": "NOASSERTION",
-                "last_commit": "2026-09-02T16:06:45Z",
-                "open_issues": 146,
-                "owner": "PostgresApp",
-                "repo": "PostgresApp",
-                "stars": 7775,
-                "topics": [
-                  "postgis",
-                  "postgres"
-                ]
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "数据库管理系统"
-        }
-      ],
-      "title": "大数据"
     },
     {
       "description": null,
@@ -2250,7 +1662,7 @@
                 "open_issues": 71,
                 "owner": "apache",
                 "repo": "caldera",
-                "stars": 7240,
+                "stars": 7242,
                 "topics": [
                   "adversary-emulation",
                   "caldera",
@@ -2278,38 +1690,6 @@
           "children": [
             {
               "node_type": "item",
-              "title": "HKUDS/Vibe-Trading",
-              "description": "Vibe-Trading是一个基于开源技术的个人交易代理框架，旨在解决传统量化交易系统中存在的策略开发门槛高、实时决策效率低、以及多源数据整合困难等核心痛点。该项目通过模块化设计和自动化流程，为普通投资者和专业交易员提供了一个可定制且易扩展的智能化交易解决方案。该项目的核心特色主要体现在三个方面：首先是其独特的市场情绪分析能力，通过自然语言处理技术实时解析社交媒体和新闻舆情，将非结构化数据转化为可量化的交易信号，这一功能显著优于仅依赖传统技术指标的工具；其次是采用了动态权重调整机制，能够根据市场波动自动优化不同策略的组合比例，这种自适应特性在同类开源项目中极为罕见；最后是其高度透明的回测系统，不仅提供常见的绩效指标，还能可视化策略在不同市场环境下的表现差异，极大降低了策略优化的试错成本。从技术架构来看，其的工作原理可以类比为一个精密的工业流水线。数据采集层通过API和网络爬虫持续获取交易所行情和文本数据；预处理模块使用时间序列对齐和文本清洗技术确保数据质量；策略引擎支持Python代码和图形化两种方式来定义交易逻辑；执行单元通过智能订单路由和滑点控制来实现精准交易。整个系统通过消息队列进行异步通信，就像工厂的传送带一样保证各环节高效协同。特别值得注意的是其事件驱动设计，这使得系统对市场变化做出毫秒级响应。该项目的创新之处在于将学术研究前沿的算法与工程实践需求巧妙结合，例如使用改进的Transformer模型处理金融文本，这种架构既能捕捉长距离语义依赖，又通过轻量化设计适应实时交易场景。在风险管理方面，项目引入了包括头寸动态平衡、异常波动熔断等功能，这些设计细节充分体现了开发者对实际交易痛点的深刻理解。对于想要进入量化交易领域的开发者而言，Vibe-Trading既是一个功能完备的工具箱，也是学习现代算法交易原理的优质教学案例。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-                "homepage": "https://vibetrading.wiki/",
-                "id": 1198306812,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-09-05T08:11:45Z",
-                "open_issues": 31,
-                "owner": "HKUDS",
-                "repo": "Vibe-Trading",
-                "stars": 32576,
-                "topics": [
-                  "ai-agent",
-                  "algorithmic-trading",
-                  "backtesting",
-                  "fintech",
-                  "llm",
-                  "mcp",
-                  "multi-agent",
-                  "python",
-                  "quantitative-finance",
-                  "trading"
-                ]
-              },
-              "first_seen": "2026-08-28T05:49:48.006Z"
-            },
-            {
-              "node_type": "item",
               "title": "brokermr810/QuantDinger",
               "description": "QuantDinger 是一个专为加密货币、股票和外汇市场设计的 AI 量化交易平台，其核心目标是解决传统交易策略开发中面临的三大痛点：手动回测效率低下、实时交易响应延迟，以及多策略协同管理困难。通过整合回测引擎、实盘交易接口和市场数据聚合能力，该项目为开发者提供了一个从策略研发到部署的一体化解决方案，尤其适合需要高频迭代AI模型的量化团队。项目的核心亮点在于其技术设计的差异化优势。首先，它支持多智能体协同研究框架，允许用户同时测试多个AI交易代理的竞争或协作表现，类比于让多个“虚拟交易员”在同一市场环境中博弈，从而快速筛选最优策略。其次，平台内置的自适应回测系统能动态模拟滑点、手续费等市场摩擦因素，避免传统回测中“过度拟合历史数据”的常见陷阱。第三，其模块化架构将数据采集、信号生成和订单执行解耦，使得用户能像搭积木一样替换任意环节，而无需重构整个系统，显著降低了开发门槛。 从技术原理来看，QuantDinger 的运作类似于一个“金融实验室”。其底层采用事件驱动的异步引擎（类似物流分拣中心的消息队列），市场数据流入后触发AI代理的决策流程，而每个代理本质上是一个封装了机器学习模型的容器，通过强化学习或统计套利算法输出交易信号。特别值得一提的是，平台的异构计算支持让GPU加速的模型训练与低延迟的CPU交易执行并行运作，类似于“一边用望远镜观测星象，一边用计算机快速计算轨道”——这种设计在同类工具中较为罕见。整体而言，QuantDinger 通过将学术级的AI研究与工程化工具链结合，为量化交易提供了一条从实验到生产的“快速通道”。其技术选型明显倾向于灵活性与可扩展性，而非追求单一的极致性能，这使得它在高频交易之外的多样化场景（如基本面分析、舆情监控）中同样具有潜力。对于渴望摆脱传统量化平台封闭生态的开发者，该项目值得优先评估。",
               "children": [],
@@ -2324,7 +1704,7 @@
                 "open_issues": 61,
                 "owner": "OpenByteInc",
                 "repo": "QuantDinger",
-                "stars": 11359,
+                "stars": 11375,
                 "topics": [
                   "agent",
                   "ai",
@@ -2366,7 +1746,7 @@
                 "open_issues": 54,
                 "owner": "lballabio",
                 "repo": "QuantLib",
-                "stars": 7579,
+                "stars": 7581,
                 "topics": [
                   "quantitative-finance"
                 ]
@@ -2389,7 +1769,7 @@
                 "open_issues": 33,
                 "owner": "achannarasappa",
                 "repo": "ticker",
-                "stars": 6224,
+                "stars": 6225,
                 "topics": [
                   "bitcoin",
                   "crypto-trading",
@@ -2422,7 +1802,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-05T23:21:52.337Z",
+    "last_updated": "2026-09-06T23:12:31.646Z",
     "original_repository_info": {
       "archived": false,
       "description": "精选了10K+项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉、前后端开发等内容。Selected more than 10k+ projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc. Let more excellent projects be discovered by people. Continue to update! Welcome to star! ",
@@ -2430,7 +1810,7 @@
       "id": 288187811,
       "language": null,
       "license": "NOASSERTION",
-      "last_commit": "2026-08-16T06:57:56Z",
+      "last_commit": "2026-09-06T03:06:10Z",
       "open_issues": 0,
       "owner": "wuwenjie1992",
       "repo": "StarryDivineSky",
@@ -2450,7 +1830,7 @@
         "web"
       ]
     },
-    "original_repository_sha": "6e30f1bda2a09a1e62d6287776050bd6fc4d29d7",
+    "original_repository_sha": "53c1ec4bdb05a22eec5642a9f9bf7345ccf19589",
     "enhanced_repository": "enhansome/enhansome-StarryDivineSky",
     "enhanced_repository_description": null,
     "title": "Awesome 目录 with stars"
