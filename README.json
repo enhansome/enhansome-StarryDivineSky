@@ -25,7 +25,7 @@
                         "open_issues": 0,
                         "owner": "deepseek-ai",
                         "repo": "deepseek-harness",
-                        "stars": 242359,
+                        "stars": 242450,
                         "topics": [
                           "ai-agents",
                           "cordis",
@@ -51,7 +51,7 @@
                         "open_issues": 24,
                         "owner": "bojieli",
                         "repo": "ai-agent-book",
-                        "stars": 52111,
+                        "stars": 52122,
                         "topics": [
                           "agent",
                           "agent-memory",
@@ -83,10 +83,10 @@
                         "language": "TypeScript",
                         "license": "NOASSERTION",
                         "last_commit": "2026-09-29T08:48:49Z",
-                        "open_issues": 885,
+                        "open_issues": 886,
                         "owner": "TencentCloud",
                         "repo": "TencentDB-Agent-Memory",
-                        "stars": 27646,
+                        "stars": 27648,
                         "topics": [
                           "agent",
                           "ai-agent",
@@ -113,7 +113,7 @@
                         "id": 1207639951,
                         "language": "TypeScript",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-10-02T23:55:48Z",
+                        "last_commit": "2026-10-03T02:20:54Z",
                         "open_issues": 451,
                         "owner": "EKKOLearnAI",
                         "repo": "ekko-studio",
@@ -158,7 +158,7 @@
                         "open_issues": 159,
                         "owner": "GetBindu",
                         "repo": "Bindu",
-                        "stars": 10056,
+                        "stars": 10057,
                         "topics": [
                           "a2a",
                           "agent-communication",
@@ -229,7 +229,7 @@
                         "open_issues": 2,
                         "owner": "revfactory",
                         "repo": "harness",
-                        "stars": 9109,
+                        "stars": 9110,
                         "topics": [
                           "claude-code",
                           "claude-code-plugin",
@@ -255,7 +255,7 @@
                         "open_issues": 53,
                         "owner": "HKUDS",
                         "repo": "OpenSpace",
-                        "stars": 7739,
+                        "stars": 7740,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -334,7 +334,7 @@
                         "open_issues": 68,
                         "owner": "wanshuiyin",
                         "repo": "Auto-claude-code-research-in-sleep",
-                        "stars": 16907,
+                        "stars": 16912,
                         "topics": [
                           "ai-research",
                           "ai-tools",
@@ -376,7 +376,7 @@
                         "open_issues": 0,
                         "owner": "tw93",
                         "repo": "Kami",
-                        "stars": 11850,
+                        "stars": 11854,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -430,7 +430,7 @@
                         "open_issues": 1417,
                         "owner": "mahseema",
                         "repo": "awesome-ai-tools",
-                        "stars": 6329,
+                        "stars": 6331,
                         "topics": [
                           "ai",
                           "ai-agent",
@@ -479,7 +479,7 @@
                         "open_issues": 24,
                         "owner": "AgriciDaniel",
                         "repo": "claude-seo",
-                        "stars": 18184,
+                        "stars": 18190,
                         "topics": [
                           "ai",
                           "ai-seo",
@@ -578,7 +578,7 @@
                         "open_issues": 10,
                         "owner": "elder-plinius",
                         "repo": "OBLITERATUS",
-                        "stars": 8561,
+                        "stars": 8563,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -602,11 +602,11 @@
                         "id": 1286080397,
                         "language": "C",
                         "license": "Apache-2.0",
-                        "last_commit": "2026-10-03T00:35:07Z",
-                        "open_issues": 58,
+                        "last_commit": "2026-10-03T04:12:20Z",
+                        "open_issues": 59,
                         "owner": "JustVugg",
                         "repo": "colibri",
-                        "stars": 39089,
+                        "stars": 39119,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -627,7 +627,7 @@
                         "open_issues": 81,
                         "owner": "elder-plinius",
                         "repo": "G0DM0D3",
-                        "stars": 11420,
+                        "stars": 11425,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -651,11 +651,11 @@
                         "id": 1183888342,
                         "language": "TypeScript",
                         "license": "MIT",
-                        "last_commit": "2026-10-03T00:44:49Z",
-                        "open_issues": 7550,
+                        "last_commit": "2026-10-03T04:30:07Z",
+                        "open_issues": 7473,
                         "owner": "stablyai",
                         "repo": "orca",
-                        "stars": 83884,
+                        "stars": 83948,
                         "topics": [
                           "ade",
                           "agent-ide",
@@ -695,7 +695,7 @@
                         "open_issues": 183,
                         "owner": "tt-a1i",
                         "repo": "archify",
-                        "stars": 76271,
+                        "stars": 76340,
                         "topics": [
                           "agent-skills",
                           "architecture-as-code",
@@ -737,7 +737,7 @@
                         "open_issues": 79,
                         "owner": "ayghri",
                         "repo": "i-have-adhd",
-                        "stars": 52950,
+                        "stars": 52987,
                         "topics": [
                           "adhd",
                           "claude-",
@@ -762,10 +762,10 @@
                         "language": "Rust",
                         "license": "Apache-2.0",
                         "last_commit": "2026-10-02T23:21:24Z",
-                        "open_issues": 317,
+                        "open_issues": 318,
                         "owner": "herdrdev",
                         "repo": "herdr",
-                        "stars": 41978,
+                        "stars": 41998,
                         "topics": [
                           "agent",
                           "agent-orchestration",
@@ -802,10 +802,10 @@
                         "language": "Rust",
                         "license": "MIT",
                         "last_commit": "2026-10-02T21:15:14Z",
-                        "open_issues": 196,
+                        "open_issues": 197,
                         "owner": "Hmbown",
                         "repo": "Codewhale",
-                        "stars": 41033,
+                        "stars": 41036,
                         "topics": [
                           "agent-orchestration",
                           "ai-agent",
@@ -838,7 +838,7 @@
                         "open_issues": 29,
                         "owner": "virgiliojr94",
                         "repo": "book-to-skill",
-                        "stars": 33311,
+                        "stars": 33323,
                         "topics": [
                           "agent-skills",
                           "ai-agents",
@@ -873,7 +873,7 @@
                         "open_issues": 48,
                         "owner": "Nutlope",
                         "repo": "hallmark",
-                        "stars": 29430,
+                        "stars": 29435,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -894,7 +894,7 @@
                         "open_issues": 46,
                         "owner": "google-labs-code",
                         "repo": "design.md",
-                        "stars": 28219,
+                        "stars": 28218,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -911,11 +911,11 @@
                         "id": 1075381375,
                         "language": "TypeScript",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-10-03T00:29:17Z",
-                        "open_issues": 991,
+                        "last_commit": "2026-10-03T01:08:04Z",
+                        "open_issues": 988,
                         "owner": "getpaseo",
                         "repo": "paseo",
-                        "stars": 19283,
+                        "stars": 19290,
                         "topics": [
                           "ade",
                           "agents",
@@ -948,11 +948,11 @@
                         "id": 1156994049,
                         "language": "Go",
                         "license": "Apache-2.0",
-                        "last_commit": "2026-10-02T23:52:07Z",
-                        "open_issues": 728,
+                        "last_commit": "2026-10-03T04:27:53Z",
+                        "open_issues": 733,
                         "owner": "Untrivial-ai",
                         "repo": "agent-orchestrator",
-                        "stars": 12612,
+                        "stars": 12626,
                         "topics": [
                           "agent-fleet",
                           "agent-ide",
@@ -1015,7 +1015,7 @@
                         "open_issues": 29,
                         "owner": "getagentseal",
                         "repo": "codeburn",
-                        "stars": 11312,
+                        "stars": 11313,
                         "topics": [
                           "ai-coding",
                           "claude-code",
@@ -1170,11 +1170,11 @@
                     "id": 1167515091,
                     "language": "Swift",
                     "license": "MIT",
-                    "last_commit": "2026-10-02T18:38:56Z",
-                    "open_issues": 11,
+                    "last_commit": "2026-10-03T03:44:32Z",
+                    "open_issues": 14,
                     "owner": "Lakr233",
                     "repo": "vphone-cli",
-                    "stars": 14789,
+                    "stars": 14795,
                     "topics": []
                   },
                   "first_seen": "2026-09-06T23:12:31.646Z"
@@ -1237,10 +1237,10 @@
                     "language": "JavaScript",
                     "license": "MIT",
                     "last_commit": "2026-10-02T18:50:56Z",
-                    "open_issues": 146,
+                    "open_issues": 148,
                     "owner": "jo-inc",
                     "repo": "camofox-browser",
-                    "stars": 11369,
+                    "stars": 11377,
                     "topics": [
                       "ai-agent",
                       "anti-bot",
@@ -1352,7 +1352,7 @@
                 "id": 1036205124,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-03T00:37:40Z",
+                "last_commit": "2026-10-03T04:17:33Z",
                 "open_issues": 44,
                 "owner": "GetStream",
                 "repo": "Vision-Agents",
@@ -1392,8 +1392,8 @@
                 "id": 54221232,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-03T00:01:41Z",
-                "open_issues": 226,
+                "last_commit": "2026-10-03T03:37:47Z",
+                "open_issues": 225,
                 "owner": "opentoonz",
                 "repo": "opentoonz",
                 "stars": 7774,
@@ -1430,7 +1430,7 @@
                 "open_issues": 142,
                 "owner": "argmaxinc",
                 "repo": "argmax-oss-swift",
-                "stars": 6388,
+                "stars": 6389,
                 "topics": [
                   "inference",
                   "ios",
@@ -1548,7 +1548,7 @@
                 "open_issues": 105,
                 "owner": "namidaco",
                 "repo": "namida",
-                "stars": 6518,
+                "stars": 6520,
                 "topics": [
                   "android",
                   "android-app",
@@ -1597,7 +1597,7 @@
                 "open_issues": 133,
                 "owner": "pydantic",
                 "repo": "monty",
-                "stars": 8519,
+                "stars": 8521,
                 "topics": [
                   "python",
                   "rust",
@@ -1709,7 +1709,7 @@
                 "open_issues": 45,
                 "owner": "OpenByteInc",
                 "repo": "QuantDinger",
-                "stars": 12382,
+                "stars": 12387,
                 "topics": [
                   "agent",
                   "alpaca",
@@ -1806,7 +1806,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T00:45:17.213Z",
+    "last_updated": "2026-10-03T04:31:56.715Z",
     "original_repository_info": {
       "archived": false,
       "description": "精选了10K+项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉、前后端开发等内容。Selected more than 10k+ projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc. Let more excellent projects be discovered by people. Continue to update! Welcome to star! ",
