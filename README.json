@@ -25,7 +25,7 @@
                         "open_issues": 0,
                         "owner": "deepseek-ai",
                         "repo": "deepseek-harness",
-                        "stars": 244043,
+                        "stars": 244300,
                         "topics": [
                           "ai-agents",
                           "cordis",
@@ -51,7 +51,7 @@
                         "open_issues": 26,
                         "owner": "bojieli",
                         "repo": "ai-agent-book",
-                        "stars": 52486,
+                        "stars": 52539,
                         "topics": [
                           "agent",
                           "agent-memory",
@@ -83,10 +83,10 @@
                         "language": "TypeScript",
                         "license": "NOASSERTION",
                         "last_commit": "2026-09-29T08:48:49Z",
-                        "open_issues": 898,
+                        "open_issues": 900,
                         "owner": "TencentCloud",
                         "repo": "TencentDB-Agent-Memory",
-                        "stars": 27709,
+                        "stars": 27729,
                         "topics": [
                           "agent",
                           "ai-agent",
@@ -113,11 +113,11 @@
                         "id": 1207639951,
                         "language": "TypeScript",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-10-05T09:45:16Z",
-                        "open_issues": 458,
+                        "last_commit": "2026-10-06T10:21:01Z",
+                        "open_issues": 461,
                         "owner": "EKKOLearnAI",
                         "repo": "ekko-studio",
-                        "stars": 11299,
+                        "stars": 11309,
                         "topics": [
                           "agent",
                           "ai-agent",
@@ -229,7 +229,7 @@
                         "open_issues": 3,
                         "owner": "revfactory",
                         "repo": "harness",
-                        "stars": 9119,
+                        "stars": 9124,
                         "topics": [
                           "claude-code",
                           "claude-code-plugin",
@@ -255,7 +255,7 @@
                         "open_issues": 53,
                         "owner": "HKUDS",
                         "repo": "OpenSpace",
-                        "stars": 7741,
+                        "stars": 7742,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -276,7 +276,7 @@
                         "open_issues": 42,
                         "owner": "ValueCell-ai",
                         "repo": "ClawX",
-                        "stars": 7612,
+                        "stars": 7614,
                         "topics": [
                           "agent",
                           "agentic-ai",
@@ -331,10 +331,10 @@
                         "language": "Python",
                         "license": "MIT",
                         "last_commit": "2026-10-05T15:31:25Z",
-                        "open_issues": 70,
+                        "open_issues": 72,
                         "owner": "wanshuiyin",
                         "repo": "Auto-claude-code-research-in-sleep",
-                        "stars": 17012,
+                        "stars": 17038,
                         "topics": [
                           "ai-research",
                           "ai-tools",
@@ -376,7 +376,7 @@
                         "open_issues": 0,
                         "owner": "tw93",
                         "repo": "Kami",
-                        "stars": 11871,
+                        "stars": 11875,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -394,10 +394,10 @@
                         "language": "TypeScript",
                         "license": "AGPL-3.0",
                         "last_commit": "2026-09-27T09:13:32Z",
-                        "open_issues": 242,
+                        "open_issues": 243,
                         "owner": "Narcooo",
                         "repo": "inkos",
-                        "stars": 10139,
+                        "stars": 10145,
                         "topics": [
                           "ai",
                           "ai-agent",
@@ -427,10 +427,10 @@
                         "language": null,
                         "license": "MIT",
                         "last_commit": "2025-12-31T14:46:19Z",
-                        "open_issues": 1433,
+                        "open_issues": 1437,
                         "owner": "mahseema",
                         "repo": "awesome-ai-tools",
-                        "stars": 6350,
+                        "stars": 6354,
                         "topics": [
                           "ai",
                           "ai-agent",
@@ -479,7 +479,7 @@
                         "open_issues": 25,
                         "owner": "AgriciDaniel",
                         "repo": "claude-seo",
-                        "stars": 18325,
+                        "stars": 18348,
                         "topics": [
                           "ai",
                           "ai-seo",
@@ -504,11 +504,11 @@
                         "id": 1160693255,
                         "language": "Python",
                         "license": "MIT",
-                        "last_commit": "2026-10-05T21:00:14Z",
+                        "last_commit": "2026-10-06T06:45:16Z",
                         "open_issues": 20,
                         "owner": "zubair-trabzada",
                         "repo": "geo-seo-claude",
-                        "stars": 10939,
+                        "stars": 10942,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -529,7 +529,7 @@
                         "open_issues": 105,
                         "owner": "airweave-ai",
                         "repo": "airweave",
-                        "stars": 6558,
+                        "stars": 6559,
                         "topics": [
                           "agent-infrastructure",
                           "ai",
@@ -574,11 +574,11 @@
                         "id": 1171949255,
                         "language": "Python",
                         "license": "AGPL-3.0",
-                        "last_commit": "2026-10-06T01:44:22Z",
-                        "open_issues": 22,
+                        "last_commit": "2026-10-06T05:20:47Z",
+                        "open_issues": 16,
                         "owner": "elder-plinius",
                         "repo": "OBLITERATUS",
-                        "stars": 8633,
+                        "stars": 8640,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T05:49:48.006Z"
@@ -602,11 +602,11 @@
                         "id": 1286080397,
                         "language": "C",
                         "license": "Apache-2.0",
-                        "last_commit": "2026-10-05T23:46:08Z",
-                        "open_issues": 68,
+                        "last_commit": "2026-10-06T07:49:05Z",
+                        "open_issues": 71,
                         "owner": "JustVugg",
                         "repo": "colibri",
-                        "stars": 39791,
+                        "stars": 39881,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -627,7 +627,7 @@
                         "open_issues": 80,
                         "owner": "elder-plinius",
                         "repo": "G0DM0D3",
-                        "stars": 11462,
+                        "stars": 11472,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -651,11 +651,11 @@
                         "id": 1183888342,
                         "language": "TypeScript",
                         "license": "MIT",
-                        "last_commit": "2026-10-06T01:53:22Z",
-                        "open_issues": 7721,
+                        "last_commit": "2026-10-06T10:44:42Z",
+                        "open_issues": 7709,
                         "owner": "stablyai",
                         "repo": "orca",
-                        "stars": 85895,
+                        "stars": 86174,
                         "topics": [
                           "ade",
                           "agent-ide",
@@ -692,10 +692,10 @@
                         "language": "JavaScript",
                         "license": "MIT",
                         "last_commit": "2026-10-05T16:08:52Z",
-                        "open_issues": 206,
+                        "open_issues": 208,
                         "owner": "tt-a1i",
                         "repo": "archify",
-                        "stars": 78145,
+                        "stars": 78389,
                         "topics": [
                           "agent-skills",
                           "ai-agents",
@@ -737,7 +737,7 @@
                         "open_issues": 81,
                         "owner": "ayghri",
                         "repo": "i-have-adhd",
-                        "stars": 53952,
+                        "stars": 54072,
                         "topics": [
                           "adhd",
                           "claude-",
@@ -762,10 +762,10 @@
                         "language": "Rust",
                         "license": "Apache-2.0",
                         "last_commit": "2026-10-05T21:46:23Z",
-                        "open_issues": 315,
+                        "open_issues": 321,
                         "owner": "herdrdev",
                         "repo": "herdr",
-                        "stars": 42516,
+                        "stars": 42575,
                         "topics": [
                           "agent",
                           "agent-orchestration",
@@ -801,11 +801,11 @@
                         "id": 1137711311,
                         "language": "Rust",
                         "license": "MIT",
-                        "last_commit": "2026-10-06T01:44:25Z",
-                        "open_issues": 209,
+                        "last_commit": "2026-10-06T08:43:35Z",
+                        "open_issues": 202,
                         "owner": "codewhale-hq",
                         "repo": "Codewhale",
-                        "stars": 41055,
+                        "stars": 41058,
                         "topics": [
                           "agent-orchestration",
                           "ai-agent",
@@ -835,10 +835,10 @@
                         "language": "Python",
                         "license": "MIT",
                         "last_commit": "2026-10-05T22:51:12Z",
-                        "open_issues": 27,
+                        "open_issues": 31,
                         "owner": "virgiliojr94",
                         "repo": "book-to-skill",
-                        "stars": 33854,
+                        "stars": 33922,
                         "topics": [
                           "agent-skills",
                           "ai-agents",
@@ -873,7 +873,7 @@
                         "open_issues": 48,
                         "owner": "Nutlope",
                         "repo": "hallmark",
-                        "stars": 29657,
+                        "stars": 29680,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -894,7 +894,7 @@
                         "open_issues": 46,
                         "owner": "google-labs-code",
                         "repo": "design.md",
-                        "stars": 28254,
+                        "stars": 28255,
                         "topics": []
                       },
                       "first_seen": "2026-09-06T23:12:31.646Z"
@@ -911,11 +911,11 @@
                         "id": 1075381375,
                         "language": "TypeScript",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-10-06T01:41:52Z",
-                        "open_issues": 1046,
+                        "last_commit": "2026-10-06T10:32:50Z",
+                        "open_issues": 1052,
                         "owner": "getpaseo",
                         "repo": "paseo",
-                        "stars": 19618,
+                        "stars": 19654,
                         "topics": [
                           "ade",
                           "agents",
@@ -948,11 +948,11 @@
                         "id": 1156994049,
                         "language": "Go",
                         "license": "Apache-2.0",
-                        "last_commit": "2026-10-06T01:36:53Z",
-                        "open_issues": 765,
+                        "last_commit": "2026-10-06T10:32:18Z",
+                        "open_issues": 761,
                         "owner": "OrchestratorInc",
                         "repo": "agent-orchestrator",
-                        "stars": 12795,
+                        "stars": 12817,
                         "topics": [
                           "agent-fleet",
                           "agent-ide",
@@ -1011,11 +1011,11 @@
                         "id": 1209889782,
                         "language": "TypeScript",
                         "license": "MIT",
-                        "last_commit": "2026-10-05T21:51:04Z",
-                        "open_issues": 34,
+                        "last_commit": "2026-10-06T10:18:40Z",
+                        "open_issues": 37,
                         "owner": "getagentseal",
                         "repo": "codeburn",
-                        "stars": 11344,
+                        "stars": 11345,
                         "topics": [
                           "ai-coding",
                           "claude-code",
@@ -1049,7 +1049,7 @@
                         "open_issues": 38,
                         "owner": "Maciek-roboblog",
                         "repo": "Claude-Code-Usage-Monitor",
-                        "stars": 8730,
+                        "stars": 8731,
                         "topics": [
                           "ai",
                           "analytics",
@@ -1080,7 +1080,7 @@
                         "open_issues": 54,
                         "owner": "smtg-ai",
                         "repo": "claude-squad",
-                        "stars": 8571,
+                        "stars": 8572,
                         "topics": [
                           "claude-code",
                           "cli",
@@ -1107,7 +1107,7 @@
                         "open_issues": 43,
                         "owner": "UfoMiao",
                         "repo": "zcf",
-                        "stars": 6080,
+                        "stars": 6079,
                         "topics": [
                           "agent",
                           "ai",
@@ -1170,11 +1170,11 @@
                     "id": 1167515091,
                     "language": "Swift",
                     "license": "MIT",
-                    "last_commit": "2026-10-06T01:16:28Z",
+                    "last_commit": "2026-10-06T06:23:37Z",
                     "open_issues": 5,
                     "owner": "Lakr233",
                     "repo": "vphone-cli",
-                    "stars": 14906,
+                    "stars": 14923,
                     "topics": []
                   },
                   "first_seen": "2026-09-06T23:12:31.646Z"
@@ -1209,7 +1209,7 @@
                     "open_issues": 28,
                     "owner": "Nekogram",
                     "repo": "Nekogram",
-                    "stars": 3921,
+                    "stars": 3923,
                     "topics": [
                       "nekogram",
                       "telegram"
@@ -1237,10 +1237,10 @@
                     "language": "JavaScript",
                     "license": "MIT",
                     "last_commit": "2026-10-05T02:38:56Z",
-                    "open_issues": 156,
+                    "open_issues": 157,
                     "owner": "jo-inc",
                     "repo": "camofox-browser",
-                    "stars": 11441,
+                    "stars": 11448,
                     "topics": [
                       "ai-agent",
                       "anti-bot",
@@ -1317,7 +1317,7 @@
                     "open_issues": 51,
                     "owner": "eze-is",
                     "repo": "web-access",
-                    "stars": 9082,
+                    "stars": 9081,
                     "topics": []
                   },
                   "first_seen": "2026-09-06T23:12:31.646Z"
@@ -1352,8 +1352,8 @@
                 "id": 1036205124,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-06T01:53:16Z",
-                "open_issues": 44,
+                "last_commit": "2026-10-06T10:28:19Z",
+                "open_issues": 45,
                 "owner": "GetStream",
                 "repo": "Vision-Agents",
                 "stars": 8148,
@@ -1474,11 +1474,11 @@
             "id": 271250363,
             "language": "Go",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-05T20:49:43Z",
-            "open_issues": 244,
+            "last_commit": "2026-10-06T08:44:39Z",
+            "open_issues": 242,
             "owner": "k0sproject",
             "repo": "k0s",
-            "stars": 6513,
+            "stars": 6516,
             "topics": [
               "kubernetes"
             ]
@@ -1545,10 +1545,10 @@
                 "language": "Dart",
                 "license": "NOASSERTION",
                 "last_commit": "2026-10-05T01:27:11Z",
-                "open_issues": 84,
+                "open_issues": 82,
                 "owner": "namidaco",
                 "repo": "namida",
-                "stars": 6544,
+                "stars": 6546,
                 "topics": [
                   "android",
                   "android-app",
@@ -1593,11 +1593,11 @@
                 "id": 646426100,
                 "language": "Rust",
                 "license": "MIT",
-                "last_commit": "2026-10-05T12:19:12Z",
-                "open_issues": 129,
+                "last_commit": "2026-10-06T10:25:51Z",
+                "open_issues": 130,
                 "owner": "pydantic",
                 "repo": "monty",
-                "stars": 8563,
+                "stars": 8567,
                 "topics": [
                   "python",
                   "rust",
@@ -1709,7 +1709,7 @@
                 "open_issues": 44,
                 "owner": "OpenByteInc",
                 "repo": "QuantDinger",
-                "stars": 12471,
+                "stars": 12483,
                 "topics": [
                   "agent",
                   "alpaca",
@@ -1750,7 +1750,7 @@
                 "open_issues": 60,
                 "owner": "lballabio",
                 "repo": "QuantLib",
-                "stars": 7651,
+                "stars": 7652,
                 "topics": [
                   "quantitative-finance"
                 ]
@@ -1806,7 +1806,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T01:55:56.344Z",
+    "last_updated": "2026-10-06T10:44:58.765Z",
     "original_repository_info": {
       "archived": false,
       "description": "精选了10K+项目，包括机器学习、深度学习、NLP、GNN、推荐系统、生物医药、机器视觉、前后端开发等内容。Selected more than 10k+ projects, including machine learning, deep learning, NLP, GNN, recommendation system, biomedicine, machine vision, etc. Let more excellent projects be discovered by people. Continue to update! Welcome to star! ",
